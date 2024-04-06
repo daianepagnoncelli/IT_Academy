@@ -1,0 +1,5 @@
+INDEX VERSION 1.132+C:\itacademy\.metadata\.plugins\org.eclipse.jdt.core
+1276797450.index
+991777436.index
+1865797976.index
+3574805424.index

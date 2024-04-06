@@ -1,0 +1,25 @@
+package n1exercise2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		 List<Integer> firstList = new ArrayList<>();
+	        firstList.add(1);
+	        firstList.add(2);
+	        firstList.add(3);
+	        firstList.add(4);
+	        firstList.add(5);
+
+	        List<Integer> secondList = new ArrayList<>();
+	        
+	        ReverseList inserter = new ReverseList();
+	        inserter.insertReverse(firstList, secondList);
+	        
+	        System.out.println("Segunda lista (elementos da primeira lista em ordem reversa):");
+	        for (Integer element : secondList) {
+	            System.out.println(element);
+	        }
+
+	}
+
+}

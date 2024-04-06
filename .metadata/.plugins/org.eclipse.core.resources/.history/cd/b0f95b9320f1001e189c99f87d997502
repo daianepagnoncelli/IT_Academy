@@ -1,0 +1,13 @@
+package n1exercise1;
+
+class InstrumentoCordas extends InstrumentoMusical {
+    public InstrumentoCordas(String nome, double preco) {
+        super(nome, preco);
+    }
+
+    // Implementação do método touch() para instrumentos de cordas
+    void touch() {
+        System.out.println("Um instrumento de cordas está sendo tocado");
+    }
+}
+}

@@ -1,0 +1,12 @@
+package n1exercise1;
+
+import java.util.ArrayList;
+
+public class Month {
+
+	ArrayList lista = new Arraylist();
+	
+	lista.add("January");
+	lista.add();
+	
+}

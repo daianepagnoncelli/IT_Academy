@@ -1,0 +1,27 @@
+package n1exercise1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		List list = new ArrayList();
+		list.add("January");
+		list.add("February");
+		list.add("March");
+		list.add("Aphil");
+		list.add("Mayo");
+		list.add("June");
+		list.add("Jule");
+		list.add("Septiembre");
+		list.add("Octubre");
+		list.add("Noviembre");
+		list.add("Deciembre");
+		
+		System.out.println(list);
+		
+	}
+
+}

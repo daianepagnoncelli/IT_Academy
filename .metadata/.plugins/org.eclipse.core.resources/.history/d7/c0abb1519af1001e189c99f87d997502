@@ -1,0 +1,12 @@
+package n1exercise1;
+
+class InstrumentoSopro extends InstrumentoMusical {
+    public InstrumentoSopro(String nome, double preco) {
+        super(nome, preco);
+    }
+
+    // Implementação do método touch() para instrumentos de sopro
+    void touch() {
+        System.out.println("Um instrumento de sopro está sendo tocado");
+    }
+}

@@ -1,0 +1,83 @@
+package n1exercise3;
+
+import java.io.*;
+import java.util.*;
+
+public class Country {
+    private HashMap<String, String> countriesMap;
+    private Scanner scanner;
+
+    public Country() {
+        countriesMap = new HashMap<>();
+        scanner = new Scanner(System.in);
+    }
+
+    public void startGame() {
+        readCountries("C:\\itacademy\\s1_03\\src\\n1exercise3\\countries.txt");
+
+        System.out.print("Digite seu nome: ");
+        String userName = scanner.nextLine();
+
+        int score = playGame();
+
+        saveScore(userName, score);
+    }
+
+    private void readCountries(String filename) {
+        try (Scanner fileScanner = new Scanner(new File(filename))) {
+            while (fileScanner.hasNextLine()) {
+                String line = fileScanner.nextLine();
+                String[] parts = line.split(" ", 2); // Divide a linha em duas partes, usando o primeiro espaço encontrado
+                if (parts.length >= 2) {
+                    String capital = parts[0];
+                    String country = parts[1];
+                    countriesMap.put(country, capital);
+                } else {
+                    System.out.println("Erro: Linha mal formatada no arquivo: " + line);
+                }
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("Erro: Arquivo não encontrado.");
+            e.printStackTrace();
+        }
+    }
+
+    private int playGame() {
+        int score = 0;
+
+        for (int i = 0; i < 10; i++) {
+            String randomCountry = getRandomCountry();
+            String capital = countriesMap.get(randomCountry);
+
+            System.out.println("Qual é a capital de " + randomCountry + "?");
+            String userGuess = scanner.nextLine();
+
+            if (userGuess.equalsIgnoreCase(capital)) {
+                System.out.println("Correto!");
+                score++;
+            } else {
+                System.out.println("Incorreto. A capital correta é " + capital + ".");
+            }
+        }
+        return score;
+    }
+
+    private String getRandomCountry() {
+        List<String> keys = new ArrayList<>(countriesMap.keySet());
+        return keys.get(new Random().nextInt(keys.size()));
+    }
+
+    private void saveScore(String userName, int score) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter("C:\\itacademy\\s1_03\\src\\n1exercise3\\classificacao.txt", true))) {
+            writer.println(userName + "," + score);
+        } catch (IOException e) {
+            System.out.println("Erro ao salvar a pontuação.");
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        Country game = new Country();
+        game.startGame();
+    }
+}

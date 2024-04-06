@@ -1,0 +1,26 @@
+package n2exercise1;
+
+public class Carro {
+	 public static final String marca = "Toyota";
+	    
+	 	public static String modelo;
+	    public final int potencia;
+	    
+	    public Carro(String modelo, int potencia) {
+	        this.modelo = modelo;
+	        this.potencia = potencia;
+	    }
+	    
+	    public static void slow() {
+	        System.out.println("O veículo está em baixa velocidade.");
+	    }
+	    
+	    public void acelerar() {
+	        System.out.println("O veículo está acelerando.");
+	    }
+	    
+	    public void freio() {
+	        System.out.println("O veículo está freando.");
+	    }
+
+}

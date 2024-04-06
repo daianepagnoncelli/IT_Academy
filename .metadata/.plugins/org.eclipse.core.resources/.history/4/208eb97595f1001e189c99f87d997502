@@ -1,0 +1,27 @@
+package n2exercise1;
+
+public class Carro {
+	 
+	public static final String marca = "Toyota";
+	    
+	 	public static String model;
+	    public final int potency;
+	    
+	    public Car(String model, int potency) {
+	        this.model = model;
+	        this.potency = potency;
+	    }
+	    
+	    public static void slow() {
+	        System.out.println("The car is slow velocity.");
+	    }
+	    
+	    public void acelerar() {
+	        System.out.println("The car is accelerating.");
+	    }
+	    
+	    public void break() {
+	        System.out.println("The car is breaking.");
+	    }
+
+}

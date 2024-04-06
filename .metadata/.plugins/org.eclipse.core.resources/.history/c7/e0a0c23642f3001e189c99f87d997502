@@ -1,0 +1,12 @@
+package n1exercise2;
+
+public class ReverseList {
+	
+	public void insertReverse(List<Integer> sourceList, List<Integer> targetList) {
+        ListIterator<Integer> listIterator = sourceList.listIterator(sourceList.size());
+        
+        while (listIterator.hasPrevious()) {
+            Integer element = listIterator.previous();
+            targetList.add(element);
+
+}

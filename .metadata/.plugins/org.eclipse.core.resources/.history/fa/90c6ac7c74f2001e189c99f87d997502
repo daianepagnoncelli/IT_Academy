@@ -1,0 +1,15 @@
+package n1exercise1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		List<E> list = new ArrayList();
+		list.add("January");
+		
+	}
+
+}

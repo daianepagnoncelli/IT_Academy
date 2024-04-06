@@ -1,0 +1,18 @@
+package n1exercise1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		  // Criando instâncias de diferentes tipos de instrumentos
+        InstrumentoMusical flauta = new InstrumentoSopro("Flauta", 100);
+        InstrumentoMusical violao = new InstrumentoCordas("Violão", 200);
+        //InstrumentoMusical tambor = new InstrumentoPercussao("Tambor", 50);
+
+        // Chamando o método touch() de cada instrumento
+        flauta.touch();
+        violao.touch();
+        //tambor.touch();
+
+	}
+
+}

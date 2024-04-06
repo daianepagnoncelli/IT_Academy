@@ -1,0 +1,55 @@
+package n1exercise1;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicita informaçiones sopro 
+        System.out.println("Informe o nome do instrumento de sopro:");
+        String nomeSopro = scanner.nextLine();
+        System.out.println("Informe o preço do instrumento de sopro:");
+        double precoSopro = scanner.nextDouble();
+        scanner.nextLine(); // Limpia el buffer
+
+        // Solicitar informaciones cordas
+        System.out.println("Informe o nome do instrumento de cordas:");
+        String nomeCordas = scanner.nextLine();
+        System.out.println("Informe o preço do instrumento de cordas:");
+        double precoCordas = scanner.nextDouble();
+        scanner.nextLine(); // Limpia el buffer
+
+        // Solicitar informaçiones percussion
+        System.out.println("Informe o nome do instrumento de percussão:");
+        String nomePercussao = scanner.nextLine();
+        System.out.println("Informe o preço do instrumento de percussão:");
+        double precoPercussao = scanner.nextDouble();
+        scanner.nextLine(); // Limpia el buffer
+
+        // Criar instâncias dos instrumentos com as informações fornecidas pelo usuário
+        InstrumentoMusical flauta = new InstrumentoSopro(nomeSopro, precoSopro);
+        InstrumentoMusical violao = new InstrumentoCordas(nomeCordas, precoCordas);
+        InstrumentoMusical tambor = new InstrumentoPercussao(nomePercussao, precoPercussao);
+
+        // Exibir uma lista com os dados dos instrumentos
+        System.out.println("\nLista de instrumentos:");
+        System.out.println("1. Instrumento de Sopro: " + flauta.nome + " - Preço: R$" + flauta.preco);
+        System.out.println("2. Instrumento de Cordas: " + violao.nome + " - Preço: R$" + violao.preco);
+        System.out.println("3. Instrumento de Percussão: " + tambor.nome + " - Preço: R$" + tambor.preco);
+
+        // Chamar o método touch() de cada instrumento
+        System.out.println("\nTocando os instrumentos:");
+        flauta.touch();
+        violao.touch();
+        tambor.touch();
+
+        // Fechar o scanner
+        scanner.close();
+    }
+	
+
+	
+
+}

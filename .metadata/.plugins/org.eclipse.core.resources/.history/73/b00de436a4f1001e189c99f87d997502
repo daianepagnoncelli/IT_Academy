@@ -1,0 +1,12 @@
+package n1exercise1;
+
+class InstrumentoPercussao extends InstrumentoMusical {
+    public InstrumentoPercussao(String nome, double preco) {
+        super(nome, preco);
+    }
+
+    // Implementação do método touch() para instrumentos de percussão
+    void touch() {
+        System.out.println("Um instrumento de percussão está sendo tocado");
+    }
+}
