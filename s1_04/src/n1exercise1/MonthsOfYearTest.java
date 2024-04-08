@@ -1,29 +1,25 @@
 package n1exercise1;
-/*
-import static org.junit.Assert.*;
+
+import java.util.Arrays;
 import java.util.List;
 
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-class MonthsOfYearTest {
+public class MonthsOfYearTest {
+    private MonthsOfYear monthsOfYear;
 
-	@Test
-	public void testListSize() {
-		MonthsOfYear monthsOfYear = new MonthsOfYear();
-		List<String> months = monthsOfYear.createMonthsList();
-		assertEquals(12, months.size());
-	}
+    @BeforeEach
+    public void setUp() {
+        monthsOfYear = new MonthsOfYear();
+    }
 
-	@Test
-	public void testListNotNull() {
-		MonthsOfYear monthsOfYear = new MonthsOfYear();
-		List<String> months = monthsOfYear.createMonthsList();
-		assertNotNull(months);
-	}
+    @Test
+    public void testCreateMonthsList() {
+        List<String> expectedMonths = Arrays.asList("April", "August", "December", "February", "January", "July", "June", "March", "May", "November", "October", "September");
+        List<String> actualMonths = monthsOfYear.createMonthsList();
 
-	@Test
-	public void testAugustMonth() {
-		MonthsOfYear monthsOfYear = new MonthsOfYear();
-		List<String> months = monthsOfYear.createMonthsList();
-		assertEquals("August", months.get(7)); // Remember that Java indexes start from 0
-	}
-}*/
+        assertEquals(expectedMonths.size(), actualMonths.size());
+        assertTrue(expectedMonths.containsAll(actualMonths) && actualMonths.containsAll(expectedMonths));
+    }
+}

@@ -7,5 +7,6 @@ public class ArrayOutOfBoundsExample {
 	        int index = 3; // Accessing an index out of bounds
 	        int value = arr[index];
 	    }
+	 
 
 }

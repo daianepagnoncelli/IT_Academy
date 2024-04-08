@@ -6,4 +6,5 @@
  *
  */
 module s1_04 {
+	requires junit;
 }
