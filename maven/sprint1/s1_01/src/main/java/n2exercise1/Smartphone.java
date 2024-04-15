@@ -1,6 +1,6 @@
 package n2exercise1;
 
-public class Smartphone {
+public class Smartphone extends Phone implements Camera, Clock {
     public Smartphone(String make, String model) {
         super(make, model);
     }
