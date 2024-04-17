@@ -1,46 +1,55 @@
 package n1exercise1;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+
+
 public class Main {
     public static void main(String[] args) {
+        ArrayList<Month> monthsList = new ArrayList<>();
 
-        ArrayList<Month> monthList = new ArrayList<>();
+        // ArrayList
+        monthsList.add(new Month("January"));
+        monthsList.add(new Month("February"));
+        monthsList.add(new Month("March"));
+        monthsList.add(new Month("April"));
+        monthsList.add(new Month("May"));
+        monthsList.add(new Month("June"));
+        monthsList.add(new Month("July"));
+        monthsList.add(new Month("September"));
+        monthsList.add(new Month("October"));
+        monthsList.add(new Month("November"));
+        monthsList.add(new Month("December"));
 
-        monthList.add(new Month("January"));
-        monthList.add(new Month("February"));
-        monthList.add(new Month("March"));
-        monthList.add(new Month("April"));
-        monthList.add(new Month("May"));
-        monthList.add(new Month("June"));
-        monthList.add(new Month("July"));
-        monthList.add(new Month("September"));
-        monthList.add(new Month("October"));
-        monthList.add(new Month("November"));
-        monthList.add(new Month("December"));
+        // Insert "August"
+        monthsList.add(7, new Month("August"));
 
-        //Insert August
-        monthList.add(7, new Month("August"));
-
-        //the order
-        System.out.println("ArrayList mantém a ordem correta:");
-        for (Month month : monthList) {
+        // ArrayList
+        System.out.println("ArrayList:");
+        for (Month month : monthsList) {
             System.out.println(month.getName());
         }
 
-        HashSet<Month> monthSet = new HashSet<>(monthList);
+        // ArrayList HashSet
+        HashSet<Month> monthsSet = new HashSet<>(monthsList);
 
-        System.out.println("\nHashSet não permite duplicatas:");
-        for (Month month : monthSet) {
+        // HashSet
+        System.out.println("\nHashSet:");
+        for (Month month : monthsSet) {
             System.out.println(month.getName());
         }
 
-        System.out.println("\nIterando através da lista com um for:");
-        for (int i = 0; i < monthList.size(); i++) {
-            Month month = monthList.get(i);
+        // For
+        System.out.println("\nIterating with for loop:");
+        for (int i = 0; i < monthsList.size(); i++) {
+            Month month = monthsList.get(i);
             System.out.println(month.getName());
         }
 
-        System.out.println("\nIterando através da lista com um iterator:");
-        Iterator<Month> iterator = monthList.iterator();
+        //Iterator
+        System.out.println("\nIterating with Iterator:");
+        Iterator<Month> iterator = monthsList.iterator();
         while (iterator.hasNext()) {
             Month month = iterator.next();
             System.out.println(month.getName());

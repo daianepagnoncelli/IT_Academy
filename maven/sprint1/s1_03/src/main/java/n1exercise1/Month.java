@@ -1,6 +1,6 @@
 package n1exercise1;
 
-public class Month {
+class Month {
     private String name;
 
     public Month(String name) {
@@ -9,5 +9,9 @@ public class Month {
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
