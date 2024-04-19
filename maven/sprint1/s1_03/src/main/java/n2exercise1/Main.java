@@ -4,16 +4,15 @@ import java.util.HashSet;
 
 public class Main {
     public static void main(String[] args) {
-    HashSet<Restaurant> restaurantSet = new HashSet<>();
+        HashSet<Restaurant> restaurantSet = new HashSet<>();
 
         restaurantSet.add(new Restaurant("Restaurant A", 4));
         restaurantSet.add(new Restaurant("Restaurant B", 3));
-        restaurantSet.add(new Restaurant("Restaurant A", 4)); //add similar restaurant
+        restaurantSet.add(new Restaurant("Restaurant A", 4));
+        restaurantSet.add(new Restaurant("Restaurant B", 2));
+        restaurantSet.add(new Restaurant("Restaurant B", 2));
 
-        for (Restaurant restaurant : restaurantSet) {
-            System.out.println("Name: " + restaurant.getName() + ", Score: " + restaurant.getScore());
-        }
+        RestaurantManager manager = new RestaurantManager();
+        manager.displayRestaurants(restaurantSet);
     }
 }
-
-

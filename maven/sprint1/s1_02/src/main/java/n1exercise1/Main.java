@@ -36,7 +36,7 @@ public class Main {
                 break;
             case 3:
                 // Teste -> ArrayIndexOutOfBoundsException
-                int[] array = new int[5];
+                int[] array = new int[5]; //size or lenght
                 try {
                     int value = array[6];
                 } catch (ArrayIndexOutOfBoundsException e) {

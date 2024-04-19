@@ -1,16 +1,21 @@
 package n1exercise2;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
 public class ReverseList {
-    public void insertReverse(List<Integer> sourceList, List<Integer> targetList) {
-        ListIterator<Integer> listIterator = sourceList.listIterator(sourceList.size());
+    public static List<Integer> reverse(List<Integer> originalList) {
 
-        while (listIterator.hasPrevious()) {
-            Integer element = listIterator.previous();
-            targetList.add(element);
+        List<Integer> reversedList = new ArrayList<>();
+        ListIterator<Integer> iterator = originalList.listIterator(originalList.size());
 
+        while (iterator.hasPrevious()) {
+            Integer element = iterator.previous();
+            reversedList.add(element);
         }
+
+        return reversedList;
     }
 }
+

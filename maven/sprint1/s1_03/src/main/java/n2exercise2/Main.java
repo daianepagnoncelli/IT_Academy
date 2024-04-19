@@ -1,20 +1,19 @@
 package n2exercise2;
 
-import java.util.TreeSet;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        TreeSet<Restaurant> restaurantSet = new TreeSet<>();
+        HashSet<Restaurant> restaurantSet = new HashSet<>();
 
-        // Add restaurants TreeSet
         restaurantSet.add(new Restaurant("Restaurant B", 3));
         restaurantSet.add(new Restaurant("Restaurant A", 4));
-        restaurantSet.add(new Restaurant("Restaurant A", 3));
-        restaurantSet.add(new Restaurant("Restaurant B", 4));
+        restaurantSet.add(new Restaurant("Restaurant A", 4)); // adding a similar restaurant
 
-        // sorted
-        for (Restaurant restaurant : restaurantSet) {
-            System.out.println("Name: " + restaurant.getName() + ", Score: " + restaurant.getScore());
-        }
+        RestaurantManager manager = new RestaurantManager();
+        manager.displayRestaurantsSortedByName(restaurantSet);
+        manager.displayRestaurantsSortedByScore(restaurantSet);
     }
 }
+
+

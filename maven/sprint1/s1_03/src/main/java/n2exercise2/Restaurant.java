@@ -1,6 +1,8 @@
 package n2exercise2;
 
-class Restaurant implements Comparable<Restaurant> {
+
+public class Restaurant {
+
     private final String name;
     private final int score;
 
@@ -29,14 +31,5 @@ class Restaurant implements Comparable<Restaurant> {
         Restaurant restaurant = (Restaurant) obj;
         return score == restaurant.score &&
                 name.equals(restaurant.name);
-    }
-
-    @Override
-    public int compareTo(Restaurant other) {
-        int nameComparison = this.name.compareTo(other.name);
-        if (nameComparison != 0) {
-            return nameComparison;
-        }
-        return Integer.compare(this.score, other.score);
     }
 }

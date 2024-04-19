@@ -6,22 +6,17 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<Integer> firstList = new ArrayList<>();
-
         firstList.add(1);
         firstList.add(2);
         firstList.add(3);
         firstList.add(4);
         firstList.add(5);
 
-        List<Integer> secondList = new ArrayList<>();
+        System.out.println("Original list: " + firstList);
 
-        ReverseList inserter = new ReverseList();
-        inserter.insertReverse(firstList, secondList);
+        List<Integer> secondList = ReverseList.reverse(firstList);
 
-        System.out.println("Segund list (Elements of the first list in reverse order):");
-        for (Integer element : secondList) {
-            System.out.println(element);
-        }
-
+        System.out.println("Reversed list: " + secondList);
     }
 }
+

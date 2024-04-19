@@ -1,7 +1,7 @@
 package n1exercise1;
 
-class Month {
-    private String name;
+public class Month {
+    private final String name;
 
     public Month(String name) {
         this.name = name;
@@ -9,9 +9,5 @@ class Month {
 
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 }
