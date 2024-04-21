@@ -3,7 +3,7 @@ package n1exercise1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Sale {
+class Sale {
     List<Product> products;
     double totalSalePrice;
 
@@ -25,5 +25,4 @@ public class Sale {
             totalSalePrice += product.price;
         }
     }
-
 }
