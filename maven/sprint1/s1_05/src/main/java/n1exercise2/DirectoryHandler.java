@@ -1,7 +1,6 @@
 package n1exercise2;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
@@ -19,6 +18,7 @@ public class DirectoryHandler {
     }
 
     private void listDirectoryTree(File directory, int depth) {
+
         if (directory.isDirectory()) {
             System.out.println(getIndent(depth) + "D: " + directory.getName() + " (Last Modified: " + formatDate(directory.lastModified()) + ")");
             File[] files = directory.listFiles();

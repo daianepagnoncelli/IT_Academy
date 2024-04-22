@@ -1,8 +1,9 @@
 import n1exercise1.MonthList;
-
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class MonthListTest {
 
@@ -25,7 +26,6 @@ public class MonthListTest {
 
     @Test
     public void testAugustPosition() {
-        assertEquals("agost", monthList.getMonths().get(7));
+        assertEquals("August", monthList.getMonths().get(7));
     }
 }
-

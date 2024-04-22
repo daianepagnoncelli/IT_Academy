@@ -22,7 +22,7 @@ public class Main {
                     System.out.print("Enter product name: ");
                     String productName = scanner.next();
                     System.out.print("Enter product price: ");
-                    double productPrice = readDouble(scanner); // Read the double with custom method
+                    double productPrice = readDouble(scanner);
                     sale.addProduct(new Product(productName, productPrice));
                     System.out.println("Product added successfully.");
                     break;
@@ -51,7 +51,6 @@ public class Main {
         scanner.close();
     }
 
-    // Custom method to read double input allowing both '.' and ',' as decimal separators
     private static double readDouble(Scanner scanner) {
         while (true) {
             try {

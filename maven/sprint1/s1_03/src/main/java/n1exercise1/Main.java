@@ -29,10 +29,16 @@ public class Main {
         }
 
         Set<Month> uniqueMonths = new HashSet<>(months);
-        Month duplicateDecember = new Month("December");
-        Month duplicateJanuary = new Month("January");
-        uniqueMonths.add(duplicateDecember);
-        uniqueMonths.add(duplicateJanuary);
+
+        int originalSize = months.size();
+        int uniqueSize = uniqueMonths.size();
+        boolean hasDuplicates = originalSize != uniqueSize;
+
+        if (hasDuplicates) {
+            System.out.println("Duplicates found when converting to HashSet.");
+        } else {
+            System.out.println("No duplicates found when converting to HashSet.");
+        }
 
         System.out.println("\n****Unique Months in HashSet****");
         for (Month month : uniqueMonths) {

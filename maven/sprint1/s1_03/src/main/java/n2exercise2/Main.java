@@ -8,7 +8,7 @@ public class Main {
 
         restaurantSet.add(new Restaurant("Restaurant B", 3));
         restaurantSet.add(new Restaurant("Restaurant A", 4));
-        restaurantSet.add(new Restaurant("Restaurant A", 4)); // adding a similar restaurant
+        restaurantSet.add(new Restaurant("Restaurant A", 4));
 
         RestaurantManager manager = new RestaurantManager();
         manager.displayRestaurantsSortedByName(restaurantSet);

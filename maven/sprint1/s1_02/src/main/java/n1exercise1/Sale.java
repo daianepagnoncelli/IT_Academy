@@ -3,7 +3,7 @@ package n1exercise1;
 import java.util.ArrayList;
 import java.util.List;
 
-class Sale {
+public class Sale {
     List<Product> products;
     double totalSalePrice;
 

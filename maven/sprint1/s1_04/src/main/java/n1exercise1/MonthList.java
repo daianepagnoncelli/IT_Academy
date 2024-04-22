@@ -13,18 +13,18 @@ public class MonthList {
     private void initializeMonths() {
         months = new ArrayList<>();
 
-        months.add("gener");
-        months.add("febrer");
-        months.add("març");
-        months.add("abril");
-        months.add("maig");
-        months.add("juny");
-        months.add("juliol");
-        months.add("agost");
-        months.add("setembre");
-        months.add("octubre");
-        months.add("novembre");
-        months.add("desembre");
+        months.add("January");
+        months.add("February");
+        months.add("March");
+        months.add("April");
+        months.add("May");
+        months.add("June");
+        months.add("July");
+        months.add("August");
+        months.add("September");
+        months.add("October");
+        months.add("November");
+        months.add("December");
     }
 
     public List<String> getMonths() {
