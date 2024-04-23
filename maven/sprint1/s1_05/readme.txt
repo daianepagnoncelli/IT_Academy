@@ -96,3 +96,27 @@ into a Product object. You'll see the output in the terminal.
 *************************************************************************************************
 Level 2
 Exercise 1:😊
+1 - Compile the Code:
+Open a terminal or command prompt.
+Navigate to the directory containing your Java source files. 
+Compile both Java files using the javac command:
+
+javac *.java
+
+2 - Run the Program:
+
+After compiling, if there are no errors, you should see the corresponding .class files generated, run the program using the java
+command:
+
+java DirectoryLister
+
+The program saves the directory listing to a text file with the specified name and directory path. The configuration for the directory to read 
+and the output file path is specified in a config.properties file.
+File config.properties
+--------------------------------------------------------------------------------
+|  config.properties								|
+|  directory_to_read=C:/Temp							|
+|  output_file_path=C:/itacademy/maven/sprint1/s1_05/src/main/java/Result.txt   |
+--------------------------------------------------------------------------------
+
+*************************************************************************************************
