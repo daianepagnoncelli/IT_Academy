@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Sale {
-    List<Product> products;
-    double totalSalePrice;
+    public final List<Product> products;
+    public double totalSalePrice;
 
     public Sale() {
         products = new ArrayList<>();

@@ -1,8 +1,8 @@
 package n1exercise1;
 
 public class Product {
-    String name;
-    double price;
+    public String name;
+    public double price;
 
     public Product(String name, double price) {
         this.name = name;
