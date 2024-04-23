@@ -29,7 +29,7 @@ public class Main {
                 case 2:
                     try {
                         sale.calculateTotal();
-                        System.out.println("Total sale price: $" + sale.totalSalePrice);
+                        System.out.println("Total sale price: $" + sale.getTotalSalePrice());
                     } catch (SaleEmptyException e) {
                         System.out.println(e.getMessage());
                     }
