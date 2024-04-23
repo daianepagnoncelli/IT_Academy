@@ -1,0 +1,2687 @@
+D -> dp_itacademy
+  D -> sprint1
+    D -> herancapolimorfismo
+      D -> n1exercise1
+        F -> .gitignore (Last Modified: 02/04/2024 19:34:41)
+        D -> .idea
+          F -> .gitignore (Last Modified: 02/04/2024 19:34:46)
+          F -> misc.xml (Last Modified: 02/04/2024 19:34:42)
+          F -> modules.xml (Last Modified: 02/04/2024 19:34:42)
+          F -> workspace.xml (Last Modified: 02/04/2024 19:49:21)
+        F -> n1exercise1.iml (Last Modified: 02/04/2024 19:34:42)
+        D -> out
+          D -> production
+            D -> n1exercise1
+        D -> src
+          F -> Instrumento.java (Last Modified: 02/04/2024 19:44:58)
+F -> Files.txt (Last Modified: 23/04/2024 13:43:11)
+D -> ws-eclipse
+  D -> .metadata
+    F -> .lock (Last Modified: 21/07/2020 04:21:48)
+    F -> .log (Last Modified: 13/05/2023 17:23:23)
+    D -> .mylyn
+      D -> .taskListIndex
+        F -> segments_1 (Last Modified: 24/07/2020 03:12:27)
+        F -> write.lock (Last Modified: 24/07/2020 03:12:27)
+      F -> .tasks.xml.zip (Last Modified: 26/07/2020 02:56:34)
+      D -> contexts
+      F -> repositories.xml.zip (Last Modified: 21/07/2020 04:23:20)
+      F -> tasks.xml.zip (Last Modified: 26/07/2020 05:56:34)
+    D -> .plugins
+      D -> org.eclipse.buildship.core
+      D -> org.eclipse.core.resources
+        D -> .history
+          D -> 10
+          D -> 13
+          D -> 17
+          D -> 27
+          D -> 2a
+          D -> 2e
+          D -> 3
+          D -> 31
+          D -> 35
+          D -> 38
+          D -> 39
+          D -> 3a
+          D -> 3b
+          D -> 3d
+          D -> 4
+            F -> 9056db4250cd001a12b2c85187bf010d (Last Modified: 24/07/2020 03:50:34)
+          D -> 45
+          D -> 48
+          D -> 4b
+          D -> 4c
+          D -> 55
+          D -> 56
+          D -> 59
+          D -> 5b
+          D -> 5e
+          D -> 6
+          D -> 61
+          D -> 64
+          D -> 65
+          D -> 66
+            F -> 40677f894fcd001a12b2c85187bf010d (Last Modified: 24/07/2020 03:44:08)
+          D -> 69
+          D -> 6c
+          D -> 6e
+            F -> d042a89e4bcd001a12b2c85187bf010d (Last Modified: 24/07/2020 03:18:45)
+          D -> 73
+          D -> 77
+          D -> 79
+          D -> 7d
+          D -> 7f
+          D -> 88
+          D -> 8c
+          D -> 8d
+            F -> b05992c64ccd001a12b2c85187bf010d (Last Modified: 24/07/2020 03:26:26)
+          D -> 91
+          D -> 93
+          D -> 95
+          D -> 9c
+          D -> a
+          D -> a0
+            F -> 806e829e4fcd001a12b2c85187bf010d (Last Modified: 24/07/2020 03:46:48)
+          D -> a2
+            F -> f00737434ccd001a12b2c85187bf010d (Last Modified: 24/07/2020 03:19:47)
+          D -> a3
+            F -> e02547b14ccd001a12b2c85187bf010d (Last Modified: 24/07/2020 03:23:21)
+          D -> a5
+          D -> a6
+          D -> ad
+          D -> ae
+          D -> b4
+            F -> 002508c44fcd001a12b2c85187bf010d (Last Modified: 24/07/2020 03:47:23)
+          D -> b6
+          D -> bb
+          D -> bd
+            F -> a09aa01050cd001a12b2c85187bf010d (Last Modified: 24/07/2020 03:48:26)
+          D -> be
+          D -> c2
+            F -> 8098aac34bcd001a12b2c85187bf010d (Last Modified: 24/07/2020 03:18:45)
+          D -> c7
+          D -> cd
+          D -> d0
+          D -> d1
+          D -> d3
+          D -> d6
+          D -> d7
+          D -> db
+            F -> d0579a2a4fcd001a12b2c85187bf010d (Last Modified: 24/07/2020 03:27:02)
+          D -> e4
+          D -> e8
+          D -> ea
+          D -> ed
+          D -> ef
+          D -> f1
+          D -> f5
+          D -> f6
+          D -> f9
+        D -> .projects
+          D -> .org.eclipse.egit.core.cmp
+            F -> .location (Last Modified: 13/05/2023 17:19:23)
+          D -> curso_programacao
+            F -> .markers (Last Modified: 13/05/2023 17:23:37)
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 13/05/2023 17:22:34)
+        D -> .root
+          D -> .indexes
+            F -> history.version (Last Modified: 13/05/2023 17:23:38)
+            F -> properties.index (Last Modified: 13/05/2023 17:23:38)
+            F -> properties.version (Last Modified: 13/05/2023 17:23:38)
+          F -> 8.tree (Last Modified: 13/05/2023 17:23:37)
+        D -> .safetable
+          F -> org.eclipse.core.resources (Last Modified: 13/05/2023 17:23:37)
+      D -> org.eclipse.core.runtime
+        D -> .settings
+          F -> org.eclipse.core.resources.prefs (Last Modified: 21/07/2020 04:30:36)
+          F -> org.eclipse.debug.core.prefs (Last Modified: 27/07/2020 03:42:47)
+          F -> org.eclipse.debug.ui.prefs (Last Modified: 13/05/2023 17:22:35)
+          F -> org.eclipse.jdt.core.prefs (Last Modified: 24/07/2020 03:18:46)
+          F -> org.eclipse.jdt.junit.prefs (Last Modified: 24/07/2020 03:19:10)
+          F -> org.eclipse.jdt.launching.prefs (Last Modified: 13/05/2023 17:22:36)
+          F -> org.eclipse.jdt.ui.prefs (Last Modified: 13/05/2023 17:23:37)
+          F -> org.eclipse.jsch.core.prefs (Last Modified: 21/07/2020 04:21:49)
+          F -> org.eclipse.jst.j2ee.webservice.ui.prefs (Last Modified: 21/07/2020 04:21:52)
+          F -> org.eclipse.m2e.discovery.prefs (Last Modified: 21/07/2020 04:30:36)
+          F -> org.eclipse.mylyn.context.core.prefs (Last Modified: 21/07/2020 04:21:50)
+          F -> org.eclipse.mylyn.java.ui.prefs (Last Modified: 27/07/2020 05:04:09)
+          F -> org.eclipse.mylyn.monitor.ui.prefs (Last Modified: 21/07/2020 04:21:50)
+          F -> org.eclipse.mylyn.tasks.ui.prefs (Last Modified: 26/07/2020 07:08:58)
+          F -> org.eclipse.pde.api.tools.prefs (Last Modified: 24/07/2020 03:19:10)
+          F -> org.eclipse.rse.core.prefs (Last Modified: 21/07/2020 04:22:01)
+          F -> org.eclipse.ui.browser.prefs (Last Modified: 13/05/2023 17:19:37)
+          F -> org.eclipse.ui.editors.prefs (Last Modified: 13/05/2023 17:23:37)
+          F -> org.eclipse.ui.ide.prefs (Last Modified: 13/05/2023 17:22:35)
+          F -> org.eclipse.ui.navigator.prefs (Last Modified: 21/07/2020 04:21:52)
+          F -> org.eclipse.ui.prefs (Last Modified: 21/07/2020 04:21:53)
+          F -> org.eclipse.ui.workbench.prefs (Last Modified: 13/05/2023 17:23:37)
+          F -> org.eclipse.urischeme.prefs (Last Modified: 13/05/2023 17:19:23)
+          F -> org.eclipse.wst.jsdt.ui.prefs (Last Modified: 27/07/2020 05:04:08)
+          F -> org.eclipse.wst.ws.service.policy.prefs (Last Modified: 25/07/2020 04:20:23)
+      D -> org.eclipse.debug.core
+        D -> .launches
+          F -> comparativas_exercicio03.launch (Last Modified: 29/07/2020 03:01:12)
+          F -> comparativas_exercicios01.launch (Last Modified: 29/07/2020 02:27:10)
+          F -> comparativas_exercicios02.launch (Last Modified: 29/07/2020 02:33:20)
+          F -> comparativas_exercicios04.launch (Last Modified: 29/07/2020 03:26:38)
+          F -> Main.launch (Last Modified: 24/07/2020 03:23:14)
+          F -> Main_1.launch (Last Modified: 26/07/2020 16:08:49)
+          F -> sequencia_exercicio02.launch (Last Modified: 27/07/2020 03:58:54)
+          F -> sequencial_exercicio01.launch (Last Modified: 27/07/2020 03:31:25)
+          F -> sequencial_exercicio03.launch (Last Modified: 27/07/2020 04:13:24)
+          F -> sequencial_exercicio04.launch (Last Modified: 27/07/2020 04:27:58)
+          F -> sequencial_exercicio05.launch (Last Modified: 27/07/2020 04:49:13)
+          F -> while_exercicios01.launch (Last Modified: 06/08/2020 02:18:30)
+          F -> while_exercicios02.launch (Last Modified: 06/08/2020 02:30:53)
+          F -> while_exercicios03.launch (Last Modified: 06/08/2020 02:47:35)
+      D -> org.eclipse.debug.ui
+        F -> launchConfigurationHistory.xml (Last Modified: 13/05/2023 17:19:23)
+      D -> org.eclipse.e4.ui.workbench.swt
+        F -> dialog_settings.xml (Last Modified: 27/07/2020 05:04:10)
+      D -> org.eclipse.e4.workbench
+        F -> workbench.xmi (Last Modified: 13/05/2023 17:23:37)
+      D -> org.eclipse.eclemma.core
+        D -> .execdata
+      D -> org.eclipse.egit.core
+        D -> .org.eclipse.egit.core.cmp
+          F -> .project (Last Modified: 13/05/2023 17:19:23)
+          D -> .settings
+            F -> org.eclipse.core.resources.prefs (Last Modified: 13/05/2023 17:19:23)
+      D -> org.eclipse.emf.common.ui
+      D -> org.eclipse.emf.ecore
+      D -> org.eclipse.jdt.core
+        F -> 1865797976.index (Last Modified: 13/05/2023 17:23:37)
+        F -> 3510846143.index (Last Modified: 13/05/2023 17:19:31)
+        F -> 4070579458.index (Last Modified: 13/05/2023 17:23:36)
+        F -> assumedExternalFilesCache (Last Modified: 13/05/2023 17:23:37)
+        F -> externalFilesCache (Last Modified: 13/05/2023 17:23:37)
+        F -> externalLibsTimeStamps (Last Modified: 13/05/2023 17:23:37)
+        F -> javaLikeNames.txt (Last Modified: 13/05/2023 17:19:19)
+        F -> nonChainingJarsCache (Last Modified: 13/05/2023 17:23:37)
+        F -> savedIndexNames.txt (Last Modified: 13/05/2023 17:23:36)
+        F -> variablesAndContainers.dat (Last Modified: 13/05/2023 17:23:37)
+      D -> org.eclipse.jdt.launching
+        F -> .install.xml (Last Modified: 13/05/2023 17:23:37)
+        F -> libraryInfos.xml (Last Modified: 13/05/2023 17:19:18)
+      D -> org.eclipse.jdt.ui
+        F -> dialog_settings.xml (Last Modified: 13/05/2023 17:23:37)
+        F -> OpenTypeHistory.xml (Last Modified: 13/05/2023 17:23:37)
+        F -> QualifiedTypeNameHistory.xml (Last Modified: 13/05/2023 17:23:37)
+      D -> org.eclipse.ltk.core.refactoring
+        D -> .refactorings
+          D -> .workspace
+            D -> 2020
+              D -> 7
+                D -> 30
+                  F -> refactorings.history (Last Modified: 25/07/2020 04:20:35)
+                  F -> refactorings.index (Last Modified: 25/07/2020 04:20:35)
+      D -> org.eclipse.ltk.ui.refactoring
+        F -> dialog_settings.xml (Last Modified: 25/07/2020 06:25:18)
+      D -> org.eclipse.m2e.core
+        F -> workspaceState.ser (Last Modified: 13/05/2023 17:23:37)
+      D -> org.eclipse.m2e.logback
+        F -> 0.log (Last Modified: 13/05/2023 17:23:23)
+        F -> logback.2.1.100.20230106-1511.xml (Last Modified: 13/05/2023 17:19:08)
+      D -> org.eclipse.mylyn.bugzilla.core
+      D -> org.eclipse.mylyn.context.core
+        D -> contexts
+      D -> org.eclipse.mylyn.tasks.ui
+      D -> org.eclipse.oomph.setup
+        F -> workspace.setup (Last Modified: 21/07/2020 04:22:09)
+      D -> org.eclipse.oomph.setup.ui
+      D -> org.eclipse.pde.api.tools
+      D -> org.eclipse.pde.core
+        D -> .cache
+          F -> clean-cache.properties (Last Modified: 13/05/2023 17:23:37)
+        D -> .p2
+          D -> org.eclipse.equinox.p2.engine
+            D -> profileRegistry
+      D -> org.eclipse.rse.core
+        F -> .log (Last Modified: 06/08/2020 02:08:55)
+        D -> initializerMarks
+          F -> org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark (Last Modified: 21/07/2020 04:22:01)
+        D -> profiles
+      D -> org.eclipse.tips.ide
+        F -> dialog_settings.xml (Last Modified: 13/05/2023 17:23:37)
+      D -> org.eclipse.tm.terminal.view.ui
+      D -> org.eclipse.ui.ide
+        F -> dialog_settings.xml (Last Modified: 27/07/2020 05:04:10)
+      D -> org.eclipse.ui.intro
+        F -> introstate (Last Modified: 21/07/2020 04:22:00)
+      D -> org.eclipse.ui.workbench
+        F -> workingsets.xml (Last Modified: 13/05/2023 17:23:21)
+      D -> org.eclipse.userstorage.oauth
+      D -> org.eclipse.wst.common.modulecore
+      D -> org.eclipse.wst.jsdt.core
+        F -> externalLibsTimeStamps (Last Modified: 25/07/2020 06:25:17)
+        D -> indexes
+        D -> libraries
+          F -> baseBrowserLibrary.js (Last Modified: 25/07/2020 04:20:36)
+          F -> browserWindow.js (Last Modified: 25/07/2020 04:20:36)
+          F -> dom5.js (Last Modified: 25/07/2020 04:20:36)
+          F -> system.js (Last Modified: 25/07/2020 04:20:36)
+          F -> xhr.js (Last Modified: 25/07/2020 04:20:36)
+        F -> variablesAndContainers.dat (Last Modified: 06/08/2020 03:07:25)
+      D -> org.eclipse.wst.jsdt.ui
+        F -> OpenTypeHistory.xml (Last Modified: 06/08/2020 03:07:25)
+        F -> QualifiedTypeNameHistory.xml (Last Modified: 06/08/2020 03:07:25)
+      D -> org.eclipse.wst.server.core
+    F -> version.ini (Last Modified: 13/05/2023 17:23:15)
+  D -> curso_programacao
+    F -> .classpath (Last Modified: 24/07/2020 03:15:32)
+    F -> .project (Last Modified: 24/07/2020 03:15:32)
+    D -> .settings
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 24/07/2020 03:15:32)
+    D -> bin
+      F -> comparativas_exercicio03.class (Last Modified: 13/05/2023 17:19:25)
+      F -> comparativas_exercicios01.class (Last Modified: 13/05/2023 17:19:25)
+      F -> comparativas_exercicios02.class (Last Modified: 13/05/2023 17:19:25)
+      F -> comparativas_exercicios04.class (Last Modified: 13/05/2023 17:19:25)
+      F -> Main.class (Last Modified: 13/05/2023 17:19:25)
+      F -> Main_1.class (Last Modified: 13/05/2023 17:19:25)
+      F -> sequencia_exercicio02.class (Last Modified: 13/05/2023 17:19:25)
+      F -> sequencial_exercicio01.class (Last Modified: 13/05/2023 17:19:25)
+      F -> sequencial_exercicio03.class (Last Modified: 13/05/2023 17:19:25)
+      F -> sequencial_exercicio04.class (Last Modified: 13/05/2023 17:19:25)
+      F -> sequencial_exercicio05.class (Last Modified: 13/05/2023 17:19:25)
+      F -> sequencial_exercicio06.class (Last Modified: 13/05/2023 17:19:25)
+      F -> while_exercicios01.class (Last Modified: 13/05/2023 17:19:25)
+      F -> while_exercicios02.class (Last Modified: 13/05/2023 17:19:25)
+      F -> while_exercicios03.class (Last Modified: 13/05/2023 17:19:25)
+    D -> src
+      F -> comparativas_exercicio03.java (Last Modified: 29/07/2020 03:26:38)
+      F -> comparativas_exercicios01.java (Last Modified: 29/07/2020 02:29:26)
+      F -> comparativas_exercicios02.java (Last Modified: 29/07/2020 02:33:18)
+      F -> comparativas_exercicios04.java (Last Modified: 29/07/2020 03:52:33)
+      F -> Main.java (Last Modified: 27/07/2020 03:31:25)
+      F -> Main_1.java (Last Modified: 26/07/2020 23:05:35)
+      F -> sequencia_exercicio02.java (Last Modified: 27/07/2020 04:05:34)
+      F -> sequencial_exercicio01.java (Last Modified: 27/07/2020 03:58:54)
+      F -> sequencial_exercicio03.java (Last Modified: 27/07/2020 04:15:05)
+      F -> sequencial_exercicio04.java (Last Modified: 27/07/2020 04:35:12)
+      F -> sequencial_exercicio05.java (Last Modified: 27/07/2020 05:03:52)
+      F -> sequencial_exercicio06.java (Last Modified: 27/07/2020 05:00:55)
+      F -> while_exercicios01.java (Last Modified: 06/08/2020 02:18:28)
+      F -> while_exercicios02.java (Last Modified: 06/08/2020 02:32:04)
+      F -> while_exercicios03.java (Last Modified: 06/08/2020 02:49:55)
+  D -> Main.java
+    F -> .classpath (Last Modified: 25/07/2020 04:19:45)
+    F -> .project (Last Modified: 25/07/2020 04:19:45)
+    D -> .settings
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 25/07/2020 04:19:45)
+    D -> bin
+      F -> module-info.class (Last Modified: 25/07/2020 04:19:49)
+    D -> src
+      F -> module-info.java (Last Modified: 25/07/2020 04:19:49)
+D -> ws-eclipse-itacademy
+  D -> .metadata
+    F -> .lock (Last Modified: 02/04/2024 12:08:09)
+    F -> .log (Last Modified: 02/04/2024 19:51:07)
+    D -> .plugins
+      D -> org.eclipse.buildship.core
+      D -> org.eclipse.core.resources
+        D -> .history
+          D -> 53
+            F -> 60a6fa26e2f0001e162ba9bd3d7a5e9d (Last Modified: 02/04/2024 13:14:19)
+          D -> c5
+            F -> 0049a426e2f0001e162ba9bd3d7a5e9d (Last Modified: 02/04/2024 13:14:12)
+        D -> .projects
+          D -> .org.eclipse.egit.core.cmp
+            F -> .location (Last Modified: 02/04/2024 12:09:49)
+          D -> n1exercise1
+            D -> .indexes
+              D -> af
+                F -> history.index (Last Modified: 02/04/2024 13:14:20)
+              D -> e4
+                F -> history.index (Last Modified: 02/04/2024 13:15:24)
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 02/04/2024 15:34:53)
+        D -> .root
+          D -> .indexes
+            F -> history.version (Last Modified: 02/04/2024 19:59:47)
+            F -> properties.index (Last Modified: 02/04/2024 19:59:47)
+            F -> properties.version (Last Modified: 02/04/2024 19:59:47)
+          F -> 2.tree (Last Modified: 02/04/2024 19:59:46)
+        D -> .safetable
+          F -> org.eclipse.core.resources (Last Modified: 02/04/2024 19:59:46)
+      D -> org.eclipse.core.runtime
+        D -> .settings
+          F -> org.eclipse.core.resources.prefs (Last Modified: 02/04/2024 13:14:20)
+          F -> org.eclipse.debug.ui.prefs (Last Modified: 02/04/2024 19:59:47)
+          F -> org.eclipse.jdt.core.prefs (Last Modified: 02/04/2024 19:51:55)
+          F -> org.eclipse.jdt.launching.prefs (Last Modified: 02/04/2024 19:59:47)
+          F -> org.eclipse.jdt.ui.prefs (Last Modified: 02/04/2024 19:59:47)
+          F -> org.eclipse.jsch.core.prefs (Last Modified: 02/04/2024 12:09:32)
+          F -> org.eclipse.jst.j2ee.webservice.ui.prefs (Last Modified: 02/04/2024 12:09:33)
+          F -> org.eclipse.m2e.discovery.prefs (Last Modified: 02/04/2024 15:34:53)
+          F -> org.eclipse.ui.ide.prefs (Last Modified: 02/04/2024 15:34:59)
+          F -> org.eclipse.ui.navigator.prefs (Last Modified: 02/04/2024 12:09:32)
+          F -> org.eclipse.ui.prefs (Last Modified: 02/04/2024 19:50:58)
+          F -> org.eclipse.ui.workbench.prefs (Last Modified: 02/04/2024 19:59:47)
+          F -> org.eclipse.urischeme.prefs (Last Modified: 02/04/2024 12:09:49)
+          F -> org.eclipse.wst.jsdt.ui.prefs (Last Modified: 02/04/2024 15:34:55)
+          F -> org.eclipse.wst.ws.service.policy.prefs (Last Modified: 02/04/2024 13:14:25)
+      D -> org.eclipse.debug.core
+      D -> org.eclipse.debug.ui
+      D -> org.eclipse.e4.workbench
+        F -> workbench.xmi (Last Modified: 02/04/2024 19:59:47)
+      D -> org.eclipse.eclemma.core
+        D -> .execdata
+      D -> org.eclipse.egit.core
+        D -> .org.eclipse.egit.core.cmp
+          F -> .project (Last Modified: 02/04/2024 12:09:49)
+          D -> .settings
+            F -> org.eclipse.core.resources.prefs (Last Modified: 02/04/2024 12:09:49)
+      D -> org.eclipse.emf.common.ui
+      D -> org.eclipse.jdt.core
+        F -> 1865797976.index (Last Modified: 02/04/2024 15:35:00)
+        F -> 3058563161.index (Last Modified: 02/04/2024 13:15:28)
+        F -> 4070579458.index (Last Modified: 02/04/2024 13:15:28)
+        F -> assumedExternalFilesCache (Last Modified: 02/04/2024 19:59:46)
+        F -> externalFilesCache (Last Modified: 02/04/2024 19:59:46)
+        F -> externalLibsTimeStamps (Last Modified: 02/04/2024 19:59:46)
+        F -> javaLikeNames.txt (Last Modified: 02/04/2024 13:14:12)
+        F -> nonChainingJarsCache (Last Modified: 02/04/2024 19:59:46)
+        F -> savedIndexNames.txt (Last Modified: 02/04/2024 13:15:28)
+        F -> variablesAndContainers.dat (Last Modified: 02/04/2024 19:59:46)
+      D -> org.eclipse.jdt.launching
+        F -> .install.xml (Last Modified: 02/04/2024 19:59:46)
+        F -> libraryInfos.xml (Last Modified: 02/04/2024 13:12:34)
+      D -> org.eclipse.jdt.ui
+        F -> dialog_settings.xml (Last Modified: 02/04/2024 19:59:46)
+        F -> OpenTypeHistory.xml (Last Modified: 02/04/2024 19:59:47)
+        F -> QualifiedTypeNameHistory.xml (Last Modified: 02/04/2024 19:59:47)
+      D -> org.eclipse.ltk.core.refactoring
+        D -> .refactorings
+          D -> .workspace
+            D -> 2024
+              D -> 4
+                D -> 14
+                  F -> refactorings.history (Last Modified: 02/04/2024 13:15:24)
+                  F -> refactorings.index (Last Modified: 02/04/2024 13:15:24)
+      D -> org.eclipse.m2e.core
+        F -> workspaceState.ser (Last Modified: 02/04/2024 19:59:46)
+      D -> org.eclipse.m2e.logback
+        F -> 0.log (Last Modified: 02/04/2024 19:51:07)
+        F -> logback.2.1.100.20230106-1511.xml (Last Modified: 02/04/2024 12:08:16)
+      D -> org.eclipse.oomph.setup
+        F -> workspace.setup (Last Modified: 02/04/2024 12:10:00)
+      D -> org.eclipse.oomph.setup.ui
+      D -> org.eclipse.pde.core
+        D -> .cache
+          F -> clean-cache.properties (Last Modified: 02/04/2024 19:59:47)
+        D -> .p2
+          D -> org.eclipse.equinox.p2.engine
+            D -> profileRegistry
+      D -> org.eclipse.tips.ide
+        F -> dialog_settings.xml (Last Modified: 02/04/2024 19:59:46)
+      D -> org.eclipse.tm.terminal.view.ui
+        D -> .executables
+          F -> data.properties (Last Modified: 02/04/2024 13:14:29)
+      D -> org.eclipse.ui.ide
+        F -> dialog_settings.xml (Last Modified: 02/04/2024 15:34:53)
+      D -> org.eclipse.ui.intro
+        F -> introstate (Last Modified: 02/04/2024 12:11:30)
+      D -> org.eclipse.ui.workbench
+        F -> workingsets.xml (Last Modified: 02/04/2024 19:50:59)
+      D -> org.eclipse.userstorage.oauth
+      D -> org.eclipse.wst.common.modulecore
+      D -> org.eclipse.wst.jsdt.core
+        F -> externalLibsTimeStamps (Last Modified: 02/04/2024 15:34:53)
+        D -> indexes
+        D -> libraries
+          F -> baseBrowserLibrary.js (Last Modified: 02/04/2024 13:15:24)
+          F -> browserWindow.js (Last Modified: 02/04/2024 13:15:24)
+          F -> dom5.js (Last Modified: 02/04/2024 13:15:24)
+          F -> system.js (Last Modified: 02/04/2024 13:15:24)
+          F -> xhr.js (Last Modified: 02/04/2024 13:15:24)
+        F -> variablesAndContainers.dat (Last Modified: 02/04/2024 15:34:53)
+      D -> org.eclipse.wst.jsdt.ui
+        F -> OpenTypeHistory.xml (Last Modified: 02/04/2024 15:34:55)
+        F -> QualifiedTypeNameHistory.xml (Last Modified: 02/04/2024 15:34:55)
+      D -> org.eclipse.wst.server.core
+    F -> version.ini (Last Modified: 02/04/2024 19:49:46)
+  D -> n1exercise1
+    F -> .classpath (Last Modified: 02/04/2024 13:14:12)
+    F -> .project (Last Modified: 02/04/2024 13:15:24)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 02/04/2024 13:14:12)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 02/04/2024 13:14:19)
+    D -> bin
+      F -> module-info.class (Last Modified: 02/04/2024 13:15:24)
+    D -> src
+      F -> module-info.java (Last Modified: 02/04/2024 13:14:20)
+D -> ws-eclipse2
+  D -> .metadata
+    F -> .bak_0.log (Last Modified: 02/11/2023 10:22:00)
+    F -> .bak_1.log (Last Modified: 02/11/2023 10:22:01)
+    F -> .lock (Last Modified: 13/05/2023 17:25:29)
+    F -> .log (Last Modified: 27/03/2024 10:08:08)
+    D -> .plugins
+      D -> org.eclipse.buildship.core
+      D -> org.eclipse.core.resources
+        D -> .history
+          D -> 0
+          D -> 10
+          D -> 11
+            F -> 20a0c7f7e702001e1b408a1e63f84233 (Last Modified: 04/06/2023 16:56:02)
+          D -> 12
+          D -> 13
+          D -> 14
+          D -> 15
+          D -> 16
+          D -> 17
+          D -> 18
+          D -> 19
+            F -> c0f9ef5fdb02001e1b408a1e63f84233 (Last Modified: 04/06/2023 15:22:59)
+          D -> 1a
+          D -> 1b
+          D -> 1c
+          D -> 1e
+            F -> 102385a6ea02001e1b408a1e63f84233 (Last Modified: 04/06/2023 17:13:44)
+          D -> 1f
+          D -> 20
+          D -> 21
+          D -> 22
+          D -> 23
+          D -> 24
+          D -> 25
+          D -> 27
+          D -> 28
+          D -> 29
+          D -> 2a
+          D -> 2b
+          D -> 2c
+            F -> 505c1fb0dc02001e1b408a1e63f84233 (Last Modified: 04/06/2023 15:32:51)
+          D -> 2d
+          D -> 2f
+          D -> 3
+          D -> 30
+          D -> 31
+          D -> 32
+          D -> 33
+          D -> 34
+          D -> 36
+          D -> 37
+          D -> 39
+          D -> 3a
+            F -> b09f6d65ea02001e1b408a1e63f84233 (Last Modified: 04/06/2023 17:13:08)
+          D -> 3b
+          D -> 3c
+          D -> 3d
+          D -> 3e
+          D -> 3f
+            F -> 80e4ceb5e702001e1b408a1e63f84233 (Last Modified: 04/06/2023 16:42:03)
+          D -> 4
+          D -> 40
+          D -> 41
+          D -> 42
+          D -> 43
+          D -> 44
+          D -> 45
+          D -> 46
+          D -> 47
+          D -> 48
+          D -> 49
+          D -> 4a
+          D -> 4b
+            F -> 50e5e84fea02001e1b408a1e63f84233 (Last Modified: 04/06/2023 16:56:21)
+          D -> 4c
+          D -> 4e
+          D -> 5
+          D -> 50
+          D -> 51
+          D -> 52
+          D -> 53
+          D -> 54
+          D -> 55
+            F -> 506556ece702001e1b408a1e63f84233 (Last Modified: 04/06/2023 16:54:30)
+          D -> 56
+          D -> 59
+          D -> 5a
+          D -> 5b
+          D -> 5c
+          D -> 5d
+          D -> 6
+          D -> 60
+          D -> 61
+          D -> 62
+          D -> 63
+          D -> 65
+          D -> 66
+          D -> 67
+          D -> 68
+          D -> 69
+          D -> 6b
+          D -> 6c
+          D -> 6d
+          D -> 6f
+          D -> 7
+          D -> 71
+            F -> 90e487bbdc02001e1b408a1e63f84233 (Last Modified: 04/06/2023 15:35:36)
+          D -> 72
+          D -> 74
+          D -> 75
+          D -> 76
+            F -> 30f0b6e2da02001e1b408a1e63f84233 (Last Modified: 04/06/2023 15:22:17)
+          D -> 78
+          D -> 79
+          D -> 7a
+          D -> 7b
+          D -> 7c
+          D -> 7d
+          D -> 7e
+          D -> 7f
+          D -> 80
+          D -> 81
+          D -> 82
+          D -> 83
+          D -> 86
+          D -> 87
+          D -> 88
+          D -> 89
+          D -> 8a
+          D -> 8b
+          D -> 8c
+          D -> 8d
+          D -> 8e
+          D -> 8f
+            F -> 905e0c42e402001e1b408a1e63f84233 (Last Modified: 04/06/2023 16:29:39)
+          D -> 9
+          D -> 90
+          D -> 91
+            F -> 4028d43ce402001e1b408a1e63f84233 (Last Modified: 04/06/2023 15:39:33)
+          D -> 92
+          D -> 93
+          D -> 94
+          D -> 95
+          D -> 97
+          D -> 98
+          D -> 9a
+          D -> 9b
+          D -> 9c
+          D -> 9d
+          D -> 9e
+          D -> 9f
+          D -> a
+          D -> a0
+            F -> 00332934dc02001e1b408a1e63f84233 (Last Modified: 04/06/2023 15:27:56)
+          D -> a1
+          D -> a2
+          D -> a3
+            F -> f02a323ddd02001e1b408a1e63f84233 (Last Modified: 04/06/2023 15:35:55)
+          D -> a4
+          D -> a5
+          D -> a6
+          D -> a9
+          D -> ad
+          D -> af
+          D -> b
+          D -> b0
+          D -> b1
+          D -> b2
+          D -> b4
+          D -> b5
+          D -> b7
+          D -> b8
+          D -> bb
+          D -> bc
+          D -> bd
+          D -> be
+            F -> 7035079edb02001e1b408a1e63f84233 (Last Modified: 04/06/2023 15:26:12)
+          D -> bf
+          D -> c
+          D -> c0
+          D -> c2
+          D -> c4
+          D -> c6
+          D -> c7
+          D -> c8
+          D -> c9
+          D -> ca
+          D -> cb
+          D -> cc
+          D -> cd
+          D -> ce
+          D -> cf
+          D -> d
+          D -> d3
+          D -> d4
+          D -> d5
+          D -> d6
+          D -> d7
+          D -> d8
+          D -> d9
+          D -> da
+          D -> db
+          D -> dc
+          D -> dd
+          D -> de
+          D -> df
+          D -> e0
+          D -> e1
+          D -> e2
+          D -> e3
+          D -> e4
+          D -> e5
+          D -> e6
+          D -> e7
+          D -> e8
+          D -> e9
+            F -> 203b6f4ddc02001e1b408a1e63f84233 (Last Modified: 04/06/2023 15:32:08)
+          D -> ea
+          D -> eb
+            F -> c03e8af8e502001e1b408a1e63f84233 (Last Modified: 04/06/2023 16:29:47)
+          D -> ec
+          D -> ed
+          D -> ee
+          D -> ef
+          D -> f
+          D -> f1
+          D -> f2
+          D -> f3
+          D -> f4
+          D -> f6
+          D -> f7
+          D -> f8
+          D -> f9
+          D -> fa
+          D -> fb
+          D -> fc
+          D -> fd
+          D -> fe
+          D -> ff
+        D -> .projects
+          D -> .org.eclipse.egit.core.cmp
+            F -> .location (Last Modified: 13/05/2023 17:25:48)
+          D -> Academia
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 02/11/2023 13:28:05)
+          D -> curso_programacao
+            F -> .markers (Last Modified: 27/03/2024 11:00:08)
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 17/06/2023 22:41:14)
+          D -> ex_01
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_02
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_03
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_04
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_05
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_06
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_07
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_08
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_09
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_10
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_11
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_12
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_13
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:01)
+          D -> ex_14
+            F -> .markers (Last Modified: 27/03/2024 11:00:08)
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_15
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_aleat_wrappers
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_fix_vet_01
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_fix_vet_02
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_fix_vet_03
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_fix_vet_04
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> ex_fix_vet_05
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 28/08/2023 16:15:00)
+          D -> funcoes_matematicas
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 17/06/2023 22:41:14)
+          D -> SGD
+            D -> .indexes
+              F -> properties.index (Last Modified: 02/11/2023 12:52:34)
+            F -> .markers (Last Modified: 27/03/2024 11:00:08)
+            D -> org.eclipse.jdt.apt.core
+            D -> org.eclipse.jdt.core
+              F -> state.dat (Last Modified: 02/11/2023 13:28:05)
+        D -> .root
+          D -> .indexes
+            F -> history.version (Last Modified: 27/03/2024 11:00:09)
+            F -> properties.index (Last Modified: 27/03/2024 11:00:09)
+            F -> properties.version (Last Modified: 27/03/2024 11:00:09)
+          F -> 15.tree (Last Modified: 27/03/2024 11:00:08)
+        D -> .safetable
+          F -> org.eclipse.core.resources (Last Modified: 27/03/2024 11:00:08)
+      D -> org.eclipse.core.runtime
+        D -> .settings
+          F -> org.eclipse.core.resources.prefs (Last Modified: 02/11/2023 10:44:13)
+          F -> org.eclipse.debug.core.prefs (Last Modified: 17/08/2023 16:16:25)
+          F -> org.eclipse.debug.ui.prefs (Last Modified: 27/03/2024 11:00:08)
+          F -> org.eclipse.epp.mpc.ui.prefs (Last Modified: 27/03/2024 10:05:54)
+          F -> org.eclipse.jdt.core.prefs (Last Modified: 13/05/2023 17:35:50)
+          F -> org.eclipse.jdt.debug.ui.prefs (Last Modified: 17/08/2023 16:16:25)
+          F -> org.eclipse.jdt.junit.prefs (Last Modified: 13/05/2023 17:35:51)
+          F -> org.eclipse.jdt.launching.prefs (Last Modified: 13/05/2023 18:35:00)
+          F -> org.eclipse.jdt.ui.prefs (Last Modified: 27/03/2024 11:00:08)
+          F -> org.eclipse.jsch.core.prefs (Last Modified: 13/05/2023 17:25:36)
+          F -> org.eclipse.jst.j2ee.webservice.ui.prefs (Last Modified: 13/05/2023 17:25:36)
+          F -> org.eclipse.jst.jsp.core.prefs (Last Modified: 28/08/2023 16:15:14)
+          F -> org.eclipse.m2e.discovery.prefs (Last Modified: 13/05/2023 17:26:02)
+          F -> org.eclipse.pde.api.tools.prefs (Last Modified: 13/05/2023 17:35:51)
+          F -> org.eclipse.ui.browser.prefs (Last Modified: 17/06/2023 17:44:34)
+          F -> org.eclipse.ui.editors.prefs (Last Modified: 27/03/2024 11:00:09)
+          F -> org.eclipse.ui.ide.prefs (Last Modified: 27/03/2024 11:00:09)
+          F -> org.eclipse.ui.navigator.prefs (Last Modified: 13/05/2023 17:25:36)
+          F -> org.eclipse.ui.prefs (Last Modified: 13/05/2023 17:25:37)
+          F -> org.eclipse.ui.workbench.prefs (Last Modified: 27/03/2024 11:00:09)
+          F -> org.eclipse.urischeme.prefs (Last Modified: 13/05/2023 17:25:48)
+          F -> org.eclipse.wst.jsdt.ui.prefs (Last Modified: 02/11/2023 13:28:06)
+          F -> org.eclipse.wst.ws.service.policy.prefs (Last Modified: 13/05/2023 17:34:08)
+      D -> org.eclipse.debug.core
+        D -> .launches
+          F -> Archivo.launch (Last Modified: 02/11/2023 10:58:08)
+          F -> Estudiante.launch (Last Modified: 02/11/2023 10:34:31)
+          F -> Main (1).launch (Last Modified: 17/06/2023 20:50:14)
+          F -> Main.launch (Last Modified: 13/05/2023 17:41:00)
+          F -> Main2.launch (Last Modified: 04/06/2023 15:37:05)
+          F -> Program (1).launch (Last Modified: 17/08/2023 17:11:42)
+          F -> Program (10).launch (Last Modified: 17/08/2023 17:52:44)
+          F -> Program (11).launch (Last Modified: 18/08/2023 06:18:08)
+          F -> Program (12).launch (Last Modified: 18/08/2023 06:27:05)
+          F -> Program (13).launch (Last Modified: 18/08/2023 07:10:12)
+          F -> Program (14).launch (Last Modified: 18/08/2023 07:24:23)
+          F -> Program (15).launch (Last Modified: 18/08/2023 07:47:52)
+          F -> Program (16).launch (Last Modified: 18/08/2023 16:30:42)
+          F -> Program (17).launch (Last Modified: 23/08/2023 08:46:46)
+          F -> Program (18).launch (Last Modified: 24/08/2023 07:25:03)
+          F -> Program (19).launch (Last Modified: 26/08/2023 07:45:26)
+          F -> Program (2).launch (Last Modified: 17/08/2023 17:11:56)
+          F -> Program (20).launch (Last Modified: 27/08/2023 07:00:05)
+          F -> Program (3).launch (Last Modified: 17/08/2023 17:12:11)
+          F -> Program (4).launch (Last Modified: 17/08/2023 17:12:23)
+          F -> Program (5).launch (Last Modified: 17/08/2023 17:12:38)
+          F -> Program (6).launch (Last Modified: 17/08/2023 17:12:54)
+          F -> Program (7).launch (Last Modified: 17/08/2023 17:13:09)
+          F -> Program (8).launch (Last Modified: 17/08/2023 17:13:22)
+          F -> Program (9).launch (Last Modified: 17/08/2023 16:12:05)
+          F -> Program.launch (Last Modified: 17/08/2023 17:11:27)
+          F -> Universidad.launch (Last Modified: 02/11/2023 10:51:16)
+      D -> org.eclipse.debug.ui
+        F -> dialog_settings.xml (Last Modified: 02/11/2023 13:28:05)
+        F -> launchConfigurationHistory.xml (Last Modified: 27/03/2024 11:00:08)
+      D -> org.eclipse.e4.workbench
+        F -> workbench.xmi (Last Modified: 27/03/2024 11:00:08)
+      D -> org.eclipse.eclemma.core
+        D -> .execdata
+      D -> org.eclipse.egit.core
+        D -> .org.eclipse.egit.core.cmp
+          F -> .project (Last Modified: 13/05/2023 17:25:48)
+          D -> .settings
+            F -> org.eclipse.core.resources.prefs (Last Modified: 13/05/2023 17:25:48)
+      D -> org.eclipse.emf.common.ui
+      D -> org.eclipse.epp.mpc.ui
+        F -> dialog_settings.xml (Last Modified: 27/03/2024 10:05:54)
+      D -> org.eclipse.equinox.p2.ui
+        F -> dialog_settings.xml (Last Modified: 27/03/2024 11:00:08)
+      D -> org.eclipse.jdt.core
+        F -> 107576854.index (Last Modified: 18/08/2023 11:17:48)
+        F -> 1080156631.index (Last Modified: 02/11/2023 10:54:12)
+        F -> 1120654214.index (Last Modified: 17/08/2023 17:12:38)
+        F -> 1168512927.index (Last Modified: 17/08/2023 17:11:43)
+        F -> 15508388.index (Last Modified: 02/11/2023 13:28:09)
+        F -> 1555900126.index (Last Modified: 23/08/2023 07:40:45)
+        F -> 17086991.index (Last Modified: 18/08/2023 06:21:53)
+        F -> 1865797976.index (Last Modified: 27/03/2024 10:05:55)
+        F -> 1903054464.index (Last Modified: 18/08/2023 07:39:20)
+        F -> 2551049141.index (Last Modified: 18/08/2023 06:43:04)
+        F -> 2775842433.index (Last Modified: 17/08/2023 17:13:10)
+        F -> 2879481095.index (Last Modified: 17/06/2023 22:41:18)
+        F -> 2898637482.index (Last Modified: 17/08/2023 17:12:11)
+        F -> 2998093810.index (Last Modified: 17/08/2023 17:13:43)
+        F -> 3051258859.index (Last Modified: 26/08/2023 07:33:10)
+        F -> 3269047165.index (Last Modified: 27/08/2023 06:44:50)
+        F -> 3316938596.index (Last Modified: 18/08/2023 06:01:03)
+        F -> 3510846143.index (Last Modified: 17/06/2023 20:47:55)
+        F -> 3530870295.index (Last Modified: 17/08/2023 17:13:22)
+        F -> 3686957628.index (Last Modified: 17/08/2023 17:12:24)
+        F -> 3702474277.index (Last Modified: 17/08/2023 17:11:28)
+        F -> 4010466083.index (Last Modified: 18/08/2023 07:12:20)
+        F -> 4070579458.index (Last Modified: 27/03/2024 09:15:01)
+        F -> 4272171269.index (Last Modified: 28/08/2023 16:15:14)
+        F -> 733615688.index (Last Modified: 24/08/2023 07:10:49)
+        F -> 849422089.index (Last Modified: 17/08/2023 17:11:57)
+        F -> 902619920.index (Last Modified: 17/08/2023 17:12:54)
+        F -> assumedExternalFilesCache (Last Modified: 27/03/2024 11:00:08)
+        F -> externalFilesCache (Last Modified: 27/03/2024 11:00:08)
+        F -> externalLibsTimeStamps (Last Modified: 27/03/2024 11:00:08)
+        F -> indexNamesMap.txt (Last Modified: 28/08/2023 16:15:00)
+        F -> javaLikeNames.txt (Last Modified: 13/05/2023 17:32:35)
+        F -> nonChainingJarsCache (Last Modified: 27/03/2024 11:00:08)
+        F -> savedIndexNames.txt (Last Modified: 27/03/2024 09:15:02)
+        F -> variablesAndContainers.dat (Last Modified: 27/03/2024 11:00:08)
+      D -> org.eclipse.jdt.launching
+        F -> .install.xml (Last Modified: 27/03/2024 11:00:08)
+        F -> libraryInfos.xml (Last Modified: 13/05/2023 17:32:05)
+      D -> org.eclipse.jdt.ui
+        F -> dialog_settings.xml (Last Modified: 27/03/2024 11:00:08)
+        F -> OpenTypeHistory.xml (Last Modified: 27/03/2024 11:00:08)
+        F -> QualifiedTypeNameHistory.xml (Last Modified: 27/03/2024 11:00:08)
+      D -> org.eclipse.jst.jsp.core
+        D -> jspsearch
+        D -> taglibindex
+      D -> org.eclipse.ltk.core.refactoring
+        D -> .refactorings
+          D -> .workspace
+            D -> 2023
+              D -> 11
+                D -> 44
+                  F -> refactorings.history (Last Modified: 02/11/2023 10:43:35)
+                  F -> refactorings.index (Last Modified: 02/11/2023 10:43:35)
+              D -> 5
+                D -> 21
+                  F -> refactorings.history (Last Modified: 22/05/2023 20:36:03)
+                  F -> refactorings.index (Last Modified: 22/05/2023 20:36:03)
+              D -> 6
+                D -> 24
+                  F -> refactorings.history (Last Modified: 17/06/2023 20:53:43)
+                  F -> refactorings.index (Last Modified: 17/06/2023 20:53:43)
+              D -> 7
+                D -> 27
+                  F -> refactorings.history (Last Modified: 02/07/2023 10:03:29)
+                  F -> refactorings.index (Last Modified: 02/07/2023 10:03:29)
+              D -> 8
+                D -> 33
+                  F -> refactorings.history (Last Modified: 18/08/2023 06:01:24)
+                  F -> refactorings.index (Last Modified: 18/08/2023 06:01:24)
+          D -> Academia
+            D -> 2023
+              D -> 11
+                D -> 44
+                  F -> refactorings.history (Last Modified: 02/11/2023 10:42:33)
+                  F -> refactorings.index (Last Modified: 02/11/2023 10:42:33)
+          D -> curso_programacao
+            D -> 2023
+              D -> 5
+                D -> 19
+                  F -> refactorings.history (Last Modified: 13/05/2023 17:44:47)
+                  F -> refactorings.index (Last Modified: 13/05/2023 17:44:47)
+              D -> 6
+                D -> 23
+                  F -> refactorings.history (Last Modified: 04/06/2023 15:22:42)
+                  F -> refactorings.index (Last Modified: 04/06/2023 15:22:42)
+                D -> 24
+                  F -> refactorings.history (Last Modified: 17/06/2023 20:46:41)
+                  F -> refactorings.index (Last Modified: 17/06/2023 20:46:41)
+          D -> ex_02
+            D -> 2023
+              D -> 7
+                D -> 27
+                  F -> refactorings.history (Last Modified: 02/07/2023 10:03:06)
+                  F -> refactorings.index (Last Modified: 02/07/2023 10:03:06)
+          D -> ex_09
+            D -> 2023
+              D -> 8
+                D -> 33
+                  F -> refactorings.history (Last Modified: 16/08/2023 08:19:17)
+                  F -> refactorings.index (Last Modified: 16/08/2023 08:19:17)
+          D -> funcoes_matematicas
+            D -> 2023
+              D -> 6
+                D -> 24
+                  F -> refactorings.history (Last Modified: 17/06/2023 21:00:32)
+                  F -> refactorings.index (Last Modified: 17/06/2023 21:00:32)
+      D -> org.eclipse.ltk.ui.refactoring
+        F -> dialog_settings.xml (Last Modified: 02/11/2023 13:28:05)
+      D -> org.eclipse.m2e.core
+        F -> workspaceState.ser (Last Modified: 27/03/2024 11:00:08)
+      D -> org.eclipse.m2e.jdt
+      D -> org.eclipse.m2e.logback
+        F -> 0.log (Last Modified: 27/03/2024 10:06:30)
+        F -> logback.2.1.100.20230106-1511.xml (Last Modified: 13/05/2023 17:25:30)
+      D -> org.eclipse.oomph.setup
+        F -> workspace.setup (Last Modified: 13/05/2023 17:25:57)
+      D -> org.eclipse.oomph.setup.ui
+      D -> org.eclipse.pde.api.tools
+      D -> org.eclipse.pde.core
+        D -> .cache
+          F -> clean-cache.properties (Last Modified: 27/03/2024 11:00:08)
+        D -> .p2
+          D -> org.eclipse.equinox.p2.engine
+            D -> profileRegistry
+      D -> org.eclipse.tips.ide
+        F -> dialog_settings.xml (Last Modified: 27/03/2024 11:00:08)
+      D -> org.eclipse.tm.terminal.view.ui
+        D -> .executables
+          F -> data.properties (Last Modified: 13/05/2023 17:34:09)
+      D -> org.eclipse.ui.editors
+      D -> org.eclipse.ui.ide
+        F -> dialog_settings.xml (Last Modified: 02/11/2023 13:28:05)
+      D -> org.eclipse.ui.intro
+        F -> dialog_settings.xml (Last Modified: 02/11/2023 13:28:05)
+        F -> introstate (Last Modified: 13/05/2023 17:25:46)
+      D -> org.eclipse.ui.workbench
+        F -> dialog_settings.xml (Last Modified: 02/11/2023 13:28:05)
+        F -> workingsets.xml (Last Modified: 27/03/2024 10:06:14)
+      D -> org.eclipse.userstorage.oauth
+      D -> org.eclipse.wst.common.modulecore
+      D -> org.eclipse.wst.jsdt.core
+        F -> externalLibsTimeStamps (Last Modified: 02/11/2023 13:28:05)
+        D -> indexes
+        D -> libraries
+          F -> baseBrowserLibrary.js (Last Modified: 17/06/2023 20:47:56)
+          F -> browserWindow.js (Last Modified: 17/06/2023 20:47:56)
+          F -> dom5.js (Last Modified: 17/06/2023 20:47:56)
+          F -> system.js (Last Modified: 17/06/2023 20:47:56)
+          F -> xhr.js (Last Modified: 17/06/2023 20:47:56)
+        F -> variablesAndContainers.dat (Last Modified: 02/11/2023 13:28:05)
+      D -> org.eclipse.wst.jsdt.ui
+        F -> OpenTypeHistory.xml (Last Modified: 02/11/2023 13:28:06)
+        F -> QualifiedTypeNameHistory.xml (Last Modified: 02/11/2023 13:28:06)
+      D -> org.eclipse.wst.server.core
+      D -> org.eclipse.wst.sse.core
+        F -> task-tags.properties (Last Modified: 18/08/2023 06:01:24)
+    F -> version.ini (Last Modified: 27/03/2024 10:06:10)
+  D -> Academia
+    F -> .classpath (Last Modified: 02/11/2023 10:44:11)
+    F -> .project (Last Modified: 02/11/2023 10:44:11)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 02/11/2023 10:44:11)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 02/11/2023 10:44:13)
+    D -> bin
+      F -> Grado.class (Last Modified: 02/11/2023 10:45:46)
+      F -> iEstudios.class (Last Modified: 02/11/2023 10:45:46)
+      F -> Master.class (Last Modified: 02/11/2023 10:45:46)
+      F -> Programa.class (Last Modified: 02/11/2023 10:45:46)
+      F -> Universidad.class (Last Modified: 02/11/2023 10:45:46)
+    D -> src
+      F -> Grado.java (Last Modified: 02/11/2023 09:51:16)
+      F -> iEstudios.java (Last Modified: 02/11/2023 09:51:16)
+      F -> Master.java (Last Modified: 02/11/2023 09:51:16)
+      F -> Programa.java (Last Modified: 02/11/2023 09:51:16)
+      F -> Universidad.java (Last Modified: 02/11/2023 09:51:16)
+  D -> course10
+    F -> .classpath (Last Modified: 17/08/2023 07:02:53)
+    F -> .project (Last Modified: 17/08/2023 07:02:53)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 17/08/2023 07:02:53)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 17/08/2023 07:02:56)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 17/08/2023 17:00:22)
+      F -> module-info.class (Last Modified: 17/08/2023 07:02:56)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 17/08/2023 17:00:22)
+      F -> module-info.java (Last Modified: 17/08/2023 07:02:56)
+  D -> curso_programacao
+    F -> .classpath (Last Modified: 13/05/2023 17:32:34)
+    F -> .project (Last Modified: 13/05/2023 17:32:34)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 13/05/2023 17:32:34)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 13/05/2023 17:32:34)
+    D -> bin
+      F -> Main.class (Last Modified: 17/06/2023 17:45:57)
+      F -> Main2.class (Last Modified: 17/06/2023 19:10:54)
+    D -> src
+      F -> Main.java (Last Modified: 22/05/2023 19:51:32)
+      F -> Main2.java (Last Modified: 17/06/2023 19:10:54)
+  D -> ex_01
+    F -> .classpath (Last Modified: 29/06/2023 18:59:15)
+    F -> .project (Last Modified: 17/08/2023 17:11:27)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 29/06/2023 18:59:15)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 29/06/2023 18:59:21)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 17/08/2023 17:11:28)
+      D -> entities
+        F -> Product.class (Last Modified: 17/08/2023 17:11:28)
+      F -> module-info.class (Last Modified: 17/08/2023 17:11:28)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 29/06/2023 22:04:08)
+      D -> entities
+        F -> Product.java (Last Modified: 29/06/2023 21:35:55)
+      F -> module-info.java (Last Modified: 29/06/2023 18:59:21)
+  D -> ex_02
+    F -> .classpath (Last Modified: 02/07/2023 09:59:03)
+    F -> .project (Last Modified: 17/08/2023 17:11:42)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 02/07/2023 09:59:03)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 02/07/2023 09:59:03)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 17/08/2023 17:11:42)
+      D -> entities
+        F -> Product.class (Last Modified: 17/08/2023 17:11:42)
+      F -> module-info.class (Last Modified: 17/08/2023 17:11:42)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 02/07/2023 11:04:17)
+      D -> entities
+        F -> Product.java (Last Modified: 02/07/2023 10:57:18)
+      F -> module-info.java (Last Modified: 02/07/2023 10:03:52)
+  D -> ex_03
+    F -> .classpath (Last Modified: 02/07/2023 11:19:57)
+    F -> .project (Last Modified: 17/08/2023 17:11:56)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 02/07/2023 11:19:57)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 02/07/2023 11:19:59)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 17/08/2023 17:11:57)
+      D -> entities
+        F -> Student.class (Last Modified: 17/08/2023 17:11:57)
+      F -> module-info.class (Last Modified: 17/08/2023 17:11:57)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 02/07/2023 11:33:42)
+      D -> entities
+        F -> Student.java (Last Modified: 02/07/2023 11:25:55)
+      F -> module-info.java (Last Modified: 02/07/2023 11:19:59)
+  D -> ex_04
+    F -> .classpath (Last Modified: 11/08/2023 06:36:12)
+    F -> .project (Last Modified: 17/08/2023 17:12:11)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 11/08/2023 06:36:12)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 11/08/2023 06:36:18)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 17/08/2023 17:12:11)
+      D -> entities
+        F -> Product.class (Last Modified: 17/08/2023 17:12:11)
+      F -> module-info.class (Last Modified: 17/08/2023 17:12:11)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 15/08/2023 08:48:02)
+      D -> entities
+        F -> Product.java (Last Modified: 16/08/2023 07:01:50)
+      F -> module-info.java (Last Modified: 11/08/2023 06:36:18)
+  D -> ex_05
+    F -> .classpath (Last Modified: 12/08/2023 07:05:40)
+    F -> .project (Last Modified: 17/08/2023 17:12:23)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 12/08/2023 07:05:40)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 12/08/2023 07:05:43)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 17/08/2023 17:12:23)
+      D -> entities
+        F -> Rectangle.class (Last Modified: 17/08/2023 17:12:23)
+      F -> module-info.class (Last Modified: 17/08/2023 17:12:23)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 12/08/2023 07:33:28)
+      D -> entities
+        F -> Rectangle.java (Last Modified: 12/08/2023 07:23:32)
+      F -> module-info.java (Last Modified: 12/08/2023 07:05:43)
+  D -> ex_06
+    F -> .classpath (Last Modified: 12/08/2023 07:37:35)
+    F -> .project (Last Modified: 17/08/2023 17:12:38)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 12/08/2023 07:37:35)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 12/08/2023 07:37:35)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 17/08/2023 17:12:38)
+      D -> entities
+        F -> Employee.class (Last Modified: 17/08/2023 17:12:38)
+      F -> module-info.class (Last Modified: 17/08/2023 17:12:38)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 12/08/2023 08:02:38)
+      D -> entities
+        F -> Employee.java (Last Modified: 12/08/2023 07:49:35)
+      F -> module-info.java (Last Modified: 12/08/2023 07:37:35)
+  D -> ex_07
+    F -> .classpath (Last Modified: 12/08/2023 08:04:28)
+    F -> .project (Last Modified: 17/08/2023 17:12:54)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 12/08/2023 08:04:28)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 12/08/2023 08:04:30)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 17/08/2023 17:12:54)
+      D -> entities
+        F -> student.class (Last Modified: 17/08/2023 17:12:54)
+      F -> module-info.class (Last Modified: 17/08/2023 17:12:54)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 12/08/2023 08:23:14)
+      D -> entities
+        F -> student.java (Last Modified: 12/08/2023 08:14:06)
+      F -> module-info.java (Last Modified: 12/08/2023 08:04:30)
+  D -> ex_08
+    F -> .classpath (Last Modified: 14/08/2023 08:13:43)
+    F -> .project (Last Modified: 17/08/2023 17:13:09)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 14/08/2023 08:13:43)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 14/08/2023 08:13:46)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 17/08/2023 17:13:09)
+      F -> module-info.class (Last Modified: 17/08/2023 17:13:09)
+      D -> util
+        F -> CurrencyConverter.class (Last Modified: 17/08/2023 17:13:09)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 14/08/2023 08:30:21)
+      F -> module-info.java (Last Modified: 14/08/2023 08:13:46)
+      D -> util
+        F -> CurrencyConverter.java (Last Modified: 14/08/2023 08:30:13)
+  D -> ex_09
+    F -> .classpath (Last Modified: 16/08/2023 07:13:56)
+    F -> .project (Last Modified: 17/08/2023 17:13:22)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 16/08/2023 07:13:56)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 16/08/2023 07:13:59)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 17/08/2023 17:13:22)
+      D -> entities
+        F -> Account.class (Last Modified: 17/08/2023 17:13:22)
+      F -> module-info.class (Last Modified: 17/08/2023 17:13:22)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 16/08/2023 09:04:46)
+      D -> entities
+        F -> Account.java (Last Modified: 16/08/2023 08:53:58)
+      F -> module-info.java (Last Modified: 16/08/2023 07:13:59)
+  D -> ex_10
+    F -> .classpath (Last Modified: 17/08/2023 07:02:53)
+    F -> .project (Last Modified: 17/08/2023 17:13:42)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 17/08/2023 07:02:53)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 17/08/2023 07:02:56)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 17/08/2023 17:13:48)
+      F -> module-info.class (Last Modified: 17/08/2023 17:13:48)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 17/08/2023 17:00:22)
+      F -> module-info.java (Last Modified: 17/08/2023 07:02:56)
+  D -> ex_11
+    F -> .classpath (Last Modified: 17/08/2023 17:20:17)
+    F -> .project (Last Modified: 17/08/2023 17:20:17)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 17/08/2023 17:20:17)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 17/08/2023 17:20:19)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 17/08/2023 17:54:14)
+      D -> entities
+        F -> Product.class (Last Modified: 17/08/2023 17:52:27)
+      F -> module-info.class (Last Modified: 17/08/2023 17:20:19)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 17/08/2023 17:54:14)
+      D -> entities
+        F -> Product.java (Last Modified: 17/08/2023 17:52:26)
+      F -> module-info.java (Last Modified: 17/08/2023 17:20:19)
+  D -> ex_12
+    F -> .classpath (Last Modified: 18/08/2023 11:17:48)
+    F -> .project (Last Modified: 18/08/2023 11:17:48)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 18/08/2023 11:17:48)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 18/08/2023 11:17:53)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 22/08/2023 06:55:12)
+      D -> entities
+        F -> Rent.class (Last Modified: 18/08/2023 16:15:53)
+      F -> module-info.class (Last Modified: 18/08/2023 11:17:53)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 22/08/2023 06:55:12)
+      D -> entities
+        F -> Rent.java (Last Modified: 18/08/2023 16:15:53)
+      F -> module-info.java (Last Modified: 18/08/2023 11:17:53)
+  D -> ex_13
+    F -> .classpath (Last Modified: 23/08/2023 07:40:44)
+    F -> .project (Last Modified: 23/08/2023 07:40:44)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 23/08/2023 07:40:44)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 23/08/2023 07:40:44)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 23/08/2023 09:10:31)
+      D -> entities
+        F -> Employee.class (Last Modified: 23/08/2023 09:12:39)
+      F -> module-info.class (Last Modified: 23/08/2023 07:40:47)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 23/08/2023 09:10:31)
+      D -> entities
+        F -> Employee.java (Last Modified: 23/08/2023 09:12:38)
+      F -> module-info.java (Last Modified: 23/08/2023 07:40:45)
+  D -> ex_14
+    F -> .classpath (Last Modified: 24/08/2023 07:10:48)
+    F -> .project (Last Modified: 24/08/2023 07:10:48)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 24/08/2023 07:10:48)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 24/08/2023 07:10:48)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 24/08/2023 08:24:03)
+      F -> module-info.class (Last Modified: 24/08/2023 07:10:50)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 24/08/2023 08:24:03)
+      F -> module-info.java (Last Modified: 24/08/2023 07:10:49)
+  D -> ex_15
+    F -> .classpath (Last Modified: 26/08/2023 07:33:10)
+    F -> .project (Last Modified: 26/08/2023 07:33:10)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 26/08/2023 07:33:10)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 26/08/2023 07:33:10)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 26/08/2023 08:08:11)
+      F -> module-info.class (Last Modified: 26/08/2023 07:33:11)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 26/08/2023 08:08:11)
+      F -> module-info.java (Last Modified: 26/08/2023 07:33:10)
+  D -> ex_aleat_wrappers
+    F -> .classpath (Last Modified: 27/08/2023 06:44:50)
+    F -> .project (Last Modified: 27/08/2023 06:44:50)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 27/08/2023 06:44:50)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 27/08/2023 06:44:56)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 27/08/2023 07:04:12)
+      D -> entities
+        F -> Funcionario.class (Last Modified: 27/08/2023 07:03:03)
+      F -> module-info.class (Last Modified: 27/08/2023 06:59:28)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 27/08/2023 07:04:12)
+      D -> entities
+        F -> Funcionario.java (Last Modified: 27/08/2023 07:03:02)
+      F -> module-info.java (Last Modified: 27/08/2023 06:59:28)
+  D -> ex_fix_vet_01
+    F -> .classpath (Last Modified: 18/08/2023 06:01:03)
+    F -> .project (Last Modified: 18/08/2023 06:01:24)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 18/08/2023 06:01:03)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 18/08/2023 06:01:06)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 18/08/2023 06:20:44)
+      F -> module-info.class (Last Modified: 18/08/2023 06:01:24)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 18/08/2023 06:20:44)
+      F -> module-info.java (Last Modified: 18/08/2023 06:01:06)
+  D -> ex_fix_vet_02
+    F -> .classpath (Last Modified: 18/08/2023 06:21:53)
+    F -> .project (Last Modified: 18/08/2023 06:21:53)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 18/08/2023 06:21:53)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 18/08/2023 06:21:56)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 18/08/2023 06:38:08)
+      F -> module-info.class (Last Modified: 18/08/2023 06:21:56)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 18/08/2023 06:38:08)
+      F -> module-info.java (Last Modified: 18/08/2023 06:21:56)
+  D -> ex_fix_vet_03
+    F -> .classpath (Last Modified: 18/08/2023 06:43:04)
+    F -> .project (Last Modified: 18/08/2023 06:43:03)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 18/08/2023 06:43:03)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 18/08/2023 06:43:04)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 18/08/2023 07:11:08)
+      F -> module-info.class (Last Modified: 18/08/2023 06:43:04)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 18/08/2023 07:11:08)
+      F -> module-info.java (Last Modified: 18/08/2023 06:43:04)
+  D -> ex_fix_vet_04
+    F -> .classpath (Last Modified: 18/08/2023 07:12:20)
+    F -> .project (Last Modified: 18/08/2023 07:12:20)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 18/08/2023 07:12:20)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 18/08/2023 07:12:20)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 18/08/2023 07:24:25)
+      F -> module-info.class (Last Modified: 18/08/2023 07:12:20)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 18/08/2023 07:24:24)
+      F -> module-info.java (Last Modified: 18/08/2023 07:12:20)
+  D -> ex_fix_vet_05
+    F -> .classpath (Last Modified: 18/08/2023 07:39:19)
+    F -> .project (Last Modified: 18/08/2023 07:39:19)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 18/08/2023 07:39:19)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 18/08/2023 07:39:19)
+    D -> bin
+      D -> application
+        F -> Program.class (Last Modified: 18/08/2023 07:48:24)
+      F -> module-info.class (Last Modified: 18/08/2023 07:39:20)
+    D -> src
+      D -> application
+        F -> Program.java (Last Modified: 18/08/2023 07:48:24)
+      F -> module-info.java (Last Modified: 18/08/2023 07:39:20)
+  D -> funcoes_matematicas
+    F -> .classpath (Last Modified: 17/06/2023 20:47:55)
+    F -> .project (Last Modified: 17/06/2023 20:47:55)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 17/06/2023 20:47:55)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 17/06/2023 20:48:00)
+    D -> bin
+      F -> Main.class (Last Modified: 17/06/2023 21:00:45)
+    D -> src
+      F -> Main.java (Last Modified: 17/06/2023 21:00:45)
+  D -> Main3.java
+    F -> .classpath (Last Modified: 17/06/2023 20:53:02)
+    F -> .project (Last Modified: 17/06/2023 20:53:02)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 17/06/2023 20:53:02)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 17/06/2023 20:53:02)
+    D -> bin
+      F -> module-info.class (Last Modified: 17/06/2023 20:53:02)
+    D -> src
+      F -> module-info.java (Last Modified: 17/06/2023 20:53:02)
+  D -> SGD
+    F -> .classpath (Last Modified: 02/11/2023 10:54:12)
+    F -> .project (Last Modified: 02/11/2023 10:54:12)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 02/11/2023 10:54:12)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 02/11/2023 10:54:12)
+    D -> bin
+      F -> Archivo.class (Last Modified: 02/11/2023 12:42:07)
+      F -> Autor.class (Last Modified: 02/11/2023 10:54:52)
+      F -> Coleccion.class (Last Modified: 02/11/2023 10:54:52)
+      F -> Departamento.class (Last Modified: 02/11/2023 10:54:52)
+      F -> DocumentoElectronico.class (Last Modified: 02/11/2023 10:54:52)
+      F -> DocumentoPapel.class (Last Modified: 02/11/2023 10:54:52)
+      F -> Persona.class (Last Modified: 02/11/2023 10:54:52)
+      F -> Publicacion.class (Last Modified: 02/11/2023 10:54:52)
+      F -> Trabajador.class (Last Modified: 02/11/2023 10:54:52)
+    D -> src
+      F -> Archivo.java (Last Modified: 02/11/2023 12:42:07)
+      F -> Autor.java (Last Modified: 02/11/2023 09:51:16)
+      F -> Coleccion.java (Last Modified: 02/11/2023 09:51:16)
+      F -> Departamento.java (Last Modified: 02/11/2023 09:51:16)
+      F -> DocumentoElectronico.java (Last Modified: 02/11/2023 09:51:16)
+      F -> DocumentoPapel.java (Last Modified: 02/11/2023 09:51:16)
+      F -> Persona.java (Last Modified: 02/11/2023 09:51:16)
+      F -> Publicacion.java (Last Modified: 02/11/2023 09:51:16)
+      F -> Trabajador.java (Last Modified: 02/11/2023 09:51:16)
+  D -> teste_processamento
+    F -> .classpath (Last Modified: 22/05/2023 20:26:57)
+    F -> .project (Last Modified: 22/05/2023 20:26:57)
+    D -> .settings
+      F -> org.eclipse.core.resources.prefs (Last Modified: 22/05/2023 20:26:56)
+      F -> org.eclipse.jdt.core.prefs (Last Modified: 22/05/2023 20:27:01)
+    D -> bin
+      F -> module-info.class (Last Modified: 22/05/2023 20:33:32)
+    D -> src
+      F -> module-info.java (Last Modified: 22/05/2023 20:33:32)
+D -> ws-pycharm
+  D -> one
+    D -> .idea
+      F -> .gitignore (Last Modified: 09/09/2020 03:02:19)
+      D -> dictionaries
+        F -> d_pag.xml (Last Modified: 09/09/2020 03:11:28)
+      D -> inspectionProfiles
+        F -> profiles_settings.xml (Last Modified: 09/09/2020 03:02:19)
+      F -> misc.xml (Last Modified: 09/09/2020 03:02:19)
+      F -> modules.xml (Last Modified: 09/09/2020 03:02:19)
+      F -> one.iml (Last Modified: 09/09/2020 03:02:19)
+      F -> workspace.xml (Last Modified: 31/01/2023 12:11:01)
+    F -> main.py (Last Modified: 09/09/2020 03:30:28)
+    D -> venv
+      D -> Include
+      D -> Lib
+        D -> site-packages
+          D -> __pycache__
+            F -> easy_install.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+          D -> _distutils_hack
+            F -> __init__.py (Last Modified: 09/09/2020 03:01:52)
+            D -> __pycache__
+              F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> override.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+            F -> override.py (Last Modified: 09/09/2020 03:01:52)
+          F -> distutils-precedence.pth (Last Modified: 09/09/2020 03:01:52)
+          F -> easy_install.py (Last Modified: 09/09/2020 03:01:52)
+          D -> pip
+            F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+            F -> __main__.py (Last Modified: 09/09/2020 03:01:54)
+            D -> __pycache__
+              F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+              F -> __main__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+            D -> _internal
+              F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+              D -> __pycache__
+                F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> build_env.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> cache.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> configuration.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> exceptions.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> locations.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> main.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> pyproject.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> self_outdated_check.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> wheel_builder.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+              F -> build_env.py (Last Modified: 09/09/2020 03:01:54)
+              F -> cache.py (Last Modified: 09/09/2020 03:01:54)
+              D -> cli
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> autocompletion.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> base_command.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> cmdoptions.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> command_context.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> main.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> main_parser.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> parser.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> progress_bars.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> req_command.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> spinners.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> status_codes.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> autocompletion.py (Last Modified: 09/09/2020 03:01:54)
+                F -> base_command.py (Last Modified: 09/09/2020 03:01:54)
+                F -> cmdoptions.py (Last Modified: 09/09/2020 03:01:54)
+                F -> command_context.py (Last Modified: 09/09/2020 03:01:54)
+                F -> main.py (Last Modified: 09/09/2020 03:01:54)
+                F -> main_parser.py (Last Modified: 09/09/2020 03:01:54)
+                F -> parser.py (Last Modified: 09/09/2020 03:01:54)
+                F -> progress_bars.py (Last Modified: 09/09/2020 03:01:54)
+                F -> req_command.py (Last Modified: 09/09/2020 03:01:54)
+                F -> spinners.py (Last Modified: 09/09/2020 03:01:54)
+                F -> status_codes.py (Last Modified: 09/09/2020 03:01:54)
+              D -> commands
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> cache.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> check.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> completion.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> configuration.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> debug.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> download.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> freeze.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> hash.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> help.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> install.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> list.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> search.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> show.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> uninstall.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> wheel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> cache.py (Last Modified: 09/09/2020 03:01:54)
+                F -> check.py (Last Modified: 09/09/2020 03:01:54)
+                F -> completion.py (Last Modified: 09/09/2020 03:01:54)
+                F -> configuration.py (Last Modified: 09/09/2020 03:01:54)
+                F -> debug.py (Last Modified: 09/09/2020 03:01:54)
+                F -> download.py (Last Modified: 09/09/2020 03:01:54)
+                F -> freeze.py (Last Modified: 09/09/2020 03:01:54)
+                F -> hash.py (Last Modified: 09/09/2020 03:01:54)
+                F -> help.py (Last Modified: 09/09/2020 03:01:54)
+                F -> install.py (Last Modified: 09/09/2020 03:01:54)
+                F -> list.py (Last Modified: 09/09/2020 03:01:54)
+                F -> search.py (Last Modified: 09/09/2020 03:01:54)
+                F -> show.py (Last Modified: 09/09/2020 03:01:54)
+                F -> uninstall.py (Last Modified: 09/09/2020 03:01:54)
+                F -> wheel.py (Last Modified: 09/09/2020 03:01:54)
+              F -> configuration.py (Last Modified: 09/09/2020 03:01:54)
+              D -> distributions
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> base.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> installed.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> sdist.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> wheel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> base.py (Last Modified: 09/09/2020 03:01:54)
+                F -> installed.py (Last Modified: 09/09/2020 03:01:54)
+                F -> sdist.py (Last Modified: 09/09/2020 03:01:54)
+                F -> wheel.py (Last Modified: 09/09/2020 03:01:54)
+              F -> exceptions.py (Last Modified: 09/09/2020 03:01:54)
+              D -> index
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> collector.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> package_finder.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> collector.py (Last Modified: 09/09/2020 03:01:54)
+                F -> package_finder.py (Last Modified: 09/09/2020 03:01:54)
+              F -> locations.py (Last Modified: 09/09/2020 03:01:54)
+              F -> main.py (Last Modified: 09/09/2020 03:01:54)
+              D -> models
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> candidate.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> direct_url.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> format_control.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> index.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> link.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> scheme.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> search_scope.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> selection_prefs.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> target_python.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> wheel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> candidate.py (Last Modified: 09/09/2020 03:01:54)
+                F -> direct_url.py (Last Modified: 09/09/2020 03:01:54)
+                F -> format_control.py (Last Modified: 09/09/2020 03:01:54)
+                F -> index.py (Last Modified: 09/09/2020 03:01:54)
+                F -> link.py (Last Modified: 09/09/2020 03:01:54)
+                F -> scheme.py (Last Modified: 09/09/2020 03:01:54)
+                F -> search_scope.py (Last Modified: 09/09/2020 03:01:54)
+                F -> selection_prefs.py (Last Modified: 09/09/2020 03:01:54)
+                F -> target_python.py (Last Modified: 09/09/2020 03:01:54)
+                F -> wheel.py (Last Modified: 09/09/2020 03:01:54)
+              D -> network
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> auth.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> cache.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> download.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> lazy_wheel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> session.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> utils.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> xmlrpc.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> auth.py (Last Modified: 09/09/2020 03:01:54)
+                F -> cache.py (Last Modified: 09/09/2020 03:01:54)
+                F -> download.py (Last Modified: 09/09/2020 03:01:54)
+                F -> lazy_wheel.py (Last Modified: 09/09/2020 03:01:54)
+                F -> session.py (Last Modified: 09/09/2020 03:01:54)
+                F -> utils.py (Last Modified: 09/09/2020 03:01:54)
+                F -> xmlrpc.py (Last Modified: 09/09/2020 03:01:54)
+              D -> operations
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> check.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> freeze.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> prepare.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                D -> build
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> metadata.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> metadata_legacy.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> wheel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> wheel_legacy.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> metadata.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> metadata_legacy.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> wheel.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> wheel_legacy.py (Last Modified: 09/09/2020 03:01:54)
+                F -> check.py (Last Modified: 09/09/2020 03:01:54)
+                F -> freeze.py (Last Modified: 09/09/2020 03:01:54)
+                D -> install
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> editable_legacy.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> legacy.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> wheel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> editable_legacy.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> legacy.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> wheel.py (Last Modified: 09/09/2020 03:01:54)
+                F -> prepare.py (Last Modified: 09/09/2020 03:01:54)
+              F -> pyproject.py (Last Modified: 09/09/2020 03:01:54)
+              D -> req
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> constructors.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> req_file.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> req_install.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> req_set.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> req_tracker.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> req_uninstall.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> constructors.py (Last Modified: 09/09/2020 03:01:54)
+                F -> req_file.py (Last Modified: 09/09/2020 03:01:54)
+                F -> req_install.py (Last Modified: 09/09/2020 03:01:54)
+                F -> req_set.py (Last Modified: 09/09/2020 03:01:54)
+                F -> req_tracker.py (Last Modified: 09/09/2020 03:01:54)
+                F -> req_uninstall.py (Last Modified: 09/09/2020 03:01:54)
+              D -> resolution
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> base.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> base.py (Last Modified: 09/09/2020 03:01:54)
+                D -> legacy
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> resolver.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> resolver.py (Last Modified: 09/09/2020 03:01:54)
+                D -> resolvelib
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> base.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> candidates.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> factory.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> provider.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> requirements.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> resolver.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> base.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> candidates.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> factory.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> provider.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> requirements.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> resolver.py (Last Modified: 09/09/2020 03:01:54)
+              F -> self_outdated_check.py (Last Modified: 09/09/2020 03:01:54)
+              D -> utils
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> appdirs.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> compatibility_tags.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> datetime.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> deprecation.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> direct_url_helpers.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> distutils_args.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> encoding.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> entrypoints.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> filesystem.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> filetypes.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> glibc.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> hashes.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> inject_securetransport.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> logging.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> misc.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> models.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> packaging.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> parallel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> pkg_resources.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> setuptools_build.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> subprocess.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> temp_dir.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> typing.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> unpacking.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> urls.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> virtualenv.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> wheel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> appdirs.py (Last Modified: 09/09/2020 03:01:54)
+                F -> compat.py (Last Modified: 09/09/2020 03:01:54)
+                F -> compatibility_tags.py (Last Modified: 09/09/2020 03:01:54)
+                F -> datetime.py (Last Modified: 09/09/2020 03:01:54)
+                F -> deprecation.py (Last Modified: 09/09/2020 03:01:54)
+                F -> direct_url_helpers.py (Last Modified: 09/09/2020 03:01:54)
+                F -> distutils_args.py (Last Modified: 09/09/2020 03:01:54)
+                F -> encoding.py (Last Modified: 09/09/2020 03:01:54)
+                F -> entrypoints.py (Last Modified: 09/09/2020 03:01:54)
+                F -> filesystem.py (Last Modified: 09/09/2020 03:01:54)
+                F -> filetypes.py (Last Modified: 09/09/2020 03:01:54)
+                F -> glibc.py (Last Modified: 09/09/2020 03:01:54)
+                F -> hashes.py (Last Modified: 09/09/2020 03:01:54)
+                F -> inject_securetransport.py (Last Modified: 09/09/2020 03:01:54)
+                F -> logging.py (Last Modified: 09/09/2020 03:01:54)
+                F -> misc.py (Last Modified: 09/09/2020 03:01:54)
+                F -> models.py (Last Modified: 09/09/2020 03:01:54)
+                F -> packaging.py (Last Modified: 09/09/2020 03:01:54)
+                F -> parallel.py (Last Modified: 09/09/2020 03:01:54)
+                F -> pkg_resources.py (Last Modified: 09/09/2020 03:01:54)
+                F -> setuptools_build.py (Last Modified: 09/09/2020 03:01:54)
+                F -> subprocess.py (Last Modified: 09/09/2020 03:01:54)
+                F -> temp_dir.py (Last Modified: 09/09/2020 03:01:54)
+                F -> typing.py (Last Modified: 09/09/2020 03:01:54)
+                F -> unpacking.py (Last Modified: 09/09/2020 03:01:54)
+                F -> urls.py (Last Modified: 09/09/2020 03:01:54)
+                F -> virtualenv.py (Last Modified: 09/09/2020 03:01:54)
+                F -> wheel.py (Last Modified: 09/09/2020 03:01:54)
+              D -> vcs
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> bazaar.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> git.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> mercurial.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> subversion.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> versioncontrol.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> bazaar.py (Last Modified: 09/09/2020 03:01:54)
+                F -> git.py (Last Modified: 09/09/2020 03:01:54)
+                F -> mercurial.py (Last Modified: 09/09/2020 03:01:54)
+                F -> subversion.py (Last Modified: 09/09/2020 03:01:54)
+                F -> versioncontrol.py (Last Modified: 09/09/2020 03:01:54)
+              F -> wheel_builder.py (Last Modified: 09/09/2020 03:01:54)
+            D -> _vendor
+              F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+              D -> __pycache__
+                F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> appdirs.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> contextlib2.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> distro.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> ipaddress.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                F -> pyparsing.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                F -> retrying.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                F -> six.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+              F -> appdirs.py (Last Modified: 09/09/2020 03:01:54)
+              D -> cachecontrol
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> _cmd.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> adapter.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> cache.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> controller.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> filewrapper.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> heuristics.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> serialize.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> wrapper.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> _cmd.py (Last Modified: 09/09/2020 03:01:54)
+                F -> adapter.py (Last Modified: 09/09/2020 03:01:54)
+                F -> cache.py (Last Modified: 09/09/2020 03:01:54)
+                D -> caches
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> file_cache.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> redis_cache.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> file_cache.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> redis_cache.py (Last Modified: 09/09/2020 03:01:54)
+                F -> compat.py (Last Modified: 09/09/2020 03:01:54)
+                F -> controller.py (Last Modified: 09/09/2020 03:01:54)
+                F -> filewrapper.py (Last Modified: 09/09/2020 03:01:54)
+                F -> heuristics.py (Last Modified: 09/09/2020 03:01:54)
+                F -> serialize.py (Last Modified: 09/09/2020 03:01:54)
+                F -> wrapper.py (Last Modified: 09/09/2020 03:01:54)
+              D -> certifi
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                F -> __main__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> __main__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> core.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> cacert.pem (Last Modified: 09/09/2020 03:01:54)
+                F -> core.py (Last Modified: 09/09/2020 03:01:54)
+              D -> chardet
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> big5freq.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> big5prober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> chardistribution.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> charsetgroupprober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> charsetprober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> codingstatemachine.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> cp949prober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> enums.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> escprober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> escsm.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> eucjpprober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> euckrfreq.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> euckrprober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> euctwfreq.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> euctwprober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> gb2312freq.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> gb2312prober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> hebrewprober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> jisfreq.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> jpcntx.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> langbulgarianmodel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> langcyrillicmodel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> langgreekmodel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> langhebrewmodel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> langhungarianmodel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> langthaimodel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> langturkishmodel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> latin1prober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> mbcharsetprober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> mbcsgroupprober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> mbcssm.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> sbcharsetprober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> sbcsgroupprober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> sjisprober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> universaldetector.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> utf8prober.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> version.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> big5freq.py (Last Modified: 09/09/2020 03:01:54)
+                F -> big5prober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> chardistribution.py (Last Modified: 09/09/2020 03:01:54)
+                F -> charsetgroupprober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> charsetprober.py (Last Modified: 09/09/2020 03:01:54)
+                D -> cli
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> chardetect.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> chardetect.py (Last Modified: 09/09/2020 03:01:54)
+                F -> codingstatemachine.py (Last Modified: 09/09/2020 03:01:54)
+                F -> compat.py (Last Modified: 09/09/2020 03:01:54)
+                F -> cp949prober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> enums.py (Last Modified: 09/09/2020 03:01:54)
+                F -> escprober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> escsm.py (Last Modified: 09/09/2020 03:01:54)
+                F -> eucjpprober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> euckrfreq.py (Last Modified: 09/09/2020 03:01:54)
+                F -> euckrprober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> euctwfreq.py (Last Modified: 09/09/2020 03:01:54)
+                F -> euctwprober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> gb2312freq.py (Last Modified: 09/09/2020 03:01:54)
+                F -> gb2312prober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> hebrewprober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> jisfreq.py (Last Modified: 09/09/2020 03:01:54)
+                F -> jpcntx.py (Last Modified: 09/09/2020 03:01:54)
+                F -> langbulgarianmodel.py (Last Modified: 09/09/2020 03:01:54)
+                F -> langcyrillicmodel.py (Last Modified: 09/09/2020 03:01:54)
+                F -> langgreekmodel.py (Last Modified: 09/09/2020 03:01:54)
+                F -> langhebrewmodel.py (Last Modified: 09/09/2020 03:01:54)
+                F -> langhungarianmodel.py (Last Modified: 09/09/2020 03:01:54)
+                F -> langthaimodel.py (Last Modified: 09/09/2020 03:01:54)
+                F -> langturkishmodel.py (Last Modified: 09/09/2020 03:01:54)
+                F -> latin1prober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> mbcharsetprober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> mbcsgroupprober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> mbcssm.py (Last Modified: 09/09/2020 03:01:54)
+                F -> sbcharsetprober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> sbcsgroupprober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> sjisprober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> universaldetector.py (Last Modified: 09/09/2020 03:01:54)
+                F -> utf8prober.py (Last Modified: 09/09/2020 03:01:54)
+                F -> version.py (Last Modified: 09/09/2020 03:01:54)
+              D -> colorama
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> ansi.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> ansitowin32.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> initialise.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> win32.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> winterm.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                F -> ansi.py (Last Modified: 09/09/2020 03:01:54)
+                F -> ansitowin32.py (Last Modified: 09/09/2020 03:01:54)
+                F -> initialise.py (Last Modified: 09/09/2020 03:01:54)
+                F -> win32.py (Last Modified: 09/09/2020 03:01:54)
+                F -> winterm.py (Last Modified: 09/09/2020 03:01:54)
+              F -> contextlib2.py (Last Modified: 09/09/2020 03:01:54)
+              D -> distlib
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> database.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> index.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> locators.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> manifest.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> markers.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> metadata.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> resources.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> scripts.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> util.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> version.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> wheel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                D -> _backport
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> misc.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> shutil.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> sysconfig.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> tarfile.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> misc.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> shutil.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> sysconfig.cfg (Last Modified: 09/09/2020 03:01:54)
+                  F -> sysconfig.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> tarfile.py (Last Modified: 09/09/2020 03:01:54)
+                F -> compat.py (Last Modified: 09/09/2020 03:01:54)
+                F -> database.py (Last Modified: 09/09/2020 03:01:54)
+                F -> index.py (Last Modified: 09/09/2020 03:01:54)
+                F -> locators.py (Last Modified: 09/09/2020 03:01:54)
+                F -> manifest.py (Last Modified: 09/09/2020 03:01:54)
+                F -> markers.py (Last Modified: 09/09/2020 03:01:54)
+                F -> metadata.py (Last Modified: 09/09/2020 03:01:54)
+                F -> resources.py (Last Modified: 09/09/2020 03:01:54)
+                F -> scripts.py (Last Modified: 09/09/2020 03:01:54)
+                F -> t32.exe (Last Modified: 09/09/2020 03:01:54)
+                F -> t64.exe (Last Modified: 09/09/2020 03:01:54)
+                F -> util.py (Last Modified: 09/09/2020 03:01:54)
+                F -> version.py (Last Modified: 09/09/2020 03:01:54)
+                F -> w32.exe (Last Modified: 09/09/2020 03:01:54)
+                F -> w64.exe (Last Modified: 09/09/2020 03:01:54)
+                F -> wheel.py (Last Modified: 09/09/2020 03:01:54)
+              F -> distro.py (Last Modified: 09/09/2020 03:01:54)
+              D -> html5lib
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> _ihatexml.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> _inputstream.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> _tokenizer.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> _utils.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> constants.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> html5parser.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> serializer.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                F -> _ihatexml.py (Last Modified: 09/09/2020 03:01:54)
+                F -> _inputstream.py (Last Modified: 09/09/2020 03:01:54)
+                F -> _tokenizer.py (Last Modified: 09/09/2020 03:01:54)
+                D -> _trie
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> _base.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> py.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> _base.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> py.py (Last Modified: 09/09/2020 03:01:54)
+                F -> _utils.py (Last Modified: 09/09/2020 03:01:54)
+                F -> constants.py (Last Modified: 09/09/2020 03:01:54)
+                D -> filters
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> alphabeticalattributes.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> base.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> inject_meta_charset.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> lint.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> optionaltags.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> sanitizer.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                    F -> whitespace.cpython-38.pyc (Last Modified: 09/09/2020 03:01:55)
+                  F -> alphabeticalattributes.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> base.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> inject_meta_charset.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> lint.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> optionaltags.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> sanitizer.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> whitespace.py (Last Modified: 09/09/2020 03:01:54)
+                F -> html5parser.py (Last Modified: 09/09/2020 03:01:54)
+                F -> serializer.py (Last Modified: 09/09/2020 03:01:54)
+                D -> treeadapters
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> genshi.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> sax.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> genshi.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> sax.py (Last Modified: 09/09/2020 03:01:54)
+                D -> treebuilders
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> base.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> dom.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> etree.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> etree_lxml.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> base.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> dom.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> etree.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> etree_lxml.py (Last Modified: 09/09/2020 03:01:54)
+                D -> treewalkers
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> base.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> dom.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> etree.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> etree_lxml.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> genshi.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> base.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> dom.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> etree.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> etree_lxml.py (Last Modified: 09/09/2020 03:01:54)
+                  F -> genshi.py (Last Modified: 09/09/2020 03:01:54)
+              D -> idna
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:54)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> codec.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> core.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> idnadata.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> intranges.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> package_data.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> uts46data.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                F -> codec.py (Last Modified: 09/09/2020 03:01:55)
+                F -> compat.py (Last Modified: 09/09/2020 03:01:55)
+                F -> core.py (Last Modified: 09/09/2020 03:01:55)
+                F -> idnadata.py (Last Modified: 09/09/2020 03:01:55)
+                F -> intranges.py (Last Modified: 09/09/2020 03:01:55)
+                F -> package_data.py (Last Modified: 09/09/2020 03:01:55)
+                F -> uts46data.py (Last Modified: 09/09/2020 03:01:55)
+              F -> ipaddress.py (Last Modified: 09/09/2020 03:01:54)
+              D -> msgpack
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> _version.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> exceptions.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> ext.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> fallback.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                F -> _version.py (Last Modified: 09/09/2020 03:01:55)
+                F -> exceptions.py (Last Modified: 09/09/2020 03:01:55)
+                F -> ext.py (Last Modified: 09/09/2020 03:01:55)
+                F -> fallback.py (Last Modified: 09/09/2020 03:01:55)
+              D -> packaging
+                F -> __about__.py (Last Modified: 09/09/2020 03:01:55)
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                D -> __pycache__
+                  F -> __about__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> _compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> _structures.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> _typing.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> markers.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> requirements.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> specifiers.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> tags.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> utils.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> version.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                F -> _compat.py (Last Modified: 09/09/2020 03:01:55)
+                F -> _structures.py (Last Modified: 09/09/2020 03:01:55)
+                F -> _typing.py (Last Modified: 09/09/2020 03:01:55)
+                F -> markers.py (Last Modified: 09/09/2020 03:01:55)
+                F -> requirements.py (Last Modified: 09/09/2020 03:01:55)
+                F -> specifiers.py (Last Modified: 09/09/2020 03:01:55)
+                F -> tags.py (Last Modified: 09/09/2020 03:01:55)
+                F -> utils.py (Last Modified: 09/09/2020 03:01:55)
+                F -> version.py (Last Modified: 09/09/2020 03:01:55)
+              D -> pep517
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> _in_process.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> build.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> check.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> colorlog.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> dirtools.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> envbuild.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> meta.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> wrappers.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                F -> _in_process.py (Last Modified: 09/09/2020 03:01:55)
+                F -> build.py (Last Modified: 09/09/2020 03:01:55)
+                F -> check.py (Last Modified: 09/09/2020 03:01:55)
+                F -> colorlog.py (Last Modified: 09/09/2020 03:01:55)
+                F -> compat.py (Last Modified: 09/09/2020 03:01:55)
+                F -> dirtools.py (Last Modified: 09/09/2020 03:01:55)
+                F -> envbuild.py (Last Modified: 09/09/2020 03:01:55)
+                F -> meta.py (Last Modified: 09/09/2020 03:01:55)
+                F -> wrappers.py (Last Modified: 09/09/2020 03:01:55)
+              D -> pkg_resources
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> py31compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                F -> py31compat.py (Last Modified: 09/09/2020 03:01:55)
+              D -> progress
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> bar.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> counter.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> spinner.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                F -> bar.py (Last Modified: 09/09/2020 03:01:55)
+                F -> counter.py (Last Modified: 09/09/2020 03:01:55)
+                F -> spinner.py (Last Modified: 09/09/2020 03:01:55)
+              F -> pyparsing.py (Last Modified: 09/09/2020 03:01:54)
+              D -> requests
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> __version__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> _internal_utils.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> adapters.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> api.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> auth.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> certs.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> cookies.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> exceptions.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> help.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> hooks.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> models.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> packages.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> sessions.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> status_codes.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> structures.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> utils.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                F -> __version__.py (Last Modified: 09/09/2020 03:01:55)
+                F -> _internal_utils.py (Last Modified: 09/09/2020 03:01:55)
+                F -> adapters.py (Last Modified: 09/09/2020 03:01:55)
+                F -> api.py (Last Modified: 09/09/2020 03:01:55)
+                F -> auth.py (Last Modified: 09/09/2020 03:01:55)
+                F -> certs.py (Last Modified: 09/09/2020 03:01:55)
+                F -> compat.py (Last Modified: 09/09/2020 03:01:55)
+                F -> cookies.py (Last Modified: 09/09/2020 03:01:55)
+                F -> exceptions.py (Last Modified: 09/09/2020 03:01:55)
+                F -> help.py (Last Modified: 09/09/2020 03:01:55)
+                F -> hooks.py (Last Modified: 09/09/2020 03:01:55)
+                F -> models.py (Last Modified: 09/09/2020 03:01:55)
+                F -> packages.py (Last Modified: 09/09/2020 03:01:55)
+                F -> sessions.py (Last Modified: 09/09/2020 03:01:55)
+                F -> status_codes.py (Last Modified: 09/09/2020 03:01:55)
+                F -> structures.py (Last Modified: 09/09/2020 03:01:55)
+                F -> utils.py (Last Modified: 09/09/2020 03:01:55)
+              D -> resolvelib
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> providers.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> reporters.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> resolvers.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> structs.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                D -> compat
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> collections_abc.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> collections_abc.py (Last Modified: 09/09/2020 03:01:55)
+                F -> providers.py (Last Modified: 09/09/2020 03:01:55)
+                F -> reporters.py (Last Modified: 09/09/2020 03:01:55)
+                F -> resolvers.py (Last Modified: 09/09/2020 03:01:55)
+                F -> structs.py (Last Modified: 09/09/2020 03:01:55)
+              F -> retrying.py (Last Modified: 09/09/2020 03:01:54)
+              F -> six.py (Last Modified: 09/09/2020 03:01:54)
+              D -> toml
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> common.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> decoder.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> encoder.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> ordered.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> tz.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                F -> common.py (Last Modified: 09/09/2020 03:01:55)
+                F -> decoder.py (Last Modified: 09/09/2020 03:01:55)
+                F -> encoder.py (Last Modified: 09/09/2020 03:01:55)
+                F -> ordered.py (Last Modified: 09/09/2020 03:01:55)
+                F -> tz.py (Last Modified: 09/09/2020 03:01:55)
+              D -> urllib3
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> _collections.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> connection.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> connectionpool.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> exceptions.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> fields.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> filepost.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> poolmanager.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> request.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> response.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                F -> _collections.py (Last Modified: 09/09/2020 03:01:55)
+                F -> connection.py (Last Modified: 09/09/2020 03:01:55)
+                F -> connectionpool.py (Last Modified: 09/09/2020 03:01:55)
+                D -> contrib
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> _appengine_environ.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> appengine.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> ntlmpool.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> pyopenssl.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> securetransport.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> socks.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> _appengine_environ.py (Last Modified: 09/09/2020 03:01:55)
+                  D -> _securetransport
+                    F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                    D -> __pycache__
+                      F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                      F -> bindings.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                      F -> low_level.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> bindings.py (Last Modified: 09/09/2020 03:01:55)
+                    F -> low_level.py (Last Modified: 09/09/2020 03:01:55)
+                  F -> appengine.py (Last Modified: 09/09/2020 03:01:55)
+                  F -> ntlmpool.py (Last Modified: 09/09/2020 03:01:55)
+                  F -> pyopenssl.py (Last Modified: 09/09/2020 03:01:55)
+                  F -> securetransport.py (Last Modified: 09/09/2020 03:01:55)
+                  F -> socks.py (Last Modified: 09/09/2020 03:01:55)
+                F -> exceptions.py (Last Modified: 09/09/2020 03:01:55)
+                F -> fields.py (Last Modified: 09/09/2020 03:01:55)
+                F -> filepost.py (Last Modified: 09/09/2020 03:01:55)
+                D -> packages
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> six.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  D -> backports
+                    F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                    D -> __pycache__
+                      F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                      F -> makefile.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> makefile.py (Last Modified: 09/09/2020 03:01:55)
+                  F -> six.py (Last Modified: 09/09/2020 03:01:55)
+                  D -> ssl_match_hostname
+                    F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                    D -> __pycache__
+                      F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                      F -> _implementation.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> _implementation.py (Last Modified: 09/09/2020 03:01:55)
+                F -> poolmanager.py (Last Modified: 09/09/2020 03:01:55)
+                F -> request.py (Last Modified: 09/09/2020 03:01:55)
+                F -> response.py (Last Modified: 09/09/2020 03:01:55)
+                D -> util
+                  F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                  D -> __pycache__
+                    F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> connection.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> queue.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> request.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> response.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> retry.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> ssl_.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> timeout.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> url.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                    F -> wait.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> connection.py (Last Modified: 09/09/2020 03:01:55)
+                  F -> queue.py (Last Modified: 09/09/2020 03:01:55)
+                  F -> request.py (Last Modified: 09/09/2020 03:01:55)
+                  F -> response.py (Last Modified: 09/09/2020 03:01:55)
+                  F -> retry.py (Last Modified: 09/09/2020 03:01:55)
+                  F -> ssl_.py (Last Modified: 09/09/2020 03:01:55)
+                  F -> timeout.py (Last Modified: 09/09/2020 03:01:55)
+                  F -> url.py (Last Modified: 09/09/2020 03:01:55)
+                  F -> wait.py (Last Modified: 09/09/2020 03:01:55)
+              F -> vendor.txt (Last Modified: 09/09/2020 03:01:54)
+              D -> webencodings
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:55)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> labels.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> mklabels.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> tests.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                  F -> x_user_defined.cpython-38.pyc (Last Modified: 09/09/2020 03:01:56)
+                F -> labels.py (Last Modified: 09/09/2020 03:01:55)
+                F -> mklabels.py (Last Modified: 09/09/2020 03:01:55)
+                F -> tests.py (Last Modified: 09/09/2020 03:01:55)
+                F -> x_user_defined.py (Last Modified: 09/09/2020 03:01:55)
+          D -> pip-20.2.3.dist-info
+            F -> entry_points.txt (Last Modified: 09/09/2020 03:01:55)
+            F -> INSTALLER (Last Modified: 09/09/2020 03:01:58)
+            F -> LICENSE.txt (Last Modified: 09/09/2020 03:01:55)
+            F -> METADATA (Last Modified: 09/09/2020 03:01:55)
+            F -> RECORD (Last Modified: 09/09/2020 03:01:58)
+            F -> top_level.txt (Last Modified: 09/09/2020 03:01:55)
+            F -> WHEEL (Last Modified: 09/09/2020 03:01:55)
+          D -> pkg_resources
+            F -> __init__.py (Last Modified: 09/09/2020 03:01:52)
+            D -> __pycache__
+              F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+            D -> _vendor
+              F -> __init__.py (Last Modified: 09/09/2020 03:01:52)
+              D -> __pycache__
+                F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> appdirs.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> pyparsing.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> appdirs.py (Last Modified: 09/09/2020 03:01:52)
+              D -> packaging
+                F -> __about__.py (Last Modified: 09/09/2020 03:01:52)
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:52)
+                D -> __pycache__
+                  F -> __about__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> _compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> _structures.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> _typing.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> markers.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> requirements.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> specifiers.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> tags.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> utils.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> version.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> _compat.py (Last Modified: 09/09/2020 03:01:52)
+                F -> _structures.py (Last Modified: 09/09/2020 03:01:52)
+                F -> _typing.py (Last Modified: 09/09/2020 03:01:52)
+                F -> markers.py (Last Modified: 09/09/2020 03:01:52)
+                F -> requirements.py (Last Modified: 09/09/2020 03:01:52)
+                F -> specifiers.py (Last Modified: 09/09/2020 03:01:52)
+                F -> tags.py (Last Modified: 09/09/2020 03:01:52)
+                F -> utils.py (Last Modified: 09/09/2020 03:01:52)
+                F -> version.py (Last Modified: 09/09/2020 03:01:52)
+              F -> pyparsing.py (Last Modified: 09/09/2020 03:01:52)
+            D -> extern
+              F -> __init__.py (Last Modified: 09/09/2020 03:01:52)
+              D -> __pycache__
+                F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+          D -> setuptools
+            F -> __init__.py (Last Modified: 09/09/2020 03:01:52)
+            D -> __pycache__
+              F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> _deprecation_warning.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> _imp.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> archive_util.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> build_meta.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> config.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> dep_util.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> depends.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> dist.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> errors.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> extension.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> glob.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> installer.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> launch.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> lib2to3_ex.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> monkey.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> msvc.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> namespaces.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> package_index.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> py34compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> sandbox.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> ssl_support.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> unicode_utils.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> version.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> wheel.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> windows_support.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+            F -> _deprecation_warning.py (Last Modified: 09/09/2020 03:01:52)
+            D -> _distutils
+              F -> __init__.py (Last Modified: 09/09/2020 03:01:52)
+              D -> __pycache__
+                F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> _msvccompiler.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> archive_util.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> bcppcompiler.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> ccompiler.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> cmd.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> config.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> core.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> cygwinccompiler.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> debug.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> dep_util.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> dir_util.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> dist.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> errors.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> extension.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> fancy_getopt.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> file_util.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> filelist.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> log.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> msvc9compiler.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> msvccompiler.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> py35compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> py38compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> spawn.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> sysconfig.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> text_file.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> unixccompiler.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> util.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> version.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> versionpredicate.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> _msvccompiler.py (Last Modified: 09/09/2020 03:01:52)
+              F -> archive_util.py (Last Modified: 09/09/2020 03:01:52)
+              F -> bcppcompiler.py (Last Modified: 09/09/2020 03:01:52)
+              F -> ccompiler.py (Last Modified: 09/09/2020 03:01:52)
+              F -> cmd.py (Last Modified: 09/09/2020 03:01:52)
+              D -> command
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:52)
+                D -> __pycache__
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> bdist.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> bdist_dumb.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> bdist_msi.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> bdist_rpm.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> bdist_wininst.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> build.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> build_clib.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> build_ext.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> build_py.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> build_scripts.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> check.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> clean.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> config.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> install.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> install_data.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> install_egg_info.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> install_headers.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> install_lib.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> install_scripts.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> py37compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> register.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> sdist.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> upload.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> bdist.py (Last Modified: 09/09/2020 03:01:52)
+                F -> bdist_dumb.py (Last Modified: 09/09/2020 03:01:52)
+                F -> bdist_msi.py (Last Modified: 09/09/2020 03:01:52)
+                F -> bdist_rpm.py (Last Modified: 09/09/2020 03:01:52)
+                F -> bdist_wininst.py (Last Modified: 09/09/2020 03:01:52)
+                F -> build.py (Last Modified: 09/09/2020 03:01:52)
+                F -> build_clib.py (Last Modified: 09/09/2020 03:01:52)
+                F -> build_ext.py (Last Modified: 09/09/2020 03:01:52)
+                F -> build_py.py (Last Modified: 09/09/2020 03:01:52)
+                F -> build_scripts.py (Last Modified: 09/09/2020 03:01:52)
+                F -> check.py (Last Modified: 09/09/2020 03:01:52)
+                F -> clean.py (Last Modified: 09/09/2020 03:01:52)
+                F -> config.py (Last Modified: 09/09/2020 03:01:52)
+                F -> install.py (Last Modified: 09/09/2020 03:01:52)
+                F -> install_data.py (Last Modified: 09/09/2020 03:01:52)
+                F -> install_egg_info.py (Last Modified: 09/09/2020 03:01:52)
+                F -> install_headers.py (Last Modified: 09/09/2020 03:01:52)
+                F -> install_lib.py (Last Modified: 09/09/2020 03:01:52)
+                F -> install_scripts.py (Last Modified: 09/09/2020 03:01:52)
+                F -> py37compat.py (Last Modified: 09/09/2020 03:01:52)
+                F -> register.py (Last Modified: 09/09/2020 03:01:52)
+                F -> sdist.py (Last Modified: 09/09/2020 03:01:52)
+                F -> upload.py (Last Modified: 09/09/2020 03:01:52)
+              F -> config.py (Last Modified: 09/09/2020 03:01:52)
+              F -> core.py (Last Modified: 09/09/2020 03:01:52)
+              F -> cygwinccompiler.py (Last Modified: 09/09/2020 03:01:52)
+              F -> debug.py (Last Modified: 09/09/2020 03:01:52)
+              F -> dep_util.py (Last Modified: 09/09/2020 03:01:52)
+              F -> dir_util.py (Last Modified: 09/09/2020 03:01:52)
+              F -> dist.py (Last Modified: 09/09/2020 03:01:52)
+              F -> errors.py (Last Modified: 09/09/2020 03:01:52)
+              F -> extension.py (Last Modified: 09/09/2020 03:01:52)
+              F -> fancy_getopt.py (Last Modified: 09/09/2020 03:01:52)
+              F -> file_util.py (Last Modified: 09/09/2020 03:01:52)
+              F -> filelist.py (Last Modified: 09/09/2020 03:01:52)
+              F -> log.py (Last Modified: 09/09/2020 03:01:52)
+              F -> msvc9compiler.py (Last Modified: 09/09/2020 03:01:52)
+              F -> msvccompiler.py (Last Modified: 09/09/2020 03:01:52)
+              F -> py35compat.py (Last Modified: 09/09/2020 03:01:52)
+              F -> py38compat.py (Last Modified: 09/09/2020 03:01:52)
+              F -> spawn.py (Last Modified: 09/09/2020 03:01:52)
+              F -> sysconfig.py (Last Modified: 09/09/2020 03:01:52)
+              F -> text_file.py (Last Modified: 09/09/2020 03:01:52)
+              F -> unixccompiler.py (Last Modified: 09/09/2020 03:01:52)
+              F -> util.py (Last Modified: 09/09/2020 03:01:52)
+              F -> version.py (Last Modified: 09/09/2020 03:01:52)
+              F -> versionpredicate.py (Last Modified: 09/09/2020 03:01:52)
+            F -> _imp.py (Last Modified: 09/09/2020 03:01:52)
+            D -> _vendor
+              F -> __init__.py (Last Modified: 09/09/2020 03:01:52)
+              D -> __pycache__
+                F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> ordered_set.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> pyparsing.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> ordered_set.py (Last Modified: 09/09/2020 03:01:52)
+              D -> packaging
+                F -> __about__.py (Last Modified: 09/09/2020 03:01:52)
+                F -> __init__.py (Last Modified: 09/09/2020 03:01:52)
+                D -> __pycache__
+                  F -> __about__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> _compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> _structures.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> _typing.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> markers.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> requirements.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> specifiers.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> tags.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> utils.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                  F -> version.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> _compat.py (Last Modified: 09/09/2020 03:01:52)
+                F -> _structures.py (Last Modified: 09/09/2020 03:01:52)
+                F -> _typing.py (Last Modified: 09/09/2020 03:01:52)
+                F -> markers.py (Last Modified: 09/09/2020 03:01:52)
+                F -> requirements.py (Last Modified: 09/09/2020 03:01:53)
+                F -> specifiers.py (Last Modified: 09/09/2020 03:01:53)
+                F -> tags.py (Last Modified: 09/09/2020 03:01:53)
+                F -> utils.py (Last Modified: 09/09/2020 03:01:53)
+                F -> version.py (Last Modified: 09/09/2020 03:01:53)
+              F -> pyparsing.py (Last Modified: 09/09/2020 03:01:52)
+            F -> archive_util.py (Last Modified: 09/09/2020 03:01:52)
+            F -> build_meta.py (Last Modified: 09/09/2020 03:01:52)
+            F -> cli-32.exe (Last Modified: 09/09/2020 03:01:52)
+            F -> cli-64.exe (Last Modified: 09/09/2020 03:01:52)
+            F -> cli.exe (Last Modified: 09/09/2020 03:01:52)
+            D -> command
+              F -> __init__.py (Last Modified: 09/09/2020 03:01:53)
+              D -> __pycache__
+                F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> alias.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> bdist_egg.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> bdist_rpm.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> bdist_wininst.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> build_clib.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> build_ext.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> build_py.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> develop.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> dist_info.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> easy_install.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> egg_info.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> install.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> install_egg_info.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> install_lib.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> install_scripts.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> py36compat.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> register.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> rotate.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> saveopts.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> sdist.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> setopt.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> test.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> upload.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+                F -> upload_docs.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+              F -> alias.py (Last Modified: 09/09/2020 03:01:53)
+              F -> bdist_egg.py (Last Modified: 09/09/2020 03:01:53)
+              F -> bdist_rpm.py (Last Modified: 09/09/2020 03:01:53)
+              F -> bdist_wininst.py (Last Modified: 09/09/2020 03:01:53)
+              F -> build_clib.py (Last Modified: 09/09/2020 03:01:53)
+              F -> build_ext.py (Last Modified: 09/09/2020 03:01:53)
+              F -> build_py.py (Last Modified: 09/09/2020 03:01:53)
+              F -> develop.py (Last Modified: 09/09/2020 03:01:53)
+              F -> dist_info.py (Last Modified: 09/09/2020 03:01:53)
+              F -> easy_install.py (Last Modified: 09/09/2020 03:01:53)
+              F -> egg_info.py (Last Modified: 09/09/2020 03:01:53)
+              F -> install.py (Last Modified: 09/09/2020 03:01:53)
+              F -> install_egg_info.py (Last Modified: 09/09/2020 03:01:53)
+              F -> install_lib.py (Last Modified: 09/09/2020 03:01:53)
+              F -> install_scripts.py (Last Modified: 09/09/2020 03:01:53)
+              F -> launcher manifest.xml (Last Modified: 09/09/2020 03:01:53)
+              F -> py36compat.py (Last Modified: 09/09/2020 03:01:53)
+              F -> register.py (Last Modified: 09/09/2020 03:01:53)
+              F -> rotate.py (Last Modified: 09/09/2020 03:01:53)
+              F -> saveopts.py (Last Modified: 09/09/2020 03:01:53)
+              F -> sdist.py (Last Modified: 09/09/2020 03:01:53)
+              F -> setopt.py (Last Modified: 09/09/2020 03:01:53)
+              F -> test.py (Last Modified: 09/09/2020 03:01:53)
+              F -> upload.py (Last Modified: 09/09/2020 03:01:53)
+              F -> upload_docs.py (Last Modified: 09/09/2020 03:01:53)
+            F -> config.py (Last Modified: 09/09/2020 03:01:52)
+            F -> dep_util.py (Last Modified: 09/09/2020 03:01:52)
+            F -> depends.py (Last Modified: 09/09/2020 03:01:52)
+            F -> dist.py (Last Modified: 09/09/2020 03:01:52)
+            F -> errors.py (Last Modified: 09/09/2020 03:01:52)
+            F -> extension.py (Last Modified: 09/09/2020 03:01:52)
+            D -> extern
+              F -> __init__.py (Last Modified: 09/09/2020 03:01:53)
+              D -> __pycache__
+                F -> __init__.cpython-38.pyc (Last Modified: 09/09/2020 03:01:53)
+            F -> glob.py (Last Modified: 09/09/2020 03:01:52)
+            F -> gui-32.exe (Last Modified: 09/09/2020 03:01:52)
+            F -> gui-64.exe (Last Modified: 09/09/2020 03:01:52)
+            F -> gui.exe (Last Modified: 09/09/2020 03:01:52)
+            F -> installer.py (Last Modified: 09/09/2020 03:01:52)
+            F -> launch.py (Last Modified: 09/09/2020 03:01:52)
+            F -> lib2to3_ex.py (Last Modified: 09/09/2020 03:01:52)
+            F -> monkey.py (Last Modified: 09/09/2020 03:01:52)
+            F -> msvc.py (Last Modified: 09/09/2020 03:01:52)
+            F -> namespaces.py (Last Modified: 09/09/2020 03:01:52)
+            F -> package_index.py (Last Modified: 09/09/2020 03:01:52)
+            F -> py34compat.py (Last Modified: 09/09/2020 03:01:52)
+            F -> sandbox.py (Last Modified: 09/09/2020 03:01:52)
+            F -> script (dev).tmpl (Last Modified: 09/09/2020 03:01:52)
+            F -> script.tmpl (Last Modified: 09/09/2020 03:01:52)
+            F -> ssl_support.py (Last Modified: 09/09/2020 03:01:52)
+            F -> unicode_utils.py (Last Modified: 09/09/2020 03:01:52)
+            F -> version.py (Last Modified: 09/09/2020 03:01:52)
+            F -> wheel.py (Last Modified: 09/09/2020 03:01:52)
+            F -> windows_support.py (Last Modified: 09/09/2020 03:01:52)
+          D -> setuptools-50.3.0.dist-info
+            F -> dependency_links.txt (Last Modified: 09/09/2020 03:01:53)
+            F -> entry_points.txt (Last Modified: 09/09/2020 03:01:53)
+            F -> INSTALLER (Last Modified: 09/09/2020 03:01:53)
+            F -> LICENSE (Last Modified: 09/09/2020 03:01:53)
+            F -> METADATA (Last Modified: 09/09/2020 03:01:53)
+            F -> RECORD (Last Modified: 09/09/2020 03:01:54)
+            F -> top_level.txt (Last Modified: 09/09/2020 03:01:53)
+            F -> WHEEL (Last Modified: 09/09/2020 03:01:53)
+            F -> zip-safe (Last Modified: 09/09/2020 03:01:53)
+      F -> pyvenv.cfg (Last Modified: 09/09/2020 03:01:35)
+      D -> Scripts
+        F -> activate (Last Modified: 09/09/2020 03:01:43)
+        F -> activate.bat (Last Modified: 09/09/2020 03:01:43)
+        F -> Activate.ps1 (Last Modified: 09/09/2020 03:01:43)
+        F -> deactivate.bat (Last Modified: 09/09/2020 03:01:43)
+        F -> easy_install-3.8.exe (Last Modified: 09/09/2020 03:01:53)
+        F -> easy_install.exe (Last Modified: 09/09/2020 03:01:53)
+        F -> pip.exe (Last Modified: 09/09/2020 03:01:58)
+        F -> pip3.8.exe (Last Modified: 09/09/2020 03:01:58)
+        F -> pip3.exe (Last Modified: 09/09/2020 03:01:58)
+        F -> python.exe (Last Modified: 09/09/2020 03:01:35)
+        F -> pythonw.exe (Last Modified: 09/09/2020 03:01:35)

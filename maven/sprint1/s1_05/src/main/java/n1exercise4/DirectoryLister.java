@@ -1,6 +1,6 @@
-package n1exercise2;
+package n1exercise4;
 
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class DirectoryLister {
@@ -8,13 +8,18 @@ public class DirectoryLister {
         Scanner scanner = new Scanner(System.in);
 
         if (args.length == 0) {
-            System.out.println("Enter the directory path you want to check:");
+            System.out.println("Enter the file path you want to check:");
             String path = scanner.nextLine();
 
+            DirectoryHandler directoryHandler = new DirectoryHandler();
+
             try {
-                DirectoryHandler directoryHandler = new DirectoryHandler();
-                directoryHandler.listFilesSorted(path);
-            } catch (FileNotFoundException e) {
+                if (path.endsWith(".txt")) {
+                    directoryHandler.displayTextFileContents(path);
+                } else {
+                    directoryHandler.listFilesSorted(path);
+                }
+            } catch (IOException e) {
                 System.err.println("Error: " + e.getMessage());
             }
 
@@ -25,3 +30,4 @@ public class DirectoryLister {
         scanner.close();
     }
 }
+
