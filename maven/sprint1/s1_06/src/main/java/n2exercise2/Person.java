@@ -1,4 +1,4 @@
-package n1exercise2;
+package n2exercise2;
 
 public class Person {
     private final String firstname;
@@ -13,10 +13,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "firstname='" + firstname + '\'' +
-                ", lastname='" + lastname + '\'' +
-                ", age=" + age +
-                '}';
+        return firstname + " " + lastname + ", Age: " + age;
     }
 }

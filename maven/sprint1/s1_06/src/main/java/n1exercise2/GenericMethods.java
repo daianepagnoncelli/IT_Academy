@@ -1,9 +1,9 @@
 package n1exercise2;
 
 public class GenericMethods {
-    public static <T, U, V> void printGeneric(T obj1, U obj2, V obj3) {
-        System.out.println("Object 1: " + obj1);
-        System.out.println("Object 2: " + obj2);
-        System.out.println("Object 3: " + obj3);
+    public static <T> void printGenericData(T one, T two, T three) {
+        System.out.println("Generic data one: " + one);
+        System.out.println("Generic data two: " + two);
+        System.out.println("Generic data three: " + three);
     }
 }

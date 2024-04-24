@@ -1,4 +1,4 @@
-package n1exercise2;
+package n2exercise1;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,3 +10,4 @@ public class Main {
         GenericMethods.printGenericData(intData, person1, stringData);
     }
 }
+
