@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         scanner = new Scanner(System.in);
-        FileHandler fileHandler = new FileHandler("C:\\itacademy\\maven\\sprint1\\s1_03\\src\\main\\java\\n1exercise3\\countries.txt");
+        FileHandler fileHandler = new FileHandler("src/main/java/n1exercise3/countries.txt");
 
         HashMap<String, String> countryCapitalMap = fileHandler.getCountryCapitalMap();
 

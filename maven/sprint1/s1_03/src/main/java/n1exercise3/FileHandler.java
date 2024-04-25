@@ -27,7 +27,7 @@ public class FileHandler {
     }
 
     public void saveResultsToFile(String userName, int score) {
-        try (PrintWriter writer = new PrintWriter(new FileWriter("C:\\itacademy\\maven\\sprint1\\s1_03\\src\\main\\java\\n1exercise3\\classificacio.txt", true))) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter("src/main/java/n1exercise3/classificacio.txt", true))) {
             writer.println(userName + "," + score);
         } catch (IOException e) {
             System.out.println("Error saving results to file: " + e.getMessage());

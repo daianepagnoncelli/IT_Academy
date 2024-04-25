@@ -12,7 +12,6 @@ public class Main {
         System.out.println("Original string: " + originalString);
         System.out.println("Reversed string: " + reversedString);
 
-        // Check if the result is correct
         String expectedReversedString = new StringBuilder(originalString).reverse().toString();
         System.out.println("Is the result correct? " + expectedReversedString.equals(reversedString));
     }
