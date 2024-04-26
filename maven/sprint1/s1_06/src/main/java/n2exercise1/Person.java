@@ -16,4 +16,3 @@ public class Person {
         return firstname + " " + lastname + ", Age: " + age;
     }
 }
-

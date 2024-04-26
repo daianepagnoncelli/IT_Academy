@@ -7,7 +7,6 @@ public class Main {
         int intData = 242;
 
         GenericMethods.printGenericData(person1, stringData, intData);
-        GenericMethods.printGenericData(intData, person1, stringData);
     }
 }
 
