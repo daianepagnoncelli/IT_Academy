@@ -1,7 +1,8 @@
 package n2exercise2;
 
+import java.util.Objects;
 
-public class Restaurant {
+public class Restaurant implements Comparable<Restaurant> {
 
     private final String name;
     private final int score;
@@ -11,25 +12,34 @@ public class Restaurant {
         this.score = score;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getScore() {
-        return score;
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        Restaurant other = (Restaurant) obj;
+        return name.equals(other.name) && score == other.score;
     }
 
     @Override
     public int hashCode() {
-        return name.hashCode() + Integer.hashCode(score);
+        return Objects.hash(name, score);
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || getClass() != obj.getClass()) return false;
-        Restaurant restaurant = (Restaurant) obj;
-        return score == restaurant.score &&
-                name.equals(restaurant.name);
+    public int compareTo(Restaurant other) {
+        int nameComparison = name.compareTo(other.name);
+        if (nameComparison != 0) {
+            return nameComparison; // Sort by name first
+        }
+        return score - other.score; // Then by score (ascending)
+    }
+
+    @Override
+    public String toString() {
+        return "name: " + name + ", score: " + score;
     }
 }

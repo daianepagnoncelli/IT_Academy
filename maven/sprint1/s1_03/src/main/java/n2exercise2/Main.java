@@ -1,19 +1,48 @@
 package n2exercise2;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
-        HashSet<Restaurant> restaurantSet = new HashSet<>();
-
-        restaurantSet.add(new Restaurant("Restaurant B", 3));
-        restaurantSet.add(new Restaurant("Restaurant A", 4));
-        restaurantSet.add(new Restaurant("Restaurant A", 4));
-
+        Scanner scanner = new Scanner(System.in);
         RestaurantManager manager = new RestaurantManager();
-        manager.displayRestaurantsSortedByName(restaurantSet);
-        manager.displayRestaurantsSortedByScore(restaurantSet);
+
+        manager.addRestaurant("Pizza Paradise", 5);
+        manager.addRestaurant("Burger Bistro", 4);
+        manager.addRestaurant("Sushi Symphony", 3);
+        manager.addRestaurant("Taco Temple", 5);
+        manager.addRestaurant("Noodle Nirvana", 4);
+
+        while (true) {
+            System.out.println("\nChoose sorting order:");
+            System.out.println("1. Sort by name");
+            System.out.println("2. Sort by score");
+            System.out.print("Enter your choice (1 or 2): ");
+
+            int choice = scanner.nextInt();
+            scanner.nextLine(); // Consume newline character after integer input
+
+            if (choice == 1) {
+                manager.printRestaurantsByName();
+            } else if (choice == 2) {
+                manager.printRestaurantsByScore();
+            } else {
+                System.out.println("Invalid choice. Please enter 1 or 2.");
+            }
+
+            System.out.print("\nDo you want to sort again? (yes/no): ");
+            String answer = scanner.nextLine().toLowerCase();
+            if (!answer.equals("yes")) {
+                break;
+            }
+        }
+
+        scanner.close();
     }
 }
+
+
+
 
 

@@ -13,7 +13,7 @@ public class OnlineWorker extends Worker {
     }
 
     @Deprecated
-    public void oldMethod() {
-
+    public void calculateBonus(double amount) {
+        System.out.println("Calculating bonus for Online Worker: $" + amount);
     }
 }
