@@ -33,9 +33,9 @@ public class Restaurant implements Comparable<Restaurant> {
     public int compareTo(Restaurant other) {
         int nameComparison = name.compareTo(other.name);
         if (nameComparison != 0) {
-            return nameComparison; // Sort by name first
+            return nameComparison;
         }
-        return score - other.score; // Then by score (ascending)
+        return score - other.score;
     }
 
     @Override

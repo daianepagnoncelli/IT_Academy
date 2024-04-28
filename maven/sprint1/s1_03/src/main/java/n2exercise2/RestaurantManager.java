@@ -24,7 +24,8 @@ public class RestaurantManager {
 
     public void printRestaurantsByScore() {
         TreeSet<Restaurant> sortedRestaurants = new TreeSet<>(restaurants);
-        for (Restaurant restaurant : sortedRestaurants) {
+        sortedRestaurants.addAll(restaurants);
+        for (Restaurant restaurant : sortedRestaurants.descendingSet()) {
             System.out.println(restaurant);
         }
     }

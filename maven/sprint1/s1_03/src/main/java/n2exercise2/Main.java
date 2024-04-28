@@ -10,7 +10,6 @@ public class Main {
 
         manager.addRestaurant("Pizza Paradise", 5);
         manager.addRestaurant("Burger Bistro", 4);
-        manager.addRestaurant("Sushi Symphony", 3);
         manager.addRestaurant("Taco Temple", 5);
         manager.addRestaurant("Noodle Nirvana", 4);
 
@@ -21,7 +20,7 @@ public class Main {
             System.out.print("Enter your choice (1 or 2): ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline character after integer input
+            scanner.nextLine();
 
             if (choice == 1) {
                 manager.printRestaurantsByName();
@@ -31,9 +30,9 @@ public class Main {
                 System.out.println("Invalid choice. Please enter 1 or 2.");
             }
 
-            System.out.print("\nDo you want to sort again? (yes/no): ");
+            System.out.print("\nDo you want to sort again? (y/n): ");
             String answer = scanner.nextLine().toLowerCase();
-            if (!answer.equals("yes")) {
+            if (!answer.equals("y")) {
                 break;
             }
         }
