@@ -1,3 +1,5 @@
+CREATE DATABASE  `opticsdb`;
+USE `opticsdb`;
 
 -- -----------------------------------------------------
 -- Table `opticsdb`.`Suppliers`
