@@ -1,10 +1,18 @@
 CREATE DATABASE  `pizzeriadb`;
 USE `pizzeriadb`;
 
+-- -----------------------------------------------------
+-- Table `pizzeriadb`.`Provinces`
+-- -----------------------------------------------------
+
 CREATE TABLE Provinces (
     province_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100)
 );
+
+-- -----------------------------------------------------
+-- Table `pizzeriadb`.`Localities`
+-- -----------------------------------------------------
 
 CREATE TABLE Localities (
     locality_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -12,6 +20,10 @@ CREATE TABLE Localities (
     province_id INT,
     FOREIGN KEY (province_id) REFERENCES Provinces(province_id)
 );
+
+-- -----------------------------------------------------
+-- Table `pizzeriadb`.`Customers`
+-- -----------------------------------------------------
 
 CREATE TABLE Customers (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -24,10 +36,18 @@ CREATE TABLE Customers (
     FOREIGN KEY (locality_id) REFERENCES Localities(locality_id)
 );
 
+-- -----------------------------------------------------
+-- Table `pizzeriadb`.`Categories`
+-- -----------------------------------------------------
+
 CREATE TABLE Categories (
     category_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100)
 );
+
+-- -----------------------------------------------------
+-- Table `pizzeriadb`.`Products`
+-- -----------------------------------------------------
 
 CREATE TABLE Products (
     product_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -39,6 +59,10 @@ CREATE TABLE Products (
     FOREIGN KEY (category_id) REFERENCES Categories(category_id)
 );
 
+-- -----------------------------------------------------
+-- Table `pizzeriadb`.`Stores`
+-- -----------------------------------------------------
+
 CREATE TABLE Stores (
     store_id INT AUTO_INCREMENT PRIMARY KEY,
     address VARCHAR(255),
@@ -46,6 +70,10 @@ CREATE TABLE Stores (
     locality_id INT,
     FOREIGN KEY (locality_id) REFERENCES Localities(locality_id)
 );
+
+-- -----------------------------------------------------
+-- Table `pizzeriadb`.`Employees`
+-- -----------------------------------------------------
 
 CREATE TABLE Employees (
     employee_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -58,6 +86,10 @@ CREATE TABLE Employees (
     FOREIGN KEY (store_id) REFERENCES Stores(store_id)
 );
 
+-- -----------------------------------------------------
+-- Table `pizzeriadb`.`Orders`
+-- -----------------------------------------------------
+
 CREATE TABLE Orders (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
     customer_id INT,
@@ -69,6 +101,10 @@ CREATE TABLE Orders (
     FOREIGN KEY (employee_id) REFERENCES Employees(employee_id)
 );
 
+-- -----------------------------------------------------
+-- Table `pizzeriadb`.`OrderDetails`
+-- -----------------------------------------------------
+
 CREATE TABLE OrderDetails (
     order_detail_id INT AUTO_INCREMENT PRIMARY KEY,
     order_id INT,
@@ -77,6 +113,10 @@ CREATE TABLE OrderDetails (
     FOREIGN KEY (order_id) REFERENCES Orders(order_id),
     FOREIGN KEY (product_id) REFERENCES Products(product_id)
 );
+
+-- -----------------------------------------------------
+-- Table `pizzeriadb`.`Deliveries`
+-- -----------------------------------------------------
 
 CREATE TABLE Deliveries (
     delivery_id INT AUTO_INCREMENT PRIMARY KEY,
