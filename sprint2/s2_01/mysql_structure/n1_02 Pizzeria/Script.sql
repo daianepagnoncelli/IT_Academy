@@ -1,3 +1,6 @@
+CREATE DATABASE  `pizzeriadb`;
+USE `pizzeriadb`;
+
 CREATE TABLE Provinces (
     province_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100)
