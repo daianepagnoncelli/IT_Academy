@@ -1,7 +1,3 @@
--- -----------------------------------------------------
--- Schema opticsdb
--- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `opticsdb` DEFAULT CHARACTER SET utf8 ;
 
 -- -----------------------------------------------------
 -- Table `opticsdb`.`Suppliers`
