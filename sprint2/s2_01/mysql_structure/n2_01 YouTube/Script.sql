@@ -1,3 +1,9 @@
+CREATE DATABASE  `youtubedb`;
+USE `youtubedb`;
+
+-- -----------------------------------------------------
+-- Table `youtubedb`.`Users`
+-- -----------------------------------------------------
 CREATE TABLE Users (
     user_id INT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(255),
@@ -8,6 +14,10 @@ CREATE TABLE Users (
     country VARCHAR(100),
     postal_code VARCHAR(20)
 );
+
+-- -----------------------------------------------------
+-- Table `youtubedb`.`Videos`
+-- -----------------------------------------------------
 CREATE TABLE Videos (
     video_id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255),
@@ -24,10 +34,18 @@ CREATE TABLE Videos (
     publish_datetime DATETIME,
     FOREIGN KEY (user_id) REFERENCES Users(user_id)
 );
-	CREATE TABLE Tags (
+
+-- -----------------------------------------------------
+-- Table `youtubedb`.`Tags`
+-- -----------------------------------------------------
+CREATE TABLE Tags (
     tag_id INT AUTO_INCREMENT PRIMARY KEY,
     tag_name VARCHAR(100)
 );
+
+-- -----------------------------------------------------
+-- Table `youtubedb`.`VideoTags`
+-- -----------------------------------------------------
 CREATE TABLE VideoTags (
     video_id INT,
     tag_id INT,
@@ -35,6 +53,10 @@ CREATE TABLE VideoTags (
     FOREIGN KEY (video_id) REFERENCES Videos(video_id),
     FOREIGN KEY (tag_id) REFERENCES Tags(tag_id)
 );
+
+-- -----------------------------------------------------
+-- Table `youtubedb`.`Channels`
+-- -----------------------------------------------------
 CREATE TABLE Channels (
     channel_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255),
@@ -43,6 +65,10 @@ CREATE TABLE Channels (
     user_id INT,
     FOREIGN KEY (user_id) REFERENCES Users(user_id)
 );
+
+-- -----------------------------------------------------
+-- Table `youtubedb`.`Subscriptions`
+-- -----------------------------------------------------
 CREATE TABLE Subscriptions (
     subscription_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT,
@@ -51,6 +77,10 @@ CREATE TABLE Subscriptions (
     FOREIGN KEY (user_id) REFERENCES Users(user_id),
     FOREIGN KEY (channel_id) REFERENCES Channels(channel_id)
 );
+
+-- -----------------------------------------------------
+-- Table `youtubedb`.`Comments`
+-- -----------------------------------------------------
 CREATE TABLE Comments (
     comment_id INT AUTO_INCREMENT PRIMARY KEY,
     text TEXT,
@@ -60,6 +90,10 @@ CREATE TABLE Comments (
     FOREIGN KEY (user_id) REFERENCES Users(user_id),
     FOREIGN KEY (video_id) REFERENCES Videos(video_id)
 );
+
+-- -----------------------------------------------------
+-- Table `youtubedb`.`CommentReactions`
+-- -----------------------------------------------------
 CREATE TABLE CommentReactions (
     reaction_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT,
