@@ -61,7 +61,6 @@ db.restaurants.find({ "address.street": { $exists: false } });
 db.Restaurante.find( { 'address.coord' : { $type : 'double'}});
 //30.Write a query that will select the restaurant_id, name, and grade for those restaurants that return 0 as the remainder after dividing the score by 7.
 db.Restaurante.find({ 'grades.score' : { $mod: [7, 0] } }, { restaurant_id: 1, name: 1, grades: 1, _id: 0 });
-
 //31.Write a query to find the restaurant name, borough, longitude and altitude and cook for those restaurants that contain 'mon' as three letters somewhere in their name.
 db.Restaurante.find({ name: /mon/ }, { name: 1, borough: 1, 'address.coord': 1, cuisine: 1, _id: 0 });
 //32.Write a query to find the restaurant name, borough, longitude and latitude and cook for those restaurants that contain 'Mad' as the first three letters of their name.
