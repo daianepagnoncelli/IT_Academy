@@ -103,3 +103,54 @@ CREATE TABLE CommentReactions (
     FOREIGN KEY (user_id) REFERENCES Users(user_id),
     FOREIGN KEY (comment_id) REFERENCES Comments(comment_id)
 );
+
+-- -----------------------------------------------------
+-- Table `youtubedb`.`Playlists`
+-- -----------------------------------------------------
+CREATE TABLE Playlists (
+    playlist_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    creation_date DATE,
+    status ENUM('public', 'private'),
+    user_id INT,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id)
+);
+
+-- -----------------------------------------------------
+-- Table `youtubedb`.`PlaylistVideos`
+-- -----------------------------------------------------
+CREATE TABLE PlaylistVideos (
+    playlist_id INT,
+    video_id INT,
+    added_by_user_id INT,
+    added_date DATETIME,
+    PRIMARY KEY (playlist_id, video_id),
+    FOREIGN KEY (playlist_id) REFERENCES Playlists(playlist_id),
+    FOREIGN KEY (video_id) REFERENCES Videos(video_id),
+    FOREIGN KEY (added_by_user_id) REFERENCES Users(user_id)
+);
+
+-- -----------------------------------------------------
+-- Table `youtubedb`.`VideoReactions`
+-- -----------------------------------------------------
+CREATE TABLE VideoReactions (
+    reaction_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    video_id INT,
+    reaction ENUM('like', 'dislike'),
+    reaction_datetime DATETIME,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id),
+    FOREIGN KEY (video_id) REFERENCES Videos(video_id)
+);
+
+-- -----------------------------------------------------
+-- Table `youtubedb`.`UserFavorites`
+-- -----------------------------------------------------
+CREATE TABLE UserFavorites (
+    favorite_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    video_id INT,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id),
+    FOREIGN KEY (video_id) REFERENCES Videos(video_id)
+);
+
