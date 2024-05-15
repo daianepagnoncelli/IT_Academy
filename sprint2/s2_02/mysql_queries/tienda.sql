@@ -5,7 +5,7 @@ SELECT nombre, precio FROM producto;
 -- 3. 
 SELECT * FROM producto;
 -- 4. 
-SELECT nombre AS "nombre de producto", precio AS "euros", precio * 1.18 AS "dólares" FROM producto;
+SELECT nombre, precio, precio * 1.18 AS "dólares" FROM producto;
 --->5. 
 SELECT nombre AS "nombre de producto", precio AS "euros", precio * 1.18 AS "dólares" FROM producto;
 -- 6. 
@@ -19,7 +19,7 @@ SELECT nombre, ROUND(precio) FROM producto;
 -- 10. 
 SELECT nombre, TRUNCATE(precio, 0) FROM producto;
 -- 11. 
-SELECT DISTINCT p.codigo_fabricante FROM producto p;
+SELECT p.codigo_fabricante FROM producto p;
 ---> 12. 
 SELECT DISTINCT p.codigo_fabricante FROM producto p;
 -- 13. 
