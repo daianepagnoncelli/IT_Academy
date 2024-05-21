@@ -1,5 +1,6 @@
 package itacademy_delivery;
 
+import java.text.DecimalFormat;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger; //ID autoincremental
 
@@ -13,9 +14,11 @@ public class Pedido {
     private boolean entregado;
 
     public Pedido(Cliente cliente, List<Producto> productos, Repartidor repartidor) {
+
         if (cliente == null || productos == null || productos.isEmpty()) {
             throw new IllegalArgumentException("El pedido debe tener un cliente y al menos un producto.");
         }
+
         this.id = contador.incrementAndGet();
         this.cliente = cliente;
         this.productos = productos;
@@ -43,6 +46,7 @@ public class Pedido {
     }
 
     public void mostrarDetalles() {
+        System.out.println("*******************************");
         System.out.println("Pedido ID: " + id);
         System.out.println("Cliente: " + cliente.getNombre() );
         System.out.println("Dirección: " + cliente.getDireccion());
@@ -52,7 +56,8 @@ public class Pedido {
             System.out.println("- " + producto.getNombre() + ": " + producto.getPrecio() + "€");
             producto.mostrarRegalo();
         }
-        System.out.println("Total: " + calcularTotal() + "€");
+        DecimalFormat df = new DecimalFormat("#.00");
+        System.out.println("Total: " + df.format(calcularTotal()) + "€");
         System.out.println("*******************************");
     }
 }
