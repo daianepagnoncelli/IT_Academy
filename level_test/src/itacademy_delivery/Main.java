@@ -30,11 +30,10 @@ public class Main {
                 opcion = scanner.nextInt();
             } catch (InputMismatchException e) {
                 System.out.println("Entrada no válida. Por favor, ingrese un número.");
-                scanner.next(); // Consumir la entrada no válida
+                scanner.next();
                 continue;
             }
-            scanner.nextLine();  // Consumir el salto de línea
-
+            scanner.nextLine();
 
             switch (opcion) {
                 case 1:
