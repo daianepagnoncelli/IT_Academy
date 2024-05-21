@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+import java.util.InputMismatchException;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,8 +24,17 @@ public class Main {
             System.out.println("4. Listar pedidos entregados");
             System.out.println("5. Salir");
             System.out.print("\nSeleccione una opción: ");
-            int opcion = scanner.nextInt();
-            scanner.nextLine();
+
+            int opcion = -1;
+            try {
+                opcion = scanner.nextInt();
+            } catch (InputMismatchException e) {
+                System.out.println("Entrada no válida. Por favor, ingrese un número.");
+                scanner.next(); // Consumir la entrada no válida
+                continue;
+            }
+            scanner.nextLine();  // Consumir el salto de línea
+
 
             switch (opcion) {
                 case 1:
@@ -72,8 +82,16 @@ public class Main {
             System.out.println("3. Kebab - 4.5€");
             System.out.println("4. Pizza - 7.9€");
             System.out.print("Ingrese el número del producto: ");
-            int productoOpcion = scanner.nextInt();
-            scanner.nextLine();
+
+            int productoOpcion = -1;
+            try {
+                productoOpcion = scanner.nextInt();
+                scanner.nextLine();
+            } catch (InputMismatchException e) {
+                System.out.println("Opción no válida. Por favor, ingrese un número.");
+                scanner.nextLine();
+                continue;
+            }
 
             Producto producto = null;
             switch (productoOpcion) {
