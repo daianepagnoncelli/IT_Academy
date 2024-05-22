@@ -5,12 +5,12 @@ SELECT nombre, apellido1, apellido2 FROM persona WHERE telefono IS NULL;
 -- 3. 
 SELECT * FROM persona WHERE YEAR(fecha_nacimiento) = 1999;
 -- 4. 
-SELECT * FROM profesor WHERE telefono IS NULL AND nif LIKE '%K';
+SELECT * FROM universidad.persona WHERE persona.tipo LIKE "profesor" AND persona.telefono IS NULL AND SUBSTRING(persona.nif, -1) LIKE "K";
 -- 5. 
-SELECT nombre FROM asignatura WHERE cuadrimestre = 1 AND curso = 3 AND id_grado = 7;
+SELECT * FROM universidad.asignatura WHERE cuatrimestre = 1 AND curso = 3 AND id_grado = 7;
 -- 6. 
-SELECT p.apellido1, p.apellido2, p.nombre, d.nombre AS departamento FROM profesor pr JOIN persona p ON pr.id_profesor = p.id JOIN departamento d ON pr.id_departamento = d.id ORDER BY p.apellido1, p.apellido2, p.nombre;
--- 7. 
+SELECT persona.apellido1, persona.apellido2, persona.nombre, departamento.nombre FROM persona INNER JOIN profesor ON persona.id=id_profesor JOIN departamento ON profesor.id_departamento=departamento.id ORDER BY persona.apellido1 ASC, persona.apellido2 ASC, persona.nombre ASC;
+-- 7. aqui
 SELECT a.nombre, ce.anyo_inicio, ce.anyo_fin FROM alumno_se_matricula_asignatura asm JOIN asignatura a ON asm.id_asignatura = a.id JOIN curso_escolar ce ON asm.id_curso_escolar = ce.id JOIN persona p ON asm.id_alumno = p.id WHERE p.nif = '26902806M';
 -- 8. 
 SELECT DISTINCT d.nombre FROM departamento d JOIN profesor p ON d.id = p.id_departamento JOIN asignatura a ON p.id_profesor = a.id_profesor JOIN grado g ON a.id_grado = g.id WHERE g.nombre = 'Ingeniería Informática' AND g.plan = '2015';
