@@ -10,12 +10,14 @@ SELECT * FROM universidad.persona WHERE persona.tipo LIKE "profesor" AND persona
 SELECT * FROM universidad.asignatura WHERE cuatrimestre = 1 AND curso = 3 AND id_grado = 7;
 -- 6. 
 SELECT persona.apellido1, persona.apellido2, persona.nombre, departamento.nombre FROM persona INNER JOIN profesor ON persona.id=id_profesor JOIN departamento ON profesor.id_departamento=departamento.id ORDER BY persona.apellido1 ASC, persona.apellido2 ASC, persona.nombre ASC;
--- 7. aqui
-SELECT a.nombre, ce.anyo_inicio, ce.anyo_fin FROM alumno_se_matricula_asignatura asm JOIN asignatura a ON asm.id_asignatura = a.id JOIN curso_escolar ce ON asm.id_curso_escolar = ce.id JOIN persona p ON asm.id_alumno = p.id WHERE p.nif = '26902806M';
+-- 7. 
+SELECT asignatura.nombre, curso_escolar.anyo_inicio, curso_escolar.anyo_fin FROM curso_escolar INNER JOIN asignatura ON curso_escolar.id=asignatura.curso JOIN alumno_se_matricula_asignatura ON asignatura.id=alumno_se_matricula_asignatura.id_asignatura JOIN persona ON alumno_se_matricula_asignatura.id_alumno=persona.id WHERE persona.nif LIKE "26902806M";
 -- 8. 
 SELECT DISTINCT d.nombre FROM departamento d JOIN profesor p ON d.id = p.id_departamento JOIN asignatura a ON p.id_profesor = a.id_profesor JOIN grado g ON a.id_grado = g.id WHERE g.nombre = 'Ingeniería Informática' AND g.plan = '2015';
 -- 9. 
 SELECT DISTINCT p.* FROM persona p JOIN alumno_se_matricula_asignatura asm ON p.id = asm.id_alumno JOIN curso_escolar ce ON asm.id_curso_escolar = ce.id WHERE ce.anyo_inicio = 2018 AND ce.anyo_fin = 2019;
+SELECT DISTINCT persona.* FROM universidad.persona INNER JOIN alumno_se_matricula_asignatura ON persona.id=alumno_se_matricula_asignatura.id_alumno JOIN asignatura ON alumno_se_matricula_asignatura.id_asignatura=asignatura.id JOIN curso_escolar ON asignatura.curso=curso_escolar.id WHERE anyo_inicio=2018 AND anyo_fin=2019;
+
 
 -- Resuelve las 6 siguientes consultas utilizando las cláusulas LEFT JOIN y RIGHT JOIN.
 -- 1. 
