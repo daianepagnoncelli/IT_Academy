@@ -30,7 +30,7 @@ INSERT INTO `sellers` (`name`) VALUES
 ('Obi-Wan Kenobi'),
 ('Yoda'),
 ('Darth Vader'),
-('Lea');
+('Leia');
 
 -- Insert data into `purchases`
 INSERT INTO `purchases` (`idCustomer`, `idGlasses`, `idSeller`, `purchaseDate`) VALUES
