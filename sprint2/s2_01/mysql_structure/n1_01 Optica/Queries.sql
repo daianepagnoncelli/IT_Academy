@@ -14,7 +14,7 @@ SELECT DISTINCT glasses.*
 FROM opticsdb.purchases
 INNER JOIN opticsdb.glasses ON purchases.idGlasses = glasses.glassesId
 JOIN opticsdb.sellers ON purchases.idSeller = sellers.sellerId
-WHERE sellers.name = 'Peter' AND purchases.purchaseDate BETWEEN '2024-01-01' AND '2024-12-31';
+WHERE sellers.name = 'Lea' AND purchases.purchaseDate BETWEEN '2024-01-01' AND '2024-12-31';
 
 
 -- Lista a los diferentes proveedores que han suministrado gafas vendidas con éxito por la óptica.
