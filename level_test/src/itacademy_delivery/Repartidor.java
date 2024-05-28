@@ -34,13 +34,10 @@ public class Repartidor {
     }
 
     public double calcularCostoAdicional() {
-        switch (metodo) {
-            case BICICLETA:
-                return 0.01;
-            case MOTO:
-                return 0.02;
-            default:
-                return 0.0;
-        }
+        return switch (metodo) {
+            case BICICLETA -> 0.01;
+            case MOTO -> 0.02;
+            default -> 0.0;
+        };
     }
 }
