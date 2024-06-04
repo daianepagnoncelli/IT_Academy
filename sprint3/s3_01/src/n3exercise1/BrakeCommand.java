@@ -1,7 +1,7 @@
 package n3exercise1;
 
 public class BrakeCommand implements Command {
-    private Vehicle vehicle;
+    private final Vehicle vehicle;
 
     public BrakeCommand(Vehicle vehicle) {
         this.vehicle = vehicle;

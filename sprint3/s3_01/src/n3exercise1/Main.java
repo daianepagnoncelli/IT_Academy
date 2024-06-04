@@ -25,22 +25,18 @@ public class Main {
 
         ListCommand listCommand = new ListCommand();
 
-        // Car commands
         listCommand.addCommand(startCar);
         listCommand.addCommand(accelerateCar);
         listCommand.addCommand(brakeCar);
 
-        // Bicycle commands
         listCommand.addCommand(startBicycle);
         listCommand.addCommand(accelerateBicycle);
         listCommand.addCommand(brakeBicycle);
 
-        // Plane commands
         listCommand.addCommand(startPlane);
         listCommand.addCommand(acceleratePlane);
         listCommand.addCommand(brakePlane);
 
-        // Boat commands
         listCommand.addCommand(startBoat);
         listCommand.addCommand(accelerateBoat);
         listCommand.addCommand(brakeBoat);
