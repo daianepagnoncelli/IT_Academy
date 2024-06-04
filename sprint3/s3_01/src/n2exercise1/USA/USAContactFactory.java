@@ -1,4 +1,8 @@
-package n2exercise1;
+package n2exercise1.USA;
+
+import n2exercise1.Address;
+import n2exercise1.ContactFactory;
+import n2exercise1.PhoneNumber;
 
 public class USAContactFactory implements ContactFactory {
     @Override

@@ -1,4 +1,6 @@
-package n2exercise1;
+package n2exercise1.UK;
+
+import n2exercise1.*;
 
 public class UKContactFactory implements ContactFactory {
     @Override

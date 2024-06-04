@@ -1,4 +1,6 @@
-package n2exercise1;
+package n2exercise1.UK;
+
+import n2exercise1.PhoneNumber;
 
 public class UKPhoneNumber implements PhoneNumber {
     private final String phoneNumber;

@@ -1,4 +1,6 @@
-package n2exercise1;
+package n2exercise1.USA;
+
+import n2exercise1.Address;
 
 public class USAAddress implements Address {
     private final String street;

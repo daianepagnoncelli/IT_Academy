@@ -1,4 +1,6 @@
-package n3exercise1;
+package n3exercise1.transport;
+
+import n3exercise1.Vehicle;
 
 public class Car implements Vehicle {
     @Override

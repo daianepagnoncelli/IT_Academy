@@ -1,5 +1,8 @@
 package n2exercise1;
 
+import n2exercise1.UK.UKContactFactory;
+import n2exercise1.USA.USAContactFactory;
+
 import java.util.Scanner;
 
 public class Main {

@@ -1,10 +1,12 @@
-package n3exercise1;
+package n3exercise1.command;
+
+import n3exercise1.Command;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ListCommand {
-    private List<Command> commands = new ArrayList<>();
+    private final List<Command> commands = new ArrayList<>();
 
     public void addCommand(Command command) {
         commands.add(command);

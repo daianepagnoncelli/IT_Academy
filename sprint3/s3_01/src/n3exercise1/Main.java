@@ -1,5 +1,14 @@
 package n3exercise1;
 
+import n3exercise1.command.AccelerateCommand;
+import n3exercise1.command.BrakeCommand;
+import n3exercise1.command.ListCommand;
+import n3exercise1.command.StartCommand;
+import n3exercise1.transport.Bicycle;
+import n3exercise1.transport.Boat;
+import n3exercise1.transport.Car;
+import n3exercise1.transport.Plane;
+
 public class Main {
     public static void main(String[] args) {
         Vehicle car = new Car();
@@ -25,22 +34,18 @@ public class Main {
 
         ListCommand listCommand = new ListCommand();
 
-        // Car commands
         listCommand.addCommand(startCar);
         listCommand.addCommand(accelerateCar);
         listCommand.addCommand(brakeCar);
 
-        // Bicycle commands
         listCommand.addCommand(startBicycle);
         listCommand.addCommand(accelerateBicycle);
         listCommand.addCommand(brakeBicycle);
 
-        // Plane commands
         listCommand.addCommand(startPlane);
         listCommand.addCommand(acceleratePlane);
         listCommand.addCommand(brakePlane);
 
-        // Boat commands
         listCommand.addCommand(startBoat);
         listCommand.addCommand(accelerateBoat);
         listCommand.addCommand(brakeBoat);
