@@ -52,7 +52,7 @@ public class AppTools {
                     }
                     break;
                 case 0:
-                    System.out.println("Aloha!");
+                    System.out.println("Bye-Bye");
                     break;
                 default:
                     System.out.println("Invalid option. Please select again.");
@@ -72,14 +72,17 @@ public class AppTools {
         }
     }
 
-
     public static String inputString(String message) {
-        String userInput;
-        do {
+        String userInput = "";
+        while (userInput.isEmpty()) {
             System.out.println(message);
-            userInput = scanner.nextLine();
-        } while (userInput.isEmpty());
+            userInput = scanner.nextLine().trim();
+            if (userInput.isEmpty()) {
+                System.err.println("Input cannot be empty. Please enter a valid string.");
+            }
+        }
         return userInput;
     }
 }
+
 
