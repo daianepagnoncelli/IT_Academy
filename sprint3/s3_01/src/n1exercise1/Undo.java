@@ -8,7 +8,7 @@ public class Undo {
     private static Undo instance;
 
     // List to store the commands
-    private List<String> commands;
+    private final List<String> commands;
 
     // Private constructor to restrict instantiation from other classes
     private Undo() {
