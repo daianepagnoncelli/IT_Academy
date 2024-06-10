@@ -3,45 +3,41 @@ package n1exercise1;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class Undo {
-
+public class Undo {
+    // Private static instance of the same class
     private static Undo instance;
-    private final List<String> commands;
 
+    // List to store the commands
+    private List<String> commands;
+
+    // Private constructor to restrict instantiation from other classes
     private Undo() {
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            System.err.println("Error during initialization: " + e.getMessage());
-        }
-        this.commands = new ArrayList<>();
+        commands = new ArrayList<>();
     }
 
-    public static synchronized Undo getInstance() {
+    // Public static method to provide access to the instance
+    public static Undo getInstance() {
         if (instance == null) {
             instance = new Undo();
         }
         return instance;
     }
 
+    // Method to add a command
     public void addCommand(String command) {
-        this.commands.add(command);
+        commands.add(command);
     }
 
-    public boolean removeCommand(String command) {
-        return this.commands.remove(command);
-    }
-
-    public void removeLastCommand() {
+    // Method to remove the last command
+    public void removeCommand() {
         if (!commands.isEmpty()) {
             commands.remove(commands.size() - 1);
         }
     }
 
-    public List<String> getCommands() {
-        return this.commands;
+    // Method to list all commands
+    public List<String> listCommands() {
+        return new ArrayList<>(commands);
     }
 }
-
-
 
