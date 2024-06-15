@@ -19,6 +19,7 @@ public class BRAddress implements IAddress {
         if (!doorNumber.isEmpty()) addressString.append(", ").append(doorNumber);
         addressString.append(", ").append(cityTown).append(", ").append(province).append(", ").append(postCode).append("\n");
         return addressString.toString();
+
     }
 }
 
