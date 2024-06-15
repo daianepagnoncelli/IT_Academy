@@ -2,12 +2,12 @@ package com.deliveryapp.model.product;
 
 public class Kebab extends Product {
     public Kebab() {
-        super("Kebab", 5.0);
+        super("Kebab", 4.5);
     }
 
     @Override
     public void showGift() {
-        System.out.println("  -> Free gift: Extra Tzatziki");
+        System.out.println("  -> NO GIFT");
     }
 }
 

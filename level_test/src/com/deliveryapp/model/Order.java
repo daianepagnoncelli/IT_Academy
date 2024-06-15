@@ -12,17 +12,17 @@ public class Order {
     private final int id;
     private final Customer customer;
     private final List<Product> products;
-    private final DeliveryPerson deliveryPerson;
+    private final DeliveryPerson deliveryGuy;
     private boolean delivered;
 
-    public Order(Customer customer, List<Product> products, DeliveryPerson deliveryPerson) {
+    public Order(Customer customer, List<Product> products, DeliveryPerson deliveryGuy) {
         if (customer == null || products == null || products.isEmpty()) {
             throw new IllegalArgumentException("The order must have a customer and at least one product.");
         }
         this.id = counter.incrementAndGet();
         this.customer = customer;
         this.products = products;
-        this.deliveryPerson = deliveryPerson;
+        this.deliveryGuy = deliveryGuy;
         this.delivered = false;
     }
 
@@ -39,13 +39,20 @@ public class Order {
     }
 
     public DeliveryPerson getDeliveryPerson() {
-        return deliveryPerson;
+        return deliveryGuy;
     }
 
     public double calculateTotal() {
         double total = products.stream().mapToDouble(Product::getPrice).sum();
-        double additionalCost = total * deliveryPerson.calculateAdditionalCost();
+        double additionalCost = total * calculateAdditionalCost();
         return total + additionalCost;
+    }
+
+    public double calculateAdditionalCost() {
+        return switch (deliveryGuy) {
+            case NICO, JAYDEN -> 0.02;
+            case TIAGO -> 0.01;
+        };
     }
 
     public void showDetails() {
@@ -53,8 +60,8 @@ public class Order {
         System.out.println("Order ID: " + id);
         System.out.println("Customer: " + customer.getName());
         System.out.println("Address: " + customer.getAddress());
-        System.out.println("Delivery Person: " + deliveryPerson.getName() + " (" + deliveryPerson.getMethod() + ")");
-        System.out.println("Products:");
+        System.out.println("Delivery Person: " + deliveryGuy.getName());
+        System.out.println("Products:        ");
         for (Product product : products) {
             System.out.println("- " + product.getName() + ": " + product.getPrice() + "€");
             product.showGift();
@@ -64,4 +71,3 @@ public class Order {
         System.out.println("*******************************");
     }
 }
-

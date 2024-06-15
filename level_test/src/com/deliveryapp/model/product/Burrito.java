@@ -7,6 +7,6 @@ public class Burrito extends Product {
 
     @Override
     public void showGift() {
-        System.out.println("  -> Free gift: Hot Sauce");
+        System.out.println("  -> Free gift: Pin");
     }
 }

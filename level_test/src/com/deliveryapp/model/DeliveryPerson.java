@@ -1,20 +1,21 @@
 package com.deliveryapp.model;
 
-public class DeliveryPerson {
-    public enum Method {
-        BICYCLE,
-        MOTORCYCLE,
-        ON_FOOT
-    }
+import com.deliveryapp.exception.NoDeliveryPersonAvailableException;
+
+import java.util.Optional;
+import java.util.stream.Stream;
+
+public enum DeliveryPerson {
+    NICO("Nico", true),
+    JAYDEN("Jayden", true),
+    TIAGO("Tiago", true);
 
     private final String name;
     private boolean available;
-    private final Method method;
 
-    public DeliveryPerson(String name, Method method) {
+    DeliveryPerson(String name, boolean available) {
         this.name = name;
-        this.method = method;
-        this.available = true;
+        this.available = available;
     }
 
     public String getName() {
@@ -29,16 +30,12 @@ public class DeliveryPerson {
         this.available = available;
     }
 
-    public Method getMethod() {
-        return method;
-    }
+    public static DeliveryPerson selectRandomAvailable() throws NoDeliveryPersonAvailableException {
+        Optional<DeliveryPerson> randomAvailablePerson = Stream.of(DeliveryPerson.values())
+                .filter(DeliveryPerson::isAvailable)
+                .findAny();
 
-    public double calculateAdditionalCost() {
-        return switch (method) {
-            case BICYCLE -> 0.01;
-            case MOTORCYCLE -> 0.02;
-            default -> 0.0;
-        };
+        return randomAvailablePerson.orElseThrow(() -> new NoDeliveryPersonAvailableException("No delivery person available."));
     }
 }
 

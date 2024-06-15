@@ -1,11 +1,11 @@
 package com.deliveryapp;
 
+import com.deliveryapp.exception.NoDeliveryPersonAvailableException;
+import com.deliveryapp.exception.OrderNotFoundException;
 import com.deliveryapp.manager.OrderManager;
 import com.deliveryapp.model.Customer;
-import com.deliveryapp.model.DeliveryPerson;
-import com.deliveryapp.model.Order;
-import com.deliveryapp.model.product.*;
-
+import com.deliveryapp.model.product.Product;
+import com.deliveryapp.model.product.ProductType;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -14,9 +14,7 @@ public class OrderApp {
     private final OrderManager manager;
 
     public OrderApp() {
-        List<DeliveryPerson> deliveryPersons = new ArrayList<>();
-        // Adicione entregadores à lista
-        manager = new OrderManager(deliveryPersons);
+        this.manager = new OrderManager();
     }
 
     public void start() {
@@ -66,7 +64,7 @@ public class OrderApp {
         while (addingProducts) {
             System.out.print("Select a product (enter its number): ");
             int productNumber = scanner.nextInt();
-            scanner.nextLine(); // Limpar o buffer do scanner
+            scanner.nextLine();
             if (productNumber < 1 || productNumber > ProductType.values().length) {
                 System.out.println("Invalid product number. Please try again.");
                 continue;
@@ -80,14 +78,25 @@ public class OrderApp {
             addingProducts = choice.equalsIgnoreCase("yes");
         }
 
-        OrderManager orderManager = new OrderManager();
-        Order newOrder = orderManager.createOrder(customer, selectedProducts);
-
-        System.out.println("Order created successfully! Order ID: " + newOrder.getId());
+        try {
+            manager.createOrder(customer, selectedProducts);
+            System.out.println("Order created successfully!");
+        } catch (NoDeliveryPersonAvailableException e) {
+            System.out.println(e.getMessage());
+        }
     }
-
 
     private void markOrderAsDelivered(Scanner scanner) {
-        // Implementação omitida para brevidade
+        System.out.print("Enter order ID to mark as delivered: ");
+        int orderId = scanner.nextInt();
+        scanner.nextLine();
+
+        try {
+            manager.markOrderAsDelivered(orderId);
+            System.out.println("Order marked as delivered successfully!");
+        } catch (OrderNotFoundException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
+

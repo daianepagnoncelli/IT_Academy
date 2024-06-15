@@ -3,57 +3,70 @@ package com.deliveryapp.manager;
 import com.deliveryapp.exception.NoDeliveryPersonAvailableException;
 import com.deliveryapp.exception.OrderNotFoundException;
 import com.deliveryapp.model.Customer;
+import com.deliveryapp.model.CustomerOrder;
 import com.deliveryapp.model.DeliveryPerson;
 import com.deliveryapp.model.Order;
 import com.deliveryapp.model.product.Product;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
+import java.util.Optional;
+
 
 public class OrderManager {
-    private final List<Order> orders = new ArrayList<>();
-    private final List<DeliveryPerson> deliveryPersons;
+    private final List<CustomerOrder> orders = new ArrayList<>();
 
-    public OrderManager(List<DeliveryPerson> deliveryPersons) {
-        this.deliveryPersons = deliveryPersons;
-    }
-
-    public void createOrder(Customer customer, List<Product> products) {
-        DeliveryPerson deliveryPerson = getAvailableDeliveryPerson();
+    public void createOrder(Customer customer, List<Product> products) throws NoDeliveryPersonAvailableException {
+        DeliveryPerson deliveryPerson = DeliveryPerson.selectRandomAvailable();
+        if (deliveryPerson == null) {
+            throw new NoDeliveryPersonAvailableException("No delivery guys available.");
+        }
         Order order = new Order(customer, products, deliveryPerson);
         deliveryPerson.setAvailable(false);
-        orders.add(order);
+        orders.add( new CustomerOrder(customer, order));
         order.showDetails();
     }
 
     public void markOrderAsDelivered(int orderId) {
-        Order order = orders.stream()
-                .filter(o -> o.getId() == orderId && !o.isDelivered())
-                .findFirst()
-                .orElseThrow(() -> new OrderNotFoundException("Order not found or already delivered."));
-        order.setDelivered(true);
-        order.getDeliveryPerson().setAvailable(true);
-        System.out.println("Order " + orderId + " marked as delivered.");
+        Optional<CustomerOrder> optionalCustomerOrder = orders.stream()
+                .filter(co -> co.getOrder().getId() == orderId && !co.getOrder().isDelivered())
+                .findFirst();
+
+        if (optionalCustomerOrder.isPresent()) {
+            CustomerOrder customerOrder = optionalCustomerOrder.get();
+            customerOrder.getOrder().setDelivered(true);
+            customerOrder.getOrder().getDeliveryPerson().setAvailable(true);
+            System.out.println("Order " + orderId + " marked as delivered.");
+        } else {
+            throw new OrderNotFoundException("Order not found or already delivered.");
+        }
     }
 
     public void listPendingOrders() {
-        System.out.println("Pending orders:");
-        orders.stream().filter(o -> !o.isDelivered()).forEach(Order::showDetails);
+        Optional<CustomerOrder> anyPendingOrder = orders.stream()
+                .filter(co -> !co.getOrder().isDelivered())
+                .findAny();
+
+        if (anyPendingOrder.isPresent()) {
+            System.out.println("Pending orders:");
+            orders.stream()
+                    .filter(co -> !co.getOrder().isDelivered())
+                    .forEach(CustomerOrder::showDetails);
+        } else {
+            System.out.println("No pending orders");
+        }
     }
 
     public void listDeliveredOrders() {
-        System.out.println("Delivered orders:");
-        orders.stream().filter(Order::isDelivered).forEach(Order::showDetails);
-    }
-
-    private DeliveryPerson getAvailableDeliveryPerson() {
-        List<DeliveryPerson> available = deliveryPersons.stream()
-                .filter(DeliveryPerson::isAvailable)
+        List<CustomerOrder> deliveredOrders = orders.stream()
+                .filter(co -> co.getOrder().isDelivered())
                 .toList();
-        if (available.isEmpty()) {
-            throw new NoDeliveryPersonAvailableException("No delivery persons available.");
+
+        if (!deliveredOrders.isEmpty()) {
+            System.out.println("Delivered orders:");
+            deliveredOrders.forEach(CustomerOrder::showDetails);
+        } else {
+            System.out.println("No delivered orders.");
         }
-        return available.get(new Random().nextInt(available.size()));
     }
 }
+
