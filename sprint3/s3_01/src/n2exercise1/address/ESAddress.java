@@ -1,13 +1,13 @@
 package n2exercise1.address;
 
 public class ESAddress implements IAddress {
-    private String street;
-    private String streetNumber;
-    private String floorNumber;
-    private String doorNumber;
-    private String cityTown;
-    private String province;
-    private String postCode;
+    private final String street;
+    private final String streetNumber;
+    private final String floorNumber;
+    private final String doorNumber;
+    private final String cityTown;
+    private final String province;
+    private final String postCode;
 
     public ESAddress(String street, String streetNumber, String floorNumber, String doorNumber, String cityTown, String province, String postCode) {
         this.street = street;
@@ -22,10 +22,11 @@ public class ESAddress implements IAddress {
     @Override
     public String showAddress() {
         StringBuilder addressString = new StringBuilder();
-        addressString.append("Endereço   |    ").append(street).append(", ").append(streetNumber);
+        addressString.append("Address     |    ").append(street).append(", ").append(streetNumber);
         if (!floorNumber.isEmpty()) addressString.append(", ").append(floorNumber);
         if (!doorNumber.isEmpty()) addressString.append(", ").append(doorNumber);
         addressString.append(", ").append(cityTown).append(", ").append(province).append(", ").append(postCode).append("\n");
         return addressString.toString();
     }
 }
+

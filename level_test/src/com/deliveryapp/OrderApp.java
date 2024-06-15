@@ -65,16 +65,19 @@ public class OrderApp {
             System.out.print("Select a product (enter its number): ");
             int productNumber = scanner.nextInt();
             scanner.nextLine();
+
             if (productNumber < 1 || productNumber > ProductType.values().length) {
                 System.out.println("Invalid product number. Please try again.");
                 continue;
             }
+
             ProductType selectedProductType = ProductType.values()[productNumber - 1];
             Product selectedProduct = selectedProductType.createProduct();
             selectedProducts.add(selectedProduct);
 
             System.out.print("Do you want to add another product? (yes/no): ");
             String choice = scanner.nextLine();
+
             addingProducts = choice.equalsIgnoreCase("yes");
         }
 
@@ -85,6 +88,7 @@ public class OrderApp {
             System.out.println(e.getMessage());
         }
     }
+
 
     private void markOrderAsDelivered(Scanner scanner) {
         System.out.print("Enter order ID to mark as delivered: ");

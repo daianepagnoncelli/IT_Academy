@@ -1,11 +1,11 @@
 package n2exercise1;
 
-import java.util.Arrays;
 import java.util.Optional;
+import java.util.stream.Stream;
 
 public enum Country {
-    SPAIN("Spain", "^[0-9]{5}$", "^[0-9]{9}$"),
-    BRAZIL("Brazil", "^[0-9]{5}-[0-9]{3}$", "^\\([0-9]{2}\\)\\s[0-9]{4,5}-[0-9]{4}$");
+    SPAIN("Spain", "\\d{5}", "\\+34\\d{9}"), //PostCode: 28013 PhoneNumber:+34987654321
+    BRAZIL("Brazil", "\\d{5}-\\d{3}", "\\+55\\d{11}"); //PostCode: 12345-678 PhoneNumber:+5511987654321
 
     private final String name;
     private final String regexPostCode;
@@ -17,10 +17,6 @@ public enum Country {
         this.regexPhoneNumber = regexPhoneNumber;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public String getRegexPostCode() {
         return regexPostCode;
     }
@@ -30,8 +26,9 @@ public enum Country {
     }
 
     public static Optional<Country> findByValue(String value) {
-        return Arrays.stream(values())
+        return Stream.of(values())
                 .filter(country -> country.name.equalsIgnoreCase(value))
                 .findFirst();
     }
 }
+

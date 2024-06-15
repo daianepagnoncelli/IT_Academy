@@ -4,6 +4,7 @@ import n2exercise1.address.IAddress;
 import n2exercise1.phonenumber.IPhoneNumber;
 
 public interface IContactFactory {
-    abstract IAddress createAddress(String[] addressData);
-    abstract IPhoneNumber createPhoneNumber(String phoneNumber);
+    IAddress createAddress(String[] addressData);
+    IPhoneNumber createPhoneNumber(String phoneNumber);
 }
+
