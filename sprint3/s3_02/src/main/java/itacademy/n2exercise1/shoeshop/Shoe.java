@@ -1,7 +1,7 @@
 package itacademy.n2exercise1.shoeshop;
 
 public class Shoe {
-    private String model;
+    private final String model;
     private String brand;
     private double price;
 
@@ -15,29 +15,12 @@ public class Shoe {
         return model;
     }
 
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    public String getBrand() {
-        return brand;
-    }
-
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
     public double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
     @Override
     public String toString() {
-        return "Shoe[model=" + this.model + ", brand=" + this.brand + ", price=" + this.price + "]";
+        return "Model: " + model + ", Brand: " + brand + ", Price: " + price + " €";
     }
 }
-

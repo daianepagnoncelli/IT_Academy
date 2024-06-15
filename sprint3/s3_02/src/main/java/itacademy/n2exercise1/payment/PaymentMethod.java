@@ -6,3 +6,4 @@ public interface PaymentMethod {
 
     String paymentCancelled(double totalAmount);
 }
+
