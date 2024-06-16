@@ -2,8 +2,8 @@ package itacademy.n2exercise1.shoeshop;
 
 public class Shoe {
     private final String model;
-    private String brand;
-    private double price;
+    private final String brand;
+    private final double price;
 
     public Shoe(String model, String brand, double price) {
         this.model = model;

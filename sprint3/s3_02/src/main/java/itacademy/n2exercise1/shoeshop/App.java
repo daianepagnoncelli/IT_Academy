@@ -21,9 +21,9 @@ public class App {
     }
 
     private static void initializeStock(ShoeShop shoeShop) {
-        shoeShop.addShoe(new Shoe("Samba", "Adidas", 69.90));
-        shoeShop.addShoe(new Shoe("Stan Smith", "Adidas", 64.95));
-        shoeShop.addShoe(new Shoe("Camp", "Camper", 125.95));
+        shoeShop.addShoe(new Shoe("Samba", "Nike", 79.99));
+        shoeShop.addShoe(new Shoe("Air Force 1", "Nike", 89.95));
+        shoeShop.addShoe(new Shoe("Old Skool", "Vans", 59.99));
     }
 
     public static void menuDisplay() {
