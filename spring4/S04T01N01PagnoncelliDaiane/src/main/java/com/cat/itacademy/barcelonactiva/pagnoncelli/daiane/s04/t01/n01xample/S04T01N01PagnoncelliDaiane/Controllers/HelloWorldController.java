@@ -10,7 +10,7 @@ public class HelloWorldController {
 
     @GetMapping("/HelloWorld")
     public String greetings(@RequestParam(defaultValue = "UNKNOWN") String name) {
-        return "Hello, " + name + ". You are running a Maven project";
+        return "Hello, " + name + ". You are running a Maven project.";
     }
 
     @GetMapping({"/HelloWorld2", "/HelloWorld2/{name}"})
@@ -18,7 +18,7 @@ public class HelloWorldController {
         if (name == null) {
             name = "UNKNOWN";
         }
-        return "Hello, " + name + ". You are running a Maven project";
+        return "Hello, " + name + ". You are running a Maven project.";
     }
 }
 
