@@ -8,18 +8,20 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
+    private static final String DEFAULT_NAME = "UNKNOWN";
+    private static final String RESPONSE_TEMPLATE = "Hello, %s. You are running a Maven project";
+
     @GetMapping("/HelloWorld")
-    public String greetings(@RequestParam(defaultValue = "UNKNOWN") String name) {
-        return "Hello, " + name + ". You are running a Maven project.";
+    public String greetWithRequestParam(@RequestParam(defaultValue = DEFAULT_NAME) String name) {
+        return formatGreeting(name);
     }
 
-    @GetMapping({"/HelloWorld2", "/HelloWorld2/{name}"})
-    public String greetings2(@PathVariable(required = false) String name) {
-        if (name == null) {
-            name = "UNKNOWN";
-        }
-        return "Hello, " + name + ". You are running a Maven project.";
+    @GetMapping("/HelloWorld/{name}")
+    public String greetWithPathVariable(@PathVariable String name) {
+        return formatGreeting(name);
+    }
+
+    private String formatGreeting(String name) {
+        return String.format(RESPONSE_TEMPLATE, name);
     }
 }
-
-
