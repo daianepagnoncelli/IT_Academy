@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-    private static final String DEFAULT_NAME = "UNKNOWN";
+    private static final String DEFAULT_NAME = " UNKNOWN";
     private static final String RESPONSE_TEMPLATE = "Hello, %s. You are running a Maven project";
 
     @GetMapping("/HelloWorld")
