@@ -7,7 +7,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/fruit")
@@ -23,8 +22,8 @@ public class FruitController {
 
     @GetMapping("/getOne/{id}")
     public ResponseEntity<Fruit> getFruitById(@PathVariable int id) {
-        Optional<Fruit> fruit = fruitService.getFruitById(id);
-        return fruit.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
+        Fruit fruit = fruitService.getFruitById(id);
+        return ResponseEntity.ok(fruit);
     }
 
     @PostMapping("/add")
