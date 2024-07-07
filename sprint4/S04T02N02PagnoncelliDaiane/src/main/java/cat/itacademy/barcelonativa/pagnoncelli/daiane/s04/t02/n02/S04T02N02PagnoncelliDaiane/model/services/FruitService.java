@@ -1,5 +1,7 @@
 package cat.itacademy.barcelonativa.pagnoncelli.daiane.s04.t02.n02.S04T02N02PagnoncelliDaiane.model.services;
 
+import cat.itacademy.barcelonativa.pagnoncelli.daiane.s04.t02.n02.S04T02N02PagnoncelliDaiane.exception.FruitAlreadyExistsException;
+import cat.itacademy.barcelonativa.pagnoncelli.daiane.s04.t02.n02.S04T02N02PagnoncelliDaiane.exception.FruitNotFoundException;
 import cat.itacademy.barcelonativa.pagnoncelli.daiane.s04.t02.n02.S04T02N02PagnoncelliDaiane.model.domain.Fruit;
 import cat.itacademy.barcelonativa.pagnoncelli.daiane.s04.t02.n02.S04T02N02PagnoncelliDaiane.model.repository.FruitRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,20 +20,22 @@ public class FruitService {
         return fruitRepository.findAll();
     }
 
-    public Optional<Fruit> getFruitById(int id) {
-        return fruitRepository.findById(id);
+    public Fruit getFruitById(Long id) {
+        return fruitRepository.findById(id).orElseThrow(() -> new FruitNotFoundException("Fruit not found with id: " + id));
     }
 
     public Fruit addFruit(Fruit fruit) {
+        Optional<Fruit> existingFruit = fruitRepository.findByName(fruit.getName());
+        if (existingFruit.isPresent()) {
+            throw new FruitAlreadyExistsException("Fruit already exists with name: " + fruit.getName());
+        }
         return fruitRepository.save(fruit);
     }
 
-    public Fruit updateFruit(Fruit fruit) {
-        return fruitRepository.save(fruit);
-    }
-
-    public void deleteFruit(int id) {
-        fruitRepository.deleteById(id);
+    public void deleteFruit(Long id) {
+        Fruit fruit = fruitRepository.findById(id).orElseThrow(() -> new FruitNotFoundException("Fruit not found with id: " + id));
+        fruitRepository.delete(fruit);
     }
 }
+
 
