@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Branch Form</title>
+</head>
+<body>
+<h1>Branch Form</h1>
+<form th:action="@{/branch/add}" th:object="${branch}" method="post">
+    <input type="hidden" th:field="*{pk_BranchID}" />
+    <div>
+        <label>Name</label>
+        <input type="text" th:field="*{nameBranch}" />
+    </div>
+    <div>
+        <label>Country</label>
+        <input type="text" th:field="*{countryBranch}" />
+    </div>
+    <div>
+        <button type="submit">Save</button>
+    </div>
+</form>
+</body>
+</html>
