@@ -44,3 +44,4 @@ public class FruitController {
         return ResponseEntity.noContent().build();
     }
 }
+

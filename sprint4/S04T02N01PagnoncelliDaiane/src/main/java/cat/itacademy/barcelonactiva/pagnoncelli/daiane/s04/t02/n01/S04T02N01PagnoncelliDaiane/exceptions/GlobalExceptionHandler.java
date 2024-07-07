@@ -2,13 +2,11 @@ package cat.itacademy.barcelonactiva.pagnoncelli.daiane.s04.t02.n01.S04T02N01Pag
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 
 @ControllerAdvice
-@Component
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(FruitNotFoundException.class)
@@ -29,3 +27,4 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(message, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }
+
