@@ -24,7 +24,6 @@ public class FlorDTO {
         this.flowerType = EU_COUNTRIES.contains(paisFlor) ? "EU" : "Non-EU";
     }
 
-
     public Integer getPk_FlorID() {
         return pk_FlorID;
     }
