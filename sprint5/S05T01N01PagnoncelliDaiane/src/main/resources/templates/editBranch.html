@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Edit Branch</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+    <h1>Edit Branch</h1>
+    <div class="form-container">
+        <form th:action="@{/branch/update}" th:object="${branch}" method="post">
+            <input type="hidden" th:field="*{pk_BranchID}" />
+            <div>
+                <label for="nameBranch">Name</label>
+                <input type="text" id="nameBranch" th:field="*{nameBranch}" />
+            </div>
+            <div>
+                <label for="countryBranch">Country</label>
+                <input type="text" id="countryBranch" th:field="*{countryBranch}" />
+            </div>
+            <div>
+                <button type="submit">Save</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+

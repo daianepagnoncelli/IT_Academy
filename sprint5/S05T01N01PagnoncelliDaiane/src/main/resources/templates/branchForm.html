@@ -1,23 +1,54 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Branch Form</title>
+    <title>Branch Management</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
 <body>
-<h1>Branch Form</h1>
-<form th:action="@{/branch/add}" th:object="${branch}" method="post">
-    <input type="hidden" th:field="*{pk_BranchID}" />
-    <div>
-        <label>Name</label>
-        <input type="text" th:field="*{nameBranch}" />
+<div class="container">
+    <h1>Branch Management</h1>
+    <div class="form-container">
+        <form th:action="@{/branch/add}" th:object="${branch}" method="post">
+            <input type="hidden" th:field="*{pk_BranchID}" />
+            <div>
+                <label for="nameBranch">Name</label>
+                <input type="text" id="nameBranch" th:field="*{nameBranch}" />
+            </div>
+            <div>
+                <label for="countryBranch">Country</label>
+                <input type="text" id="countryBranch" th:field="*{countryBranch}" />
+            </div>
+            <div>
+                <button type="submit">Add Branch</button>
+            </div>
+        </form>
     </div>
-    <div>
-        <label>Country</label>
-        <input type="text" th:field="*{countryBranch}" />
-    </div>
-    <div>
-        <button type="submit">Save</button>
-    </div>
-</form>
+    <h2>Branch List</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Country</th>
+            <th>Type</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="branch : ${branchList}">
+            <td th:text="${branch.pk_BranchID}">1</td>
+            <td th:text="${branch.nameBranch}">Branch 1</td>
+            <td th:text="${branch.countryBranch}">Country 1</td>
+            <td th:text="${branch.typeBranch}">EU</td>
+            <td>
+                <a th:href="@{/branch/edit/{id}(id=${branch.pk_BranchID})}">Edit</a>
+                <a th:href="@{/branch/delete/{id}(id=${branch.pk_BranchID})}">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
 </body>
 </html>
+
+
