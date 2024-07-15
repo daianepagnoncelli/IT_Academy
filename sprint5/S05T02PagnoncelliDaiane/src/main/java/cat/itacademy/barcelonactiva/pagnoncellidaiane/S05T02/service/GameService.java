@@ -1,11 +1,14 @@
 package cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.service;
 
-import cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game;
+import cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.dto.GameDTO;
 
 import java.util.List;
 
 public interface GameService {
-    Game createGame(Long playerId);
-    List<Game> getGamesByPlayerId(Long playerId);
+    GameDTO createGame(Long playerId);
+    List<GameDTO> getGamesByPlayerId(Long playerId);
+    void deleteAllGamesByPlayerId(Long playerId);
 }
+
+
 
