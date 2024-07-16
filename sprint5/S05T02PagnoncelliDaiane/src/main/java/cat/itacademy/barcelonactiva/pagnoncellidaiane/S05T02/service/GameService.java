@@ -6,9 +6,12 @@ import java.util.List;
 
 public interface GameService {
     GameDTO createGame(Long playerId);
-    List<GameDTO> getGamesByPlayerId(Long playerId);
     void deleteAllGamesByPlayerId(Long playerId);
+    List<GameDTO> getGamesByPlayerId(Long playerId);
+    GameDTO getGameById(String id);
 }
+
+
 
 
 

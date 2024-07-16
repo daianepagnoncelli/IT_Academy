@@ -1,11 +1,19 @@
 package cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.repository;
 
 import cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-public interface GameRepository extends JpaRepository<Game, Long> {
-    List<Game> findByPlayerId(Long playerId);
+@Repository
+public interface GameRepository extends MongoRepository<Game, String> {
+    List<Game> findByIdPlayer(Long idPlayer);
+    void deleteByIdPlayer(Long idPlayer);
 }
+
+
+
+
+
 

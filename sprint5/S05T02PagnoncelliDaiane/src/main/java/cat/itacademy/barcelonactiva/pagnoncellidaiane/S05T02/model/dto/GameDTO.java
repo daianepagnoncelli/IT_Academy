@@ -8,9 +8,13 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class GameDTO {
-    private Long id;
+    private String id;
     private int dice1;
     private int dice2;
     private boolean isWin;
+    private Long idPlayer;
 }
+
+
+
 
