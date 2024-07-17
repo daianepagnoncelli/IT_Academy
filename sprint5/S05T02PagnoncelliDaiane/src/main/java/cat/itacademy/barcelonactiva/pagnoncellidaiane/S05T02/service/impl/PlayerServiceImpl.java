@@ -1,5 +1,7 @@
 package cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.service.impl;
 
+import cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.exception.PlayerAlreadyExistException;
+import cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.exception.PlayerNotFoundException;
 import cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.dto.PlayerDTO;
 import cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Player;
 import cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.mapper.PlayerMapper;
@@ -23,6 +25,13 @@ public class PlayerServiceImpl implements PlayerService {
 
     @Override
     public PlayerDTO createPlayer(PlayerDTO playerDTO) {
+        if (playerRepository.findByName(playerDTO.getName()).isPresent()) {
+            throw new PlayerAlreadyExistException("Player with name " + playerDTO.getName() + " already exists");
+        }
+
+        if (playerDTO.getName() == null || playerDTO.getName().trim().isEmpty()) {
+            playerDTO.setName("ANONYMOUS");
+        }
         Player player = PlayerMapper.toEntity(playerDTO);
         player = playerRepository.save(player);
         return PlayerMapper.toDTO(player, gameRepository.findByIdPlayer(player.getId()));
@@ -31,6 +40,9 @@ public class PlayerServiceImpl implements PlayerService {
     @Override
     public Optional<PlayerDTO> getPlayerById(Long id) {
         Optional<Player> player = playerRepository.findById(id);
+        if (!player.isPresent()) {
+            throw new PlayerNotFoundException("Player with id " + id + " not found");
+        }
         return player.map(p -> PlayerMapper.toDTO(p, gameRepository.findByIdPlayer(p.getId())));
     }
 
@@ -43,20 +55,40 @@ public class PlayerServiceImpl implements PlayerService {
     }
 
     @Override
-    public void deletePlayer(Long playerId) {
+    public void deleteAllGamesByPlayerId(Long playerId) {
+        if (!playerRepository.existsById(playerId)) {
+            throw new PlayerNotFoundException("Player with id " + playerId + " not found");
+        }
         gameRepository.deleteByIdPlayer(playerId);
-        playerRepository.deleteById(playerId);
     }
 
     @Override
     public PlayerDTO updatePlayer(Long id, PlayerDTO playerDTO) {
-        Player player = playerRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Player not found"));
-        player.setName(playerDTO.getName());
+        Optional<Player> playerOpt = playerRepository.findById(id);
+        if (!playerOpt.isPresent()) {
+            throw new PlayerNotFoundException("Player with id " + id + " not found");
+        }
+        Player player = playerOpt.get();
+        if (playerDTO.getName() != null && !playerDTO.getName().trim().isEmpty()) {
+            player.setName(playerDTO.getName());
+        }
         player = playerRepository.save(player);
         return PlayerMapper.toDTO(player, gameRepository.findByIdPlayer(player.getId()));
     }
+
+    @Override
+    public void deletePlayer(Long id) {
+        if (!playerRepository.existsById(id)) {
+            throw new PlayerNotFoundException("Player with id " + id + " not found");
+        }
+        playerRepository.deleteById(id);
+    }
 }
+
+
+
+
+
 
 
 

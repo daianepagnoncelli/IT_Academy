@@ -26,11 +26,16 @@ public class PlayerController {
         return ResponseEntity.ok(updatedPlayer);
     }
 
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deletePlayer(@PathVariable Long id) {
+        playerService.deletePlayer(id);
+        return ResponseEntity.noContent().build();
+    }
+
     @GetMapping("/{id}")
     public ResponseEntity<PlayerDTO> getPlayerById(@PathVariable Long id) {
-        return playerService.getPlayerById(id)
-                .map(ResponseEntity::ok)
-                .orElse(ResponseEntity.notFound().build());
+        PlayerDTO playerDTO = playerService.getPlayerById(id).orElseThrow(() -> new RuntimeException("Player not found"));
+        return ResponseEntity.ok(playerDTO);
     }
 
     @GetMapping
@@ -39,12 +44,35 @@ public class PlayerController {
         return ResponseEntity.ok(players);
     }
 
-    @DeleteMapping("/{id}")
-    public ResponseEntity<String> deletePlayer(@PathVariable Long id) {
+    @GetMapping("/ranking")
+    public ResponseEntity<Double> getAverageSuccessRate() {
+        List<PlayerDTO> players = playerService.getAllPlayers();
+        double averageSuccessRate = players.stream().mapToDouble(PlayerDTO::getSuccessRate).average().orElse(0.0);
+        return ResponseEntity.ok(averageSuccessRate);
+    }
+
+    @GetMapping("/ranking/loser")
+    public ResponseEntity<PlayerDTO> getLoser() {
+        List<PlayerDTO> players = playerService.getAllPlayers();
+        PlayerDTO loser = players.stream().min((p1, p2) -> Double.compare(p1.getSuccessRate(), p2.getSuccessRate())).orElse(null);
+        return ResponseEntity.ok(loser);
+    }
+
+    @GetMapping("/ranking/winner")
+    public ResponseEntity<PlayerDTO> getWinner() {
+        List<PlayerDTO> players = playerService.getAllPlayers();
+        PlayerDTO winner = players.stream().max((p1, p2) -> Double.compare(p1.getSuccessRate(), p2.getSuccessRate())).orElse(null);
+        return ResponseEntity.ok(winner);
+    }
+
+    @DeleteMapping("/{id}/games")
+    public ResponseEntity<Void> deletePlayerAndGames(@PathVariable Long id) {
+        playerService.deleteAllGamesByPlayerId(id);
         playerService.deletePlayer(id);
-        return ResponseEntity.ok("Player and associated games deleted with ID: " + id);
+        return ResponseEntity.noContent().build();
     }
 }
+
 
 
 

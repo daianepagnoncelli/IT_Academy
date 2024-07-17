@@ -7,10 +7,13 @@ import java.util.Optional;
 
 public interface PlayerService {
     PlayerDTO createPlayer(PlayerDTO playerDTO);
-    PlayerDTO updatePlayer(Long id, PlayerDTO playerDTO);
-    void deletePlayer(Long id);
     Optional<PlayerDTO> getPlayerById(Long id);
     List<PlayerDTO> getAllPlayers();
+    void deleteAllGamesByPlayerId(Long playerId);
+    PlayerDTO updatePlayer(Long id, PlayerDTO playerDTO);
+    void deletePlayer(Long id);
 }
+
+
 
 

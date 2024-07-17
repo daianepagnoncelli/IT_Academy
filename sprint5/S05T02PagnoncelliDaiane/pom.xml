@@ -6,7 +6,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.3.1</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>cat.itacademy.barcelonactiva.pagnoncelli.daiane.s05.t02</groupId>
     <artifactId>S05T02PagnoncelliDaiane</artifactId>
