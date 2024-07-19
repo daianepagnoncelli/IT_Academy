@@ -40,7 +40,7 @@ public class PlayerServiceImpl implements PlayerService {
     @Override
     public Optional<PlayerDTO> getPlayerById(Long id) {
         Optional<Player> player = playerRepository.findById(id);
-        if (!player.isPresent()) {
+        if (player.isEmpty()) {
             throw new PlayerNotFoundException("Player with id " + id + " not found");
         }
         return player.map(p -> PlayerMapper.toDTO(p, gameRepository.findByIdPlayer(p.getId())));
@@ -65,7 +65,7 @@ public class PlayerServiceImpl implements PlayerService {
     @Override
     public PlayerDTO updatePlayer(Long id, PlayerDTO playerDTO) {
         Optional<Player> playerOpt = playerRepository.findById(id);
-        if (!playerOpt.isPresent()) {
+        if (playerOpt.isEmpty()) {
             throw new PlayerNotFoundException("Player with id " + id + " not found");
         }
         Player player = playerOpt.get();
