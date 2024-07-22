@@ -24,6 +24,7 @@ public class PlayerController {
     }
 
     @PostMapping
+    @PreAuthorize("hasAuthority('USER')")
     public ResponseEntity<PlayerDTO> createPlayer(@RequestBody PlayerDTO playerDTO) {
         logger.info("Creating a new player: {}", playerDTO.getName());
         try {
@@ -37,6 +38,7 @@ public class PlayerController {
     }
 
     @PutMapping("/{id}")
+    @PreAuthorize("hasAuthority('USER')")
     public ResponseEntity<PlayerDTO> updatePlayer(@PathVariable Long id, @RequestBody PlayerDTO playerDTO) {
         logger.info("Updating player with id: {}", id);
         try {
@@ -50,6 +52,7 @@ public class PlayerController {
     }
 
     @DeleteMapping("/{id}")
+    @PreAuthorize("hasAuthority('USER')")
     public ResponseEntity<Void> deletePlayer(@PathVariable Long id) {
         logger.info("Deleting player with id: {}", id);
         try {
@@ -63,6 +66,7 @@ public class PlayerController {
     }
 
     @GetMapping("/{id}")
+    @PreAuthorize("hasAuthority('USER')")
     public ResponseEntity<PlayerDTO> getPlayerById(@PathVariable Long id) {
         logger.info("Fetching player with id: {}", id);
         try {
@@ -135,6 +139,7 @@ public class PlayerController {
     }
 
     @DeleteMapping("/{id}/games")
+    @PreAuthorize("hasAuthority('USER')")
     public ResponseEntity<Void> deletePlayerGames(@PathVariable Long id) {
         logger.info("Deleting games for player with id: {}", id);
         try {
@@ -148,6 +153,7 @@ public class PlayerController {
     }
 
     @DeleteMapping("/{id}/all")
+    @PreAuthorize("hasAuthority('USER')")
     public ResponseEntity<Void> deletePlayerAndGames(@PathVariable Long id) {
         logger.info("Deleting player and their games with id: {}", id);
         try {
@@ -161,6 +167,7 @@ public class PlayerController {
         }
     }
 }
+
 
 
 
