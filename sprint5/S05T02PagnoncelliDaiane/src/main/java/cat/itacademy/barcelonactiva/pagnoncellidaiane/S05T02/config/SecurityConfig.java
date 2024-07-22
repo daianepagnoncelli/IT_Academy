@@ -40,7 +40,7 @@ public class SecurityConfig {
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(authz -> authz
                         .requestMatchers("/auth/**").permitAll()
-                        .requestMatchers("/players/**").hasAuthority("USER")
+                        .requestMatchers("/players/**").hasAnyAuthority("USER", "ADMIN")
                         .anyRequest().authenticated()
                 )
                 .sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
@@ -69,6 +69,7 @@ public class SecurityConfig {
         return (web) -> web.ignoring().requestMatchers("/auth/**");
     }
 }
+
 
 
 

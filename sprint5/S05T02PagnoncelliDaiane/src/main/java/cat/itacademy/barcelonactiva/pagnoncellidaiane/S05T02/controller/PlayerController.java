@@ -4,6 +4,7 @@ import cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.dto.PlayerDTO
 import cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.service.PlayerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -75,6 +76,7 @@ public class PlayerController {
     }
 
     @GetMapping
+    @PreAuthorize("hasAuthority('ADMIN')")
     public ResponseEntity<List<PlayerDTO>> getAllPlayers() {
         logger.info("Fetching all players");
         try {
@@ -88,6 +90,7 @@ public class PlayerController {
     }
 
     @GetMapping("/ranking")
+    @PreAuthorize("hasAuthority('ADMIN')")
     public ResponseEntity<Double> getAverageSuccessRate() {
         logger.info("Fetching average success rate of all players");
         try {
@@ -102,6 +105,7 @@ public class PlayerController {
     }
 
     @GetMapping("/ranking/loser")
+    @PreAuthorize("hasAuthority('ADMIN')")
     public ResponseEntity<PlayerDTO> getLoser() {
         logger.info("Fetching the player with the lowest success rate");
         try {
@@ -116,6 +120,7 @@ public class PlayerController {
     }
 
     @GetMapping("/ranking/winner")
+    @PreAuthorize("hasAuthority('ADMIN')")
     public ResponseEntity<PlayerDTO> getWinner() {
         logger.info("Fetching the player with the highest success rate");
         try {
@@ -156,6 +161,7 @@ public class PlayerController {
         }
     }
 }
+
 
 
 
