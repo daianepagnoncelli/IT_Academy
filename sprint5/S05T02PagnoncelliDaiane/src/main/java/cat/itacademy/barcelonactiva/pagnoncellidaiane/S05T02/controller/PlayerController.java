@@ -130,6 +130,19 @@ public class PlayerController {
     }
 
     @DeleteMapping("/{id}/games")
+    public ResponseEntity<Void> deletePlayerGames(@PathVariable Long id) {
+        logger.info("Deleting games for player with id: {}", id);
+        try {
+            playerService.deleteAllGamesByPlayerId(id);
+            logger.info("Games deleted successfully for player with id: {}", id);
+            return ResponseEntity.noContent().build();
+        } catch (Exception e) {
+            logger.error("Error deleting games for player: {}", e.getMessage(), e);
+            return ResponseEntity.status(500).build();
+        }
+    }
+
+    @DeleteMapping("/{id}/all")
     public ResponseEntity<Void> deletePlayerAndGames(@PathVariable Long id) {
         logger.info("Deleting player and their games with id: {}", id);
         try {
