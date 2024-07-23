@@ -17,14 +17,14 @@ public class PlayerController {
     private static final Logger logger = LoggerFactory.getLogger(PlayerController.class);
 
     @Autowired
-    private PlayerService playerService;
+    private final PlayerService playerService;
 
     public PlayerController(PlayerService playerService) {
         this.playerService = playerService;
     }
 
     @PostMapping
-    @PreAuthorize("hasAuthority('USER')")
+    @PreAuthorize("hasAnyAuthority('USER', 'ADMIN')")
     public ResponseEntity<PlayerDTO> createPlayer(@RequestBody PlayerDTO playerDTO) {
         logger.info("Creating a new player: {}", playerDTO.getName());
         try {
@@ -38,7 +38,7 @@ public class PlayerController {
     }
 
     @PutMapping("/{id}")
-    @PreAuthorize("hasAuthority('USER')")
+    @PreAuthorize("hasAnyAuthority('USER', 'ADMIN')")
     public ResponseEntity<PlayerDTO> updatePlayer(@PathVariable Long id, @RequestBody PlayerDTO playerDTO) {
         logger.info("Updating player with id: {}", id);
         try {
@@ -52,7 +52,7 @@ public class PlayerController {
     }
 
     @DeleteMapping("/{id}")
-    @PreAuthorize("hasAuthority('USER')")
+    @PreAuthorize("hasAnyAuthority('USER', 'ADMIN')")
     public ResponseEntity<Void> deletePlayer(@PathVariable Long id) {
         logger.info("Deleting player with id: {}", id);
         try {
@@ -66,7 +66,7 @@ public class PlayerController {
     }
 
     @GetMapping("/{id}")
-    @PreAuthorize("hasAuthority('USER')")
+    @PreAuthorize("hasAnyAuthority('USER', 'ADMIN')")
     public ResponseEntity<PlayerDTO> getPlayerById(@PathVariable Long id) {
         logger.info("Fetching player with id: {}", id);
         try {
@@ -80,7 +80,7 @@ public class PlayerController {
     }
 
     @GetMapping
-    @PreAuthorize("hasAuthority('ADMIN')")
+    @PreAuthorize("hasAnyAuthority('USER', 'ADMIN')")
     public ResponseEntity<List<PlayerDTO>> getAllPlayers() {
         logger.info("Fetching all players");
         try {
@@ -94,7 +94,7 @@ public class PlayerController {
     }
 
     @GetMapping("/ranking")
-    @PreAuthorize("hasAuthority('ADMIN')")
+    @PreAuthorize("hasAnyAuthority('USER', 'ADMIN')")
     public ResponseEntity<Double> getAverageSuccessRate() {
         logger.info("Fetching average success rate of all players");
         try {
@@ -139,7 +139,7 @@ public class PlayerController {
     }
 
     @DeleteMapping("/{id}/games")
-    @PreAuthorize("hasAuthority('USER')")
+    @PreAuthorize("hasAnyAuthority('USER', 'ADMIN')")
     public ResponseEntity<Void> deletePlayerGames(@PathVariable Long id) {
         logger.info("Deleting games for player with id: {}", id);
         try {
@@ -153,7 +153,7 @@ public class PlayerController {
     }
 
     @DeleteMapping("/{id}/all")
-    @PreAuthorize("hasAuthority('USER')")
+    @PreAuthorize("hasAnyAuthority('USER', 'ADMIN')")
     public ResponseEntity<Void> deletePlayerAndGames(@PathVariable Long id) {
         logger.info("Deleting player and their games with id: {}", id);
         try {

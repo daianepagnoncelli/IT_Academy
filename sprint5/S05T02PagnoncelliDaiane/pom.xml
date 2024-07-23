@@ -15,6 +15,7 @@
     <description>S05T02PagnoncelliDaianeDiceGame</description>
     <properties>
         <java.version>17</java.version>
+        <junit.jupiter.version>5.10.0</junit.jupiter.version>
     </properties>
     <dependencies>
         <!-- Spring Boot Starter Actuator -->
@@ -86,6 +87,20 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- JUnit Jupiter API -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- JUnit Jupiter Engine -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
         <!-- Spring Boot Starter Data MongoDB -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -113,10 +128,21 @@
                     </excludes>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+                <configuration>
+                    <includes>
+                        <include>**/*Test.java</include>
+                    </includes>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
 </project>
+
 
 
 

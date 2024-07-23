@@ -11,6 +11,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.security.core.userdetails.User.UserBuilder;
 
 @Service
 public class UserServiceImpl implements UserDetailsService {
@@ -29,7 +30,12 @@ public class UserServiceImpl implements UserDetailsService {
         User user = userRepository.findByEmail(email)
                 .orElseThrow(() -> new UsernameNotFoundException("User not found with email: " + email));
         logger.info("User found: {}", user.getEmail());
-        return user;
+
+        UserBuilder builder = org.springframework.security.core.userdetails.User.withUsername(user.getEmail());
+        builder.password(user.getPassword());
+        builder.authorities(user.getRole().name());
+
+        return builder.build();
     }
 
     public User createUser(String email, String firstName, String lastName, String password, Role role) {
@@ -43,6 +49,7 @@ public class UserServiceImpl implements UserDetailsService {
         return userRepository.save(user);
     }
 }
+
 
 
 
