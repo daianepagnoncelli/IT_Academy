@@ -8,8 +8,6 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -19,8 +17,6 @@ import java.io.IOException;
 
 @Component
 public class JwtFilter extends OncePerRequestFilter {
-
-    private static final Logger logger = LoggerFactory.getLogger(JwtFilter.class);
 
     @Autowired
     private JwtService jwtService;
@@ -37,15 +33,11 @@ public class JwtFilter extends OncePerRequestFilter {
 
         if (authHeader != null && authHeader.startsWith("Bearer ")) {
             jwt = authHeader.substring(7);
-            logger.info("JWT Token: {}", jwt);
             try {
                 username = jwtService.extractUsername(jwt);
-                logger.info("Extracted username: {}", username);
             } catch (Exception e) {
-                logger.error("Error extracting username from JWT: {}", e.getMessage());
+                // Handle exception
             }
-        } else {
-            logger.warn("JWT Token does not begin with Bearer String or is missing");
         }
 
         if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
@@ -56,15 +48,11 @@ public class JwtFilter extends OncePerRequestFilter {
                 usernamePasswordAuthenticationToken
                         .setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
                 SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
-                logger.info("JWT Token validated successfully for user: {}", username);
-            } else {
-                logger.warn("Invalid JWT Token for user: {}", username);
             }
         }
         filterChain.doFilter(request, response);
     }
 }
-
 
 
 

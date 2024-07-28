@@ -43,8 +43,14 @@ public class JwtService {
     public List<GrantedAuthority> getAuthorities(String token) {
         Claims claims = extractAllClaims(token);
         List<Map<String, String>> roles = claims.get("roles", List.class);
+        if (roles == null) {
+            roles = Collections.emptyList();
+        }
         return roles.stream()
-                .map(roleMap -> new SimpleGrantedAuthority(roleMap.get("authority")))
+                .map(roleMap -> {
+                    String authority = roleMap.get("authority");
+                    return new SimpleGrantedAuthority(authority != null ? authority.toUpperCase() : "ROLE_USER");
+                })
                 .collect(Collectors.toList());
     }
 
@@ -75,6 +81,8 @@ public class JwtService {
                 .signWith(SignatureAlgorithm.HS256, secret).compact();
     }
 }
+
+
 
 
 
