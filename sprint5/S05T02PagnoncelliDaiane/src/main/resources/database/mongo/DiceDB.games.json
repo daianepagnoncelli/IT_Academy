@@ -1,0 +1,380 @@
+[{
+  "_id": {
+    "$oid": "6696cc4bd3b9f616e378bdf2"
+  },
+  "dice1": 3,
+  "dice2": 2,
+  "isWin": false,
+  "idPlayer": 4,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "6696d45169a68b7c565aff38"
+  },
+  "dice1": 3,
+  "dice2": 4,
+  "isWin": true,
+  "idPlayer": 4,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "6696d4b469a68b7c565aff39"
+  },
+  "dice1": 2,
+  "dice2": 1,
+  "isWin": false,
+  "idPlayer": 4,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "6696d4b569a68b7c565aff3a"
+  },
+  "dice1": 5,
+  "dice2": 5,
+  "isWin": false,
+  "idPlayer": 4,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "6696d4b669a68b7c565aff3b"
+  },
+  "dice1": 1,
+  "dice2": 4,
+  "isWin": false,
+  "idPlayer": 4,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "6696d4b769a68b7c565aff3c"
+  },
+  "dice1": 5,
+  "dice2": 1,
+  "isWin": false,
+  "idPlayer": 4,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "6696d4b869a68b7c565aff3d"
+  },
+  "dice1": 2,
+  "dice2": 3,
+  "isWin": false,
+  "idPlayer": 4,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "6696d4b869a68b7c565aff3e"
+  },
+  "dice1": 2,
+  "dice2": 5,
+  "isWin": true,
+  "idPlayer": 4,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "6696d4b969a68b7c565aff3f"
+  },
+  "dice1": 6,
+  "dice2": 4,
+  "isWin": false,
+  "idPlayer": 4,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669e2df35a562474547dc200"
+  },
+  "dice1": 1,
+  "dice2": 4,
+  "isWin": false,
+  "idPlayer": 15,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669e2df45a562474547dc201"
+  },
+  "dice1": 5,
+  "dice2": 3,
+  "isWin": false,
+  "idPlayer": 15,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669e2df55a562474547dc202"
+  },
+  "dice1": 3,
+  "dice2": 4,
+  "isWin": true,
+  "idPlayer": 15,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669e2df65a562474547dc203"
+  },
+  "dice1": 2,
+  "dice2": 5,
+  "isWin": true,
+  "idPlayer": 15,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669e2df65a562474547dc204"
+  },
+  "dice1": 2,
+  "dice2": 2,
+  "isWin": false,
+  "idPlayer": 15,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669e2df75a562474547dc205"
+  },
+  "dice1": 4,
+  "dice2": 1,
+  "isWin": false,
+  "idPlayer": 15,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669e2df85a562474547dc206"
+  },
+  "dice1": 5,
+  "dice2": 4,
+  "isWin": false,
+  "idPlayer": 15,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669e2df95a562474547dc207"
+  },
+  "dice1": 3,
+  "dice2": 1,
+  "isWin": false,
+  "idPlayer": 15,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669e2dfa5a562474547dc208"
+  },
+  "dice1": 6,
+  "dice2": 2,
+  "isWin": false,
+  "idPlayer": 15,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669e2dfb5a562474547dc209"
+  },
+  "dice1": 5,
+  "dice2": 3,
+  "isWin": false,
+  "idPlayer": 15,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669e2dfc5a562474547dc20a"
+  },
+  "dice1": 3,
+  "dice2": 1,
+  "isWin": false,
+  "idPlayer": 15,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669ec0bd0b2e2e70689058e4"
+  },
+  "dice1": 1,
+  "dice2": 4,
+  "isWin": false,
+  "idPlayer": 17,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669ec0cb0b2e2e70689058e5"
+  },
+  "dice1": 2,
+  "dice2": 3,
+  "isWin": false,
+  "idPlayer": 17,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669ec0cc0b2e2e70689058e6"
+  },
+  "dice1": 4,
+  "dice2": 2,
+  "isWin": false,
+  "idPlayer": 17,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669ec0cd0b2e2e70689058e7"
+  },
+  "dice1": 2,
+  "dice2": 6,
+  "isWin": false,
+  "idPlayer": 17,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669ec0ce0b2e2e70689058e8"
+  },
+  "dice1": 2,
+  "dice2": 4,
+  "isWin": false,
+  "idPlayer": 17,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669ec0cf0b2e2e70689058e9"
+  },
+  "dice1": 2,
+  "dice2": 2,
+  "isWin": false,
+  "idPlayer": 17,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669ec0d00b2e2e70689058ea"
+  },
+  "dice1": 3,
+  "dice2": 3,
+  "isWin": false,
+  "idPlayer": 17,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669ec0d10b2e2e70689058eb"
+  },
+  "dice1": 3,
+  "dice2": 1,
+  "isWin": false,
+  "idPlayer": 17,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669ec0d20b2e2e70689058ec"
+  },
+  "dice1": 1,
+  "dice2": 3,
+  "isWin": false,
+  "idPlayer": 17,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669ec0d30b2e2e70689058ed"
+  },
+  "dice1": 5,
+  "dice2": 1,
+  "isWin": false,
+  "idPlayer": 17,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669ec0d40b2e2e70689058ee"
+  },
+  "dice1": 1,
+  "dice2": 5,
+  "isWin": false,
+  "idPlayer": 17,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "669ec0d50b2e2e70689058ef"
+  },
+  "dice1": 6,
+  "dice2": 1,
+  "isWin": true,
+  "idPlayer": 17,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "66a0e3ed7d762c6c7ca7716f"
+  },
+  "dice1": 4,
+  "dice2": 5,
+  "isWin": false,
+  "idPlayer": 24,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "66a0e3ee7d762c6c7ca77170"
+  },
+  "dice1": 2,
+  "dice2": 2,
+  "isWin": false,
+  "idPlayer": 24,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "66a0e3ef7d762c6c7ca77171"
+  },
+  "dice1": 2,
+  "dice2": 2,
+  "isWin": false,
+  "idPlayer": 24,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "66a0e3f07d762c6c7ca77172"
+  },
+  "dice1": 5,
+  "dice2": 3,
+  "isWin": false,
+  "idPlayer": 24,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "66a0e3f17d762c6c7ca77173"
+  },
+  "dice1": 1,
+  "dice2": 6,
+  "isWin": true,
+  "idPlayer": 24,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+},
+{
+  "_id": {
+    "$oid": "66a0e3f27d762c6c7ca77174"
+  },
+  "dice1": 2,
+  "dice2": 5,
+  "isWin": true,
+  "idPlayer": 24,
+  "_class": "cat.itacademy.barcelonactiva.pagnoncellidaiane.S05T02.model.entity.Game"
+}]
