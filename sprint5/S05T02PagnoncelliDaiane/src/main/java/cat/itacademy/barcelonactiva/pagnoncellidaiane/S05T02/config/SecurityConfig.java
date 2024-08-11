@@ -51,7 +51,7 @@ public class SecurityConfig {
 
     @Bean
     public AuthenticationProvider authenticationProvider() {
-        logger.info("Configuring authentication provider");
+        logger.info("Configuring authentication provider.");
         DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
         provider.setUserDetailsService(userService);
         provider.setPasswordEncoder(passwordEncoder);
@@ -60,7 +60,7 @@ public class SecurityConfig {
 
     @Bean
     public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
-        logger.info("Configuring authentication manager");
+        logger.info("Configuring authentication manager.");
         return config.getAuthenticationManager();
     }
 }
